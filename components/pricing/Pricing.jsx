@@ -1,3 +1,5 @@
+import { IconCheck } from "@tabler/icons-react";
+
 const Pricing = () => {
   return (
     <div className=" min-h-[60vh] py-12 flex flex-col gap-8 items-center justify-center ">
@@ -15,71 +17,19 @@ const Pricing = () => {
             <p className="text-4xl font-bold text-gray-800 mb-6">$25</p>
             <ul className="text-sm text-gray-600 mb-6">
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Course Access
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Online Examination
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Free Teacher Consulting
               </li>
               <li className="flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Automatic Cloud Backups
               </li>
             </ul>
@@ -100,71 +50,19 @@ const Pricing = () => {
             <p className="text-4xl font-bold text-gray-800 mb-6">$30</p>
             <ul className="text-sm text-gray-600 mb-6">
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Course Access
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Online Examination
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Free Teacher Consulting
               </li>
               <li className="flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Automatic Cloud Backups
               </li>
             </ul>
@@ -185,71 +83,19 @@ const Pricing = () => {
             <p className="text-4xl font-bold text-gray-800 mb-6">$40</p>
             <ul className="text-sm text-gray-600 mb-6">
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Course Access
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Online Examination
               </li>
               <li className="mb-2 flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Free Teacher Consulting
               </li>
               <li className="flex items-center">
-                <svg
-                  className="w-4 h-4 mr-2 text-blue-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
+                <IconCheck className="w-4 h-4 pr-1" />
                 Automatic Cloud Backups
               </li>
             </ul>

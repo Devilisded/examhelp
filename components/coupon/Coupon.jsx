@@ -10,6 +10,7 @@ const Coupon = () => {
             className=" mx-auto mb-4 rounded-lg"
             height={200}
             width={200}
+            alt="logo"
           />
           <h3 className="text-2xl font-semibold mb-4">
             20% flat off on all assignment within the country

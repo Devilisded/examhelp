@@ -31,7 +31,7 @@ const Hero = () => {
     <div
       className="hero min-h-screen bg-base-200 rounded"
       style={{
-        backgroundImage: `url(${backgnd.src})`,
+        backgroundImage: `url(${backgnd.src}) `,
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>

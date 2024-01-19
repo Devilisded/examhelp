@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "@/public/images/logo.webp";
+import { IconCactus } from "@tabler/icons-react";
 
 const Navbar = () => {
   return (
@@ -8,80 +9,67 @@ const Navbar = () => {
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+              <IconCactus className="w-5 h-5" />
             </div>
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg"
             >
               <li>
-                <a>Home</a>
+                <span>Home</span>
               </li>
               <li>
-                <a>About Us</a>
+                <span>About Us</span>
               </li>
               <li>
-                <a>Service</a>
+                <span>Service</span>
               </li>
               <li>
-                <a>Pricing</a>
+                <span>Pricing</span>
               </li>
               <li>
-                <a>Testimonials</a>
+                <span>Testimonials</span>
               </li>
               <li>
-                <a>Order No</a>
+                <span>Order No</span>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl hover:bg-white">
+          <span className="btn btn-ghost text-xl hover:bg-white">
             <Image src={logo} height={150} width={250} alt="Logo" />
-          </a>
+          </span>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-3 text-lg">
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 Home
-              </a>
+              </span>
             </li>
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 About Us
-              </a>
+              </span>
             </li>
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 Service
-              </a>
+              </span>
             </li>
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 Pricing
-              </a>
+              </span>
             </li>
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 Testimonials
-              </a>
+              </span>
             </li>
             <li>
-              <a className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
                 Order Now
-              </a>
+              </span>
             </li>
           </ul>
         </div>
