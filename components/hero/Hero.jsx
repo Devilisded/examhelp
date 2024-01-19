@@ -5,6 +5,7 @@ import Image from "next/image";
 import { IconArrowBigRightLinesFilled, IconChecks } from "@tabler/icons-react";
 import { IconCheck } from "@tabler/icons-react";
 import axios from "axios";
+import "./style.css";
 
 const Hero = () => {
   const [data, setData] = useState({
@@ -28,12 +29,7 @@ const Hero = () => {
   };
 
   return (
-    <div
-      className="hero min-h-screen bg-base-200 rounded"
-      style={{
-        backgroundImage: `url("/images/backgnd.webp") `,
-      }}
-    >
+    <div className="hero min-h-screen bg-base-200 rounded">
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content flex-col lg:flex-row-reverse text-white gap-48 ">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
