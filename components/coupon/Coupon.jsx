@@ -1,10 +1,14 @@
 import logo from "@/public/images/logo.webp";
+import bgCoupon from "@/public/images/price.jpg";
 import Image from "next/image";
 const Coupon = () => {
   return (
     <div>
       <div className="container mx-auto pb-12">
-        <div className=" flex flex-col md:flex-row bg-gradient-to-tr from-orange-600 to-slate-200/70  text-white text-center py-10 px-1 rounded-lg shadow-md relative justify-around  items-center p-4">
+        <div
+          className=" flex flex-col md:flex-row  text-white text-center py-10 px-1 rounded-lg shadow-md relative justify-around  items-center p-4"
+          style={{ background: `url(${bgCoupon.src})` }}
+        >
           <div className="flex flex-col gap-4 border-dashed border-white border py-8 px-8">
             <div className="flex text-5xl font-bold h-full ">20% Flat Off</div>
             <div className="text-xl">On all assignment within the country</div>

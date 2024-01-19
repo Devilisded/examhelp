@@ -13,7 +13,8 @@ export default function Home() {
       <About />
       <Features />
       <Pricing />
-      <Coupon />
+      {/* <Coupon /> */}
+      <Features />
       <Footer />
     </div>
   );
