@@ -136,6 +136,7 @@ const Hero = () => {
                 name="detail"
                 value={data.detail}
                 onChange={handleChange}
+                rows={4}
               />
             </div>
             <div className="form-control mt-6" onClick={handleSubmit}>

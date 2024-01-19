@@ -4,8 +4,8 @@ const Coupon = () => {
   return (
     <div>
       <div className="container mx-auto pb-12">
-        <div className=" flex flex-col md:flex-row bg-gradient-to-tr from-orange-600 to-blue-100  text-white text-center py-10 px-1 rounded-lg shadow-md relative justify-around  items-center p-4">
-          <div className="flex flex-col gap-4 border-dotted border-white border py-8 px-8">
+        <div className=" flex flex-col md:flex-row bg-gradient-to-tr from-orange-600 to-slate-200/70  text-white text-center py-10 px-1 rounded-lg shadow-md relative justify-around  items-center p-4">
+          <div className="flex flex-col gap-4 border-dashed border-white border py-8 px-8">
             <div className="flex text-5xl font-bold h-full ">20% Flat Off</div>
             <div className="text-xl">On all assignment within the country</div>
           </div>
@@ -31,7 +31,7 @@ const Coupon = () => {
                 Copy Code
               </span>
             </div>
-            <p className="text-sm">Valid Till: 20Dec, 2023</p>
+            <p className="text-sm">Valid Till: 20th Feb, 2024</p>
             <div className="w-12 h-12 bg-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-0 -ml-6"></div>
             <div className="w-12 h-12 bg-white rounded-full absolute top-1/2 transform -translate-y-1/2 right-0 -mr-6"></div>
           </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
               tabIndex={0}
               role="button"
               className="btn btn-ghost lg:hidden"
-              aria-labelledby="Menu"
+              aria-label="Menu"
             >
               <IconCactus className="w-5 h-5" />
             </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
           <span
             className="btn btn-ghost text-xl hover:bg-white"
-            aria-labelledby="Menu"
+            aria-label="Menu"
           >
             <Image src={logo} height={150} width={250} alt="Logo" />
           </span>
