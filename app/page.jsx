@@ -7,7 +7,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Pricing from "@/components/pricing/Pricing";
 export default function Home() {
   return (
-    <main>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />
@@ -15,6 +15,6 @@ export default function Home() {
       <Pricing />
       <Coupon />
       <Footer />
-    </main>
+    </div>
   );
 }

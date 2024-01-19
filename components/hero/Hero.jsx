@@ -40,7 +40,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero min-h-screen bg-base-200 rounded">
+    <div className="hero min-h-screen bg-base-200 rounded ">
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>

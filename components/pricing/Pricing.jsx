@@ -101,7 +101,7 @@ const Pricing = () => {
             </ul>
           </div>
           <div className="p-4">
-            <button className="w-full bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple active:bg-purple-800">
+            <button className="w-full bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-blue-700 focus:outline-none focus:shadow-outline-purple active:bg-blue-800">
               Read More
             </button>
           </div>
