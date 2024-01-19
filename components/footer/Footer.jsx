@@ -14,23 +14,23 @@ const Footer = () => {
         </aside>
         <nav>
           <header className="text-white text-lg">Services</header>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <div className="link link-hover">Branding</div>
+          <div className="link link-hover">Design</div>
+          <div className="link link-hover">Marketing</div>
+          <div className="link link-hover">Advertisement</div>
         </nav>
         <nav>
           <header className="text-white text-lg">Company</header>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <div className="link link-hover">About us</div>
+          <div className="link link-hover">Contact</div>
+          <div className="link link-hover">Jobs</div>
+          <div className="link link-hover">Press kit</div>
         </nav>
         <nav>
           <header className="text-white text-lg">Legal</header>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <div className="link link-hover">Terms of use</div>
+          <div className="link link-hover">Privacy policy</div>
+          <div className="link link-hover">Cookie policy</div>
         </nav>
       </footer>
       <footer className="footer items-center p-4  text-neutral-content justify-center">

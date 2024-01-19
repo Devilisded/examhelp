@@ -55,9 +55,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 Refreshing Design
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
@@ -93,9 +93,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 Based on Tailwind CSS
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
@@ -131,9 +131,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 300+ Components
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
@@ -169,9 +169,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 Speed Optimized
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
@@ -207,9 +207,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 Fully Customizable
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
@@ -245,9 +245,9 @@ const Features = () => {
                   <IconHourglass className="w-11 h-11 text-white" />
                 </div>
               </div>
-              <h4 className="font-semibold text-xl text-dark mb-3">
+              <div className="font-semibold text-xl text-dark mb-3">
                 Regular Updates
-              </h4>
+              </div>
               <p className="text-body-color">
                 We dejoy working with discerning clients, people for whom
                 qualuty, service, integrity & aesthetics.
