@@ -11,6 +11,8 @@
   "dependencies": {
     "@tabler/icons-react": "^2.46.0",
     "axios": "^1.6.5",
+    "embla-carousel-autoplay": "^8.0.0-rc19",
+    "embla-carousel-react": "^8.0.0-rc19",
     "mongodb": "^6.3.0",
     "mongoose": "^8.1.0",
     "next": "14.0.4",

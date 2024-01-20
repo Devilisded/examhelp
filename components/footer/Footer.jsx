@@ -17,24 +17,24 @@ const Footer = () => {
           </p>
         </aside>
         <nav>
-          <header className="text-slate-600 text-lg">Services</header>
-          <div className="link link-hover">Branding</div>
-          <div className="link link-hover">Design</div>
-          <div className="link link-hover">Marketing</div>
-          <div className="link link-hover">Advertisement</div>
+          <header className="text-black text-lg">Services</header>
+          <div className="text-slate-600">Branding</div>
+          <div className="text-slate-600">Design</div>
+          <div className="text-slate-600">Marketing</div>
+          <div className="text-slate-600">Advertisement</div>
         </nav>
         <nav>
-          <header className="text-slate-600 text-lg">Company</header>
-          <div className="link link-hover">About us</div>
-          <div className="link link-hover">Contact</div>
-          <div className="link link-hover">Jobs</div>
-          <div className="link link-hover">Press kit</div>
+          <header className="text-blacktext-lg">Company</header>
+          <div className="text-slate-600">About us</div>
+          <div className="text-slate-600">Contact</div>
+          <div className="text-slate-600">Jobs</div>
+          <div className="text-slate-600">Press kit</div>
         </nav>
         <nav>
-          <header className="text-slate-600 text-lg">Legal</header>
-          <div className="link link-hover">Terms of use</div>
-          <div className="link link-hover">Privacy policy</div>
-          <div className="link link-hover">Cookie policy</div>
+          <header className="text-black text-lg">Legal</header>
+          <div className="text-slate-600">Terms of use</div>
+          <div className="text-slate-600">Privacy policy</div>
+          <div className="text-slate-600">Cookie policy</div>
         </nav>
       </footer>
       <footer className="footer items-center p-4  text-slate-600 justify-center">

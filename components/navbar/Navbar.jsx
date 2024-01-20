@@ -4,7 +4,7 @@ import { IconCactus } from "@tabler/icons-react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="fixed top-0 left-0 right-0 bg-white z-50">
       <div className="navbar pl-8 rounded-lg ">
         <div className="navbar-start">
           <div className="dropdown">

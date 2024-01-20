@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cbg{
+    background: linear-gradient(90deg, rgba(0, 132, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/cbg.jpg");
+    background-position: 90% 45%;
+
+}
