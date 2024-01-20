@@ -15,7 +15,7 @@ const Carousel = (props) => {
         <div className="embla__container">
           {slides.map((index) => (
             <div className="embla__slide" key={index}>
-              <Card className="z-10 embla__slide__img w-full" />
+              <Card />
             </div>
           ))}
         </div>
