@@ -8,19 +8,22 @@ const About = () => {
         <h2 className="text-2xl text-black font-bold justify-center items-center flex md:text-4xl  pb-10">
           About Exam Help Online
         </h2>
-        <div className="flex flex-col justify-center items-center space-y-6 md:space-y-0 lg:flex-row lg:items-center ">
-          <div className=" justify-center lg:pb-24">
-            <Image src={aboutUs} height={1200} width={1200} alt="About us" />
-          </div>
-          <div className="md:7/12 lg:w-6/12  rounded-lg bg-gradient-to-b from-blue-800 to-blue-400/90 px-8 pt-2 pb-4">
-            <p className="mt-4 text-gray-100">
-              We have a team of professionals PhD-level experts who will do your
-              exam online for you with a guarantee of good grades. We are
-              helping the students with their exams for the last few years. Our
-              experts are competent in taking every kind of exam related to any
-              subject.
+        <div className="flex justify-center items-center space-y-6 md:space-y-0 lg:flex-row lg:items-center gap-4 ">
+          <div className="md:7/12 lg:w-4/12  rounded-lg px-8 pt-2 pb-4">
+            <p className="mt-4 text-black text-lg ">
+              We have thousands of exams experts for more than 50 + different
+              subjects. Our exam experts possess higher educational
+              qualifications from top colleges and years of taking exams for
+              students. We have been helping the students for the last seven
+              years, and we have served more than 18,750+ students with our
+              services. Our experts are proficient in solving the exams for a
+              wide range of important subjects such as statistics, accounting,
+              medical, mathematics, finance, computer science, programming,
+              management, nursing, history, chemistry, and many more subjects.
             </p>
-            <p className="mt-4 text-gray-100">
+          </div>
+          <div className="md:7/12 lg:w-4/12  rounded-lg  px-8 pt-2 pb-4 text-lg">
+            <p className="mt-4 text-black">
               We have thousands of exams experts for more than 50 + different
               subjects. Our exam experts possess higher educational
               qualifications from top colleges and years of taking exams for

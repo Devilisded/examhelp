@@ -1,115 +1,101 @@
 import price from "@/public/images/price_11.jpg";
 import { IconCheck } from "@tabler/icons-react";
-
 const Pricing = () => {
   return (
-    <div
-      className="min-h-[60vh] py-12 flex flex-col gap-8 items-center justify-center mb-8 "
-      style={{
-        background: `url(${price.src})`,
-      }}
-    >
-      <div className="text-4xl md:text-5xl font-bold pb-2 text-black text-center md:text-left">
-        Assignment Pricing
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
-          <div className="p-1 bg-blue-200"></div>
-          <div className="p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Executable Code
-            </h2>
-            <p className="text-gray-600 mb-6">12 Hours to 3 Days</p>
-            <p className="text-4xl font-bold text-gray-800 mb-6">$25</p>
-            <ul className="text-sm text-gray-600 mb-6">
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Course Access
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Online Examination
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Free Teacher Consulting
-              </li>
-              <li className="flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Automatic Cloud Backups
-              </li>
-            </ul>
-          </div>
-          <div className="p-4">
-            <button className="w-full bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
-              Read More
-            </button>
+    <div class="w-full mx-auto px-5 py-10 text-gray-600 mb-10 bg-gradient-to-b from-blue-500 to-white">
+      <div class="flex flex-col justify-center items-center">
+        <div class="md:w-1/4 flex flex-col text-white">
+          <div class="text-left w-full flex-grow md:pr-5">
+            <h1 class="text-4xl font-bold mb-5 text-center">Pricing</h1>
+            <h3 class="text-md font-medium mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit repellat
+              dignissimos laboriosam odit accusamus porro*
+            </h3>
           </div>
         </div>
-        <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
-          <div className="p-1 bg-green-200"></div>
-          <div className="p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Well-Commented Code
-            </h2>
-            <p className="text-gray-600 mb-6">12 Hours to 3 Days</p>
-            <p className="text-4xl font-bold text-gray-800 mb-6">$30</p>
-            <ul className="text-sm text-gray-600 mb-6">
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Course Access
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Online Examination
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Free Teacher Consulting
-              </li>
-              <li className="flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Automatic Cloud Backups
-              </li>
-            </ul>
-          </div>
-          <div className="p-4">
-            <button className="w-full bg-green-500 text-white rounded-full px-4 py-2 hover:bg-green-700 focus:outline-none focus:shadow-outline-green active:bg-green-800">
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
-          <div className="p-1 bg-purple-200"></div>
-          <div className="p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Well-Commented Code & Report
-            </h2>
-            <p className="text-gray-600 mb-6">12 Hours to 5 Days</p>
-            <p className="text-4xl font-bold text-gray-800 mb-6">$40</p>
-            <ul className="text-sm text-gray-600 mb-6">
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Course Access
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Online Examination
-              </li>
-              <li className="mb-2 flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Free Teacher Consulting
-              </li>
-              <li className="flex items-center">
-                <IconCheck className="w-4 h-4 mr-2 text-green-500" />
-                Automatic Cloud Backups
-              </li>
-            </ul>
-          </div>
-          <div className="p-4">
-            <button className="w-full bg-purple-500 text-white rounded-full px-4 py-2 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple active:bg-purple-800">
-              Read More
-            </button>
+        <div class="md:w-3/4">
+          <div class="max-w-4xl mx-auto md:flex">
+            <div class="w-full md:w-1/3 md:max-w-none bg-white px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:my-2 rounded-md shadow-lg shadow-gray-600 md:flex md:flex-col">
+              <div class="w-full flex-grow">
+                <h2 class="text-center font-bold uppercase mb-4">PERSONAL</h2>
+                <h3 class="text-center font-bold text-4xl mb-5">
+                  $5<span class="text-sm">/mo</span>
+                </h3>
+                <ul class="text-sm mb-8">
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <button class="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 md:max-w-none bg-white px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:-mx-3 md:mb-0 rounded-md shadow-lg shadow-gray-600 md:relative md:z-50 md:flex md:flex-col">
+              <div class="w-full flex-grow">
+                <h2 class="text-center font-bold uppercase mb-4">TEAM</h2>
+                <h3 class="text-center font-bold text-4xl md:text-5xl mb-5">
+                  $15<span class="text-sm">/mo</span>
+                </h3>
+                <ul class="text-sm mb-8">
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Consectetur
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Adipisicing
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Elit repellat
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <button class="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 md:max-w-none bg-white px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:my-2 rounded-md shadow-lg shadow-gray-600 md:flex md:flex-col">
+              <div class="w-full flex-grow">
+                <h2 class="text-center font-bold uppercase mb-4">PRO</h2>
+                <h3 class="text-center font-bold text-4xl mb-5">
+                  $35<span class="text-sm">/mo</span>
+                </h3>
+                <ul class="text-sm mb-8">
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Consectetur
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Adipisicing
+                  </li>
+                  <li class="leading-tight">
+                    <i class="mdi mdi-check-bold text-lg"></i> Much more...
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <button class="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full">
+                  Buy Now
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

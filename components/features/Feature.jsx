@@ -3,12 +3,12 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div>
-      <div className="text-4xl font-semibold text-slate-700  text-center uppercase leading-snug tracking-normal">
+    <div className="px-32">
+      <div className="text-4xl font-semibold text-slate-700  text-center uppercase leading-snug tracking-normal pt-8">
         Features
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 place-items-center md:grid-cols-2 gap-10 lg:px-20 px-10 py-10">
-        <div className="p-5 flex gap-5 items-start rounded">
+        <div className="p-5 flex gap-6 items-start rounded">
           <div className="flex justify-center md:justify-start">
             <div className="flex justify-center items-center w-12 h-12 bg-blue-500 text-white rounded">
               <IconCheck />
