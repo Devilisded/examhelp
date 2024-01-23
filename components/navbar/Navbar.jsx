@@ -36,7 +36,7 @@ const Navbar = () => {
                 <span>Testimonials</span>
               </li>
               <li>
-                <span>Order No</span>
+                <span>Offer Now </span>
               </li>
             </ul>
           </div>
@@ -75,8 +75,8 @@ const Navbar = () => {
               </span>
             </li>
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
-                Order Now
+              <span className=" bg-red-600 hover:shadow-lg text-white font-semibold hover:text-red-600 border hover:border-red-600 py-1 px-2">
+                Offer Now
               </span>
             </li>
           </ul>

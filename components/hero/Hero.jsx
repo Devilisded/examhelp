@@ -2,10 +2,19 @@
 import { useState } from "react";
 import backgnd from "@/public/images/backgnd.webp";
 import Image from "next/image";
-import { IconArrowBigRightLinesFilled, IconChecks } from "@tabler/icons-react";
+import {
+  Icon3dCubeSphere,
+  IconArrowBigRightLinesFilled,
+  IconChecks,
+  IconStar,
+  IconStarFilled,
+  IconStarHalfFilled,
+} from "@tabler/icons-react";
 import { IconCheck } from "@tabler/icons-react";
 import axios from "axios";
 import "./style.css";
+import { IconStarHalf } from "@tabler/icons-react";
+import { IconCalculatorOff } from "@tabler/icons-react";
 
 const Hero = () => {
   const [data, setData] = useState({
@@ -58,7 +67,7 @@ const Hero = () => {
           </div>
         </div>
       </dialog>
-      <div className="hero-content flex-col lg:flex-row-reverse text-white gap-48 ">
+      <div className="hero-content flex-col lg:flex-row-reverse text-white gap-12 ">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="pt-2 pl-[58px]">
             <div className="text-xl font-semibold text-black pl-11">
@@ -152,7 +161,7 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
             fugit!.
           </div>
-          <div className="pt-8 flex flex-col gap-4">
+          <div className="pt-8 flex flex-col gap-4 justify-center items-center md:justify-start md:items-start ">
             <div className="flex gap-2 lg:w-[300px] text-lg items-end">
               <div className="flex w-6 h-6 shadow-blue-600 shadow   bg-blue-500/70 text-white justify-center items-center rounded ">
                 <IconChecks width={18} />
@@ -183,8 +192,73 @@ const Hero = () => {
               </div>
               Operating System
             </div>
-            <div className="py-2 px-3 bg-blue-600 text-white font-semibold  rounded w-24 pl-4 mt-4 text-xl">
+            {/* <div className="py-2 px-3 bg-blue-600 text-white font-semibold  rounded w-24 pl-4 mt-4 text-xl">
               <button> Call Us </button>
+            </div> */}
+
+            <div className="bg-white py-2 px-4 rounded-xl flex text-black gap-4 mt-12">
+              <div className="flex gap-1.5">
+                <div className="flex flex-col gap-1 items-center">
+                  <div className="text-sm font-semibold flex gap-1 pl-1 ">
+                    <div>
+                      <Icon3dCubeSphere className="w-5 h-5" />
+                    </div>
+                    <div className="text-xs pt-0.5">Clients Reviews</div>
+                  </div>
+                  <div className="bg-orange-700 py-0.5 h-6 rounded ml-2">
+                    <div className="flex text-white justify-center px-1 gap-1">
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                    </div>
+                  </div>
+                </div>
+                <div className="text-2xl font-semibold p-2">5.0</div>
+              </div>
+
+              <div className="flex gap-1.5 border-x-2 px-4 ">
+                <div className="flex flex-col gap-1 items-center">
+                  <div className="text-sm font-semibold flex gap-1 pl-1 ">
+                    <div>
+                      <IconStarFilled className="w-5 h-5 text-green-500" />
+                    </div>
+                    <div className="text-xs pt-0.5">Clients Reviews</div>
+                  </div>
+                  <div className="bg-orange-700 py-0.5 h-6 rounded ml-2">
+                    <div className="flex text-white justify-center px-1 gap-1">
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarHalfFilled className="w-5 h-5" />
+                    </div>
+                  </div>
+                </div>
+                <div className="text-2xl font-semibold p-2">4.5</div>
+              </div>
+
+              <div className="flex gap-1.5 ">
+                <div className="flex flex-col gap-1 items-center">
+                  <div className="text-sm font-semibold flex gap-1 pl-1 ">
+                    <div>
+                      <IconCalculatorOff className="w-5 h-5 text-green-500" />
+                    </div>
+                    <div className="text-xs pt-0.5">Sitejabber</div>
+                  </div>
+                  <div className="bg-orange-700 py-0.5 h-6 rounded ml-2">
+                    <div className="flex text-white justify-center px-1 gap-1">
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarFilled className="w-5 h-5" />
+                      <IconStarHalfFilled className="w-5 h-5" />
+                    </div>
+                  </div>
+                </div>
+                <div className="text-2xl font-semibold p-2">4.2</div>
+              </div>
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@ const Pricing = () => {
                 </button>
               </div>
             </div>
-            <div class="w-full md:w-1/3 md:max-w-none bg-white px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:-mx-3 md:mb-0 rounded-md shadow-lg shadow-gray-600 md:relative md:z-50 md:flex md:flex-col">
+            <div class="w-full md:w-1/3 md:max-w-none bg-white px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:-mx-3 md:mb-0 rounded-md shadow-lg shadow-gray-600 md:relative md:z-30 md:flex md:flex-col">
               <div class="w-full flex-grow">
                 <h2 class="text-center font-bold uppercase mb-4">TEAM</h2>
                 <h3 class="text-center font-bold text-4xl md:text-5xl mb-5">

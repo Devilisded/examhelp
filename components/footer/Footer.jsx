@@ -8,7 +8,7 @@ const Footer = () => {
       <footer class="w-full text-gray-700 bg-slate-800 body-font maindiv">
         <div class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
           <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-            <a class="flex items-center justify-center font-medium text-white title-font md:justify-start">
+            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start">
               <svg
                 class="w-auto h-5 text-white fill-current"
                 viewBox="0 0 202 69"
@@ -19,11 +19,11 @@ const Footer = () => {
                   fill-rule="nonzero"
                 />
               </svg>
-            </a>
+            </div>
             <p class="mt-2 text-sm text-gray-200">Design, Code and Ship!</p>
             <div class="mt-4">
               <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                <a class="text-gray-200 cursor-pointer hover:text-gray-700">
+                <div className="text-gray-200 cursor-pointer hover:text-gray-700">
                   <svg
                     fill="currentColor"
                     stroke-linecap="round"
@@ -34,8 +34,8 @@ const Footer = () => {
                   >
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
-                </a>
-                <a class="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
+                </div>
+                <div className="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
                   <svg
                     fill="currentColor"
                     stroke-linecap="round"
@@ -46,8 +46,8 @@ const Footer = () => {
                   >
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                   </svg>
-                </a>
-                <a class="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
+                </div>
+                <div className="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -67,8 +67,8 @@ const Footer = () => {
                     ></rect>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
-                </a>
-                <a class="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
+                </div>
+                <div className="ml-3 text-gray-200 cursor-pointer hover:text-gray-700">
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -84,7 +84,7 @@ const Footer = () => {
                     ></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
-                </a>
+                </div>
               </span>
             </div>
           </div>
@@ -95,19 +95,19 @@ const Footer = () => {
               </h2>
               <nav class="mb-10 list-none">
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Company
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Careers
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Blog
-                  </a>
+                  </div>
                 </li>
               </nav>
             </div>
@@ -117,19 +117,19 @@ const Footer = () => {
               </h2>
               <nav class="mb-10 list-none">
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Contact Support
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Help Resources
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Release Updates
-                  </a>
+                  </div>
                 </li>
               </nav>
             </div>
@@ -139,19 +139,19 @@ const Footer = () => {
               </h2>
               <nav class="mb-10 list-none">
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Terms &amp; Privacy
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Pricing
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     FAQ
-                  </a>
+                  </div>
                 </li>
               </nav>
             </div>
@@ -161,19 +161,19 @@ const Footer = () => {
               </h2>
               <nav class="mb-10 list-none">
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Send a Message
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     Request a Quote
-                  </a>
+                  </div>
                 </li>
                 <li class="mt-3">
-                  <a class="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
                     +123-456-7890
-                  </a>
+                  </div>
                 </li>
               </nav>
             </div>

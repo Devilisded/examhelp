@@ -7,8 +7,8 @@ const FAQ = () => {
         <h2 class="font-bold text-5xl mt-5 tracking-tight">FAQ</h2>
         <p class="text-neutral-500 text-xl mt-3">Frequenty asked questions</p>
       </div>
-      <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-        <div class="py-5 w-">
+      <div class="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
+        <div class="py-5 w-full">
           <details class="group">
             <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
               <span> What is a SAAS platform?</span>
@@ -119,64 +119,7 @@ const FAQ = () => {
             </p>
           </details>
         </div>
-        <div class="py-5">
-          <details class="group">
-            <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-              <span> Do you offer any discounts or promotions?</span>
-              <span class="transition group-open:rotate-180">
-                <svg
-                  fill="none"
-                  height="24"
-                  shape-rendering="geometricPrecision"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                >
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              We may offer discounts or promotions from time to time. To stay
-              up-to-date on the latest deals and special offers, you can sign up
-              for the company's newsletter or follow it on social media.
-            </p>
-          </details>
-        </div>
-        <div class="py-5">
-          <details class="group">
-            <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-              <span> How do we compare to other similar services?</span>
-              <span class="transition group-open:rotate-180">
-                <svg
-                  fill="none"
-                  height="24"
-                  shape-rendering="geometricPrecision"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                >
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              This platform is a highly reliable and feature-rich service that
-              offers a wide range of tools and functionality. It is
-              competitively priced and offers a variety of billing options to
-              suit different needs and budgets.
-            </p>
-          </details>
-        </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </div>
   );
 };

@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-2xl text-black font-bold justify-center items-center flex md:text-4xl  pb-10">
           About Exam Help Online
         </h2>
-        <div className="flex justify-center items-center space-y-6 md:space-y-0 lg:flex-row lg:items-center gap-4 ">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 lg:flex-row lg:items-center gap-4 ">
           <div className="md:7/12 lg:w-4/12  rounded-lg px-8 pt-2 pb-4">
             <p className="mt-4 text-black text-lg ">
               We have thousands of exams experts for more than 50 + different
