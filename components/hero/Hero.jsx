@@ -190,8 +190,8 @@ const Hero = () => {
               <button> Call Us </button>
             </div> */}
 
-            <div className="bg-white py-2 px-4 rounded-xl flex text-black gap-4 mt-12">
-              <div className="flex gap-1.5">
+            <div className="bg-white py-2 px-4 rounded-xl flex flex-col md:flex-row text-black gap-3 mt-12">
+              <div className="flex gap-1.5 px-2  ">
                 <div className="flex flex-col gap-1 items-center">
                   <div className="text-sm font-semibold flex gap-1 pl-1 ">
                     <div>
@@ -212,7 +212,7 @@ const Hero = () => {
                 <div className="text-2xl font-semibold p-2">5.0</div>
               </div>
 
-              <div className="flex gap-1.5 border-x-2 px-4 ">
+              <div className="flex gap-1.5 md:border-x-2 px-2 ">
                 <div className="flex flex-col gap-1 items-center">
                   <div className="text-sm font-semibold flex gap-1 pl-1 ">
                     <div>
@@ -233,7 +233,7 @@ const Hero = () => {
                 <div className="text-2xl font-semibold p-2">4.5</div>
               </div>
 
-              <div className="flex gap-1.5 ">
+              <div className="flex gap-1.5 px-2 ">
                 <div className="flex flex-col gap-1 items-center">
                   <div className="text-sm font-semibold flex gap-1 pl-1 ">
                     <div>
