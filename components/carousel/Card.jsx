@@ -7,7 +7,7 @@ const Card = () => {
         <div className="w-7 h-7 bg-blue-600 text-white  rounded flex justify-center items-center">
           <IconUser className="w-5 h-5 " />
         </div>
-        <h5 class="mb-2 block font-sans text-xl font-semibold ">Mayank</h5>
+        <div class="mb-2 block font-sans text-xl font-semibold ">Mayank</div>
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea

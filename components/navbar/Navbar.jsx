@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "@/public/images/logo.webp";
-import { IconCactus } from "@tabler/icons-react";
+import { IconMenu2 } from "@tabler/icons-react";
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
               className="btn btn-ghost lg:hidden"
               aria-label="Menu"
             >
-              <IconCactus className="w-5 h-5" />
+              <IconMenu2 className="w-5 h-5" />
             </div>
             <ul
               tabIndex={0}
@@ -44,7 +44,7 @@ const Navbar = () => {
             className="btn btn-ghost text-xl hover:bg-white"
             aria-label="Menu"
           >
-            <Image src={logo} height={150} width={250} alt="Logo" />
+            <Image src={logo} className="md:h-9 md:w-64 h-10 w-72" alt="Logo" />
           </span>
         </div>
         <div className="navbar-center hidden lg:flex">
