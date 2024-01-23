@@ -1,5 +1,3 @@
-import price from "@/public/images/price_11.jpg";
-import { IconCheck } from "@tabler/icons-react";
 const Pricing = () => {
   return (
     <div class="w-full mx-auto px-5 py-10 text-gray-600 mb-10 bg-gradient-to-b from-blue-500 to-white">

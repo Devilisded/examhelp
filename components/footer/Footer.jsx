@@ -1,7 +1,3 @@
-import { IconBrandAmongUs } from "@tabler/icons-react";
-import fpic from "@/public/images/fpic.jpg";
-// import "./style.css";
-
 const Footer = () => {
   return (
     <div class="flex items-end w-full bg-white">
@@ -94,21 +90,21 @@ const Footer = () => {
                 About
               </h2>
               <nav class="mb-10 list-none">
-                <li class="mt-3">
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Company
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Careers
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Blog
                   </div>
-                </li>
+                </div>
               </nav>
             </div>
             <div class="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -116,21 +112,21 @@ const Footer = () => {
                 Support
               </h2>
               <nav class="mb-10 list-none">
-                <li class="mt-3">
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Contact Support
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Help Resources
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Release Updates
                   </div>
-                </li>
+                </div>
               </nav>
             </div>
             <div class="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -138,21 +134,21 @@ const Footer = () => {
                 Platform
               </h2>
               <nav class="mb-10 list-none">
-                <li class="mt-3">
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Terms &amp; Privacy
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Pricing
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     FAQ
                   </div>
-                </li>
+                </div>
               </nav>
             </div>
             <div class="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -160,21 +156,21 @@ const Footer = () => {
                 Contact
               </h2>
               <nav class="mb-10 list-none">
-                <li class="mt-3">
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Send a Message
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Request a Quote
                   </div>
-                </li>
-                <li class="mt-3">
+                </div>
+                <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     +123-456-7890
                   </div>
-                </li>
+                </div>
               </nav>
             </div>
           </div>

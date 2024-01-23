@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .cbg{
-    background: linear-gradient(90deg, rgba(56, 159, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/testm5.jpg");
+    background: linear-gradient(90deg, rgba(56, 159, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/testm5.webp");
     background-position: 90% 39%;   
 }

@@ -1,6 +1,3 @@
-import aboutUs from "@/public/images/aboutUs.webp";
-import Image from "next/image";
-
 const About = () => {
   return (
     <div className="py-16 bg-white pb-20 ">

@@ -1,19 +1,13 @@
 "use client";
 import { useState } from "react";
-import backgnd from "@/public/images/backgnd.webp";
-import Image from "next/image";
 import {
   Icon3dCubeSphere,
-  IconArrowBigRightLinesFilled,
   IconChecks,
-  IconStar,
   IconStarFilled,
   IconStarHalfFilled,
 } from "@tabler/icons-react";
-import { IconCheck } from "@tabler/icons-react";
 import axios from "axios";
 import "./style.css";
-import { IconStarHalf } from "@tabler/icons-react";
 import { IconCalculatorOff } from "@tabler/icons-react";
 
 const Hero = () => {

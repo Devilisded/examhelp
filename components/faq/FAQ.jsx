@@ -1,5 +1,3 @@
-import React from "react";
-
 const FAQ = () => {
   return (
     <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen py-6 mb-8">

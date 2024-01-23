@@ -1,12 +1,10 @@
 import About from "@/components/about/About";
-import Coupon from "@/components/coupon/Coupon";
 import Feature from "@/components/features/Feature";
 import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/navbar/Navbar";
 import Pricing from "@/components/pricing/Pricing";
 import Carousel from "@/components/carousel/Carousel";
-import MainTitle from "@/components/mainTitle/MainTitle";
 import Number from "@/components/number/Number";
 import FAQ from "@/components/faq/FAQ";
 export default function Home() {
