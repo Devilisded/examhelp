@@ -1,5 +1,5 @@
 .hero{
-    background: linear-gradient(90deg, rgba(56, 159, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/hero4.webp");
+    background: linear-gradient(90deg, rgba(56, 159, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/logo.webp");
     background-position: 90% 35%;
 }
 
