@@ -175,9 +175,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="bg-slate-800">
+        <div class="bg-slate-800 ">
           <div class="container px-5 py-4 mx-auto">
-            <p class="text-sm text-white capitalize xl:text-center">
+            <p class="text-sm text-white capitalize xl:text-center flex justify-center">
               © 2020 All rights reserved
             </p>
           </div>

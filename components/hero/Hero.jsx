@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>
           <p className="pt-3 pb-1">
-            Your Details have been submitted. Our expert will contact you asap.{" "}
+            Your Details have been submitted. Our expert will contact you asap.
             <br /> <br /> Thanks for choosing us.
           </p>
           <div className="modal-action">
@@ -149,7 +149,7 @@ const Hero = () => {
           </form>
         </div>
 
-        <div className="text-center lg:text-left pr-12 ">
+        <div className="text-center lg:text-left  ">
           <div className="md:text-6xl text-5xl md:w-[520px] w-full font-bold ">
             Exam Help Online
           </div>
