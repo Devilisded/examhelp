@@ -63,7 +63,7 @@ const FAQ = () => {
         <div class="py-5">
           <details class="group">
             <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-              <span> Can I get a refund for my subscription?</span>
+              <span> Can i get full refund ?</span>
               <span class="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -81,15 +81,12 @@ const FAQ = () => {
               </span>
             </summary>
             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              We offers a 30-day money-back guarantee for most of its
-              subscription plans. If you are not satisfied with your
-              subscription within the first 30 days, you can request a full
-              refund. Refunds for subscriptions that have been active for longer
-              than 30 days may be considered on a case-by-case basis.
+              If you need help with the platform or have any other questions,
+              you can contact the company's support team by submitting a support
+              request through the website or by emailing support@We.com.
             </p>
           </details>
         </div>
-
         <div class="py-5">
           <details class="group">
             <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
