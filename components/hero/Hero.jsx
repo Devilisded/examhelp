@@ -150,7 +150,9 @@ const Hero = () => {
         </div>
 
         <div className="text-center lg:text-left pr-12 ">
-          <h1 className="text-6xl lg:w-[520px] font-bold ">Exam Help Online</h1>
+          <div className="md:text-6xl text-5xl md:w-[520px] w-full font-bold ">
+            Exam Help Online
+          </div>
           <div className="text-xl font-semibold pt-5 pb-1 text-slate-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
             fugit!.
