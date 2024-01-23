@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/public/images/fpic.webp";
+import logo from "@/public/images/  .webp";
 import { IconMenu2 } from "@tabler/icons-react";
 
 const Navbar = () => {
