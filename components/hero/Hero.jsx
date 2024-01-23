@@ -33,7 +33,6 @@ const Hero = () => {
   };
 
   const onClose = () => {
-    console.log("yha aa gya ");
     setData({
       name: "",
       email: "",
@@ -47,11 +46,10 @@ const Hero = () => {
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>
-          <p className="pt-3 pb-1">
+          <p className="pt-2">
             Your Details have been submitted. Our expert will contact you asap.
-            <br /> <br /> Thanks for choosing us.
           </p>
-          <div className="modal-action">
+          <div className="flex justify-end ">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn" onClick={onClose}>
@@ -61,7 +59,7 @@ const Hero = () => {
           </div>
         </div>
       </dialog>
-      <div className="hero-content flex-col lg:flex-row-reverse text-white gap-12 ">
+      <div className="hero-content flex-col lg:flex-row-reverse text-white gap-12 md:gap-48 ">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="pt-2 pl-[58px]">
             <div className="text-xl font-semibold text-black pl-11">
