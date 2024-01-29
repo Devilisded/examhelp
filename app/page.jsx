@@ -16,14 +16,20 @@ export default function Home() {
       <Hero />
       <About />
       <Pricing />
-      {/* <Number /> */}
-      <div className="w-full  cbg">
-      <div class="w-full px-4 z-50"><div class="z-50 text-center mx-auto lg:mb-20 max-w-[510px]"><span class="font-semibold z-50 text-lg text-orange-500 mb-2 block">Our Client</span><h2 class=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white  mb-4 z-50 ">Testimonials</h2></div></div>
-       <div className="flex justify-center">
-        <Carousel options={OPTIONS} />
+      <Number />
+      <div className="w-full cbg">
+        <div class="w-full">
+          <div class="z-50 text-center mx-auto max-w-[510px]">
+            <h2 class=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
+              Testimonials
+            </h2>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <Carousel options={OPTIONS} />
         </div>
       </div>
-      <Trusted/>
+      <Trusted />
       <Feature />
       <FAQ />
       <Footer />

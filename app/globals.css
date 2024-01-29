@@ -3,17 +3,13 @@
 @tailwind utilities;
 
 .cbg {
-    background:linear-gradient(90deg, rgba(13,36,75,0.7987570028011204) 0%, rgba(13,36,75,0.7987570028011204) 100%), url(/images/bg-testimonials.png);
-    background-position: 90% 39%;
-    position: relative;
-    padding: 50px 0px;
+  background: linear-gradient(
+      90deg,
+      rgba(13, 36, 75, 0.7987570028011204) 0%,
+      rgba(13, 36, 75, 0.7987570028011204) 100%
+    ),
+    url(https://skedit.io/wp-content/uploads/2015/04/testimonial-slider-background.jpg);
+  background-position: 90% 39%;
+  position: relative;
+  padding: 50px 0px;
 }
-/* .cbg:before {
-    content: "";
-    background-color: #0d244b;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-} */

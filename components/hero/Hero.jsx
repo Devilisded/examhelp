@@ -2,9 +2,11 @@
 import { useState } from "react";
 import {
   Icon3dCubeSphere,
+  IconArrowRight,
   IconCheck,
   IconCheckbox,
   IconChecks,
+  IconSend2,
   IconStarFilled,
   IconStarHalfFilled,
 } from "@tabler/icons-react";
@@ -48,7 +50,7 @@ const Hero = () => {
       <div class="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
         <div class="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
           <h1 class=" mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-white">
-            Don't let exams get you down, sit back and take them
+            Don't let exams get you down, sit back and take the
             <span className="text-orange-500"> Exam online!</span>
           </h1>
           <p class="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
@@ -84,18 +86,7 @@ const Hero = () => {
             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Get started
-            <svg
-              class="w-5 h-5 ml-2 -mr-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
+            <IconArrowRight className="w-5 h-5 ml-1" />
           </a>
           <a
             href="#services"
@@ -243,9 +234,9 @@ const Hero = () => {
 
             <button
               type="submit"
-              class="w-full flex  justify-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold align-middle rounded-lg text-xl px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="w-full flex items-center  justify-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold align-middle rounded-lg text-xl px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              Submit <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4.698 4.034l16.302 7.966l-16.302 7.966a.503 .503 0 0 1 -.546 -.124a.555 .555 0 0 1 -.12 -.568l2.468 -7.274l-2.468 -7.274a.555 .555 0 0 1 .12 -.568a.503 .503 0 0 1 .546 -.124z" /><path d="M6.5 12h14.5" /></svg>
+              Submit <IconSend2 className="w-5 h-5" />
             </button>
           </form>
         </div>

@@ -1,12 +1,10 @@
-import React from "react";
 import Image from "next/image";
-import logo from "@/public/images/logo.webp";
 import { IconMenu2 } from "@tabler/icons-react";
 
 const Header = () => {
   return (
     <div className="flex justify-center  fixed top-0 h-[70px] z-50 w-full shadow-2xl bg-white">
-      <div className="   flex items-center md:justify-between w-[75%] justify-center  ">
+      <div className="flex items-center md:justify-between w-[75%] justify-center">
         <div className="block lg:hidden">
           <div className="dropdown">
             <div
@@ -44,10 +42,11 @@ const Header = () => {
         </div>
         <div>
           <Image
-            src={logo}
+            src="/images/logo.webp"
             loading="eager"
             alt="Logo"
             width={300}
+            height={300}
             className="lg:w-full w-[80%]"
           />
         </div>

@@ -1,35 +1,65 @@
-import { IconDashboard } from "@tabler/icons-react";
-import React from "react";
+"use client";
+import Counter from "../counter/Counter";
+import ScrollTrigger from "react-scroll-trigger";
+import { useState } from "react";
 
 const Number = () => {
+  const [counter, setCounter] = useState(false);
   return (
-    <div className="grid grid-flow-col gap-5 text-center auto-cols-max mx-auto">
-  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-    <span className="countdown font-mono text-5xl">
-      <span style={{"--value":15}}></span>
-    </span>
-    days
-  </div> 
-  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-    <span className="countdown font-mono text-5xl">
-      <span style={{"--value":10}}></span>
-    </span>
-    hours
-  </div> 
-  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-    <span className="countdown font-mono text-5xl">
-      <span style={{"--value":24}}></span>
-    </span>
-    min
-  </div> 
-  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-    <span className="countdown font-mono text-5xl">
-      <span style={{"--value":41}}></span>
-    </span>
-    sec
-  </div>
-</div>
-
+    <ScrollTrigger
+      onEnter={() => setCounter(true)}
+      onExit={() => setCounter(false)}
+    >
+      <div class="bg-gray-50 py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:max-w-none">
+            <div class="text-center space-y-2">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Trusted by creators worldwide
+              </h2>
+              <p class="text-lg leading-8 text-gray-700">
+                We can help you grow your audience and your business, no matter
+                the size.
+              </p>
+            </div>
+            <dl class="mt-12 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex flex-col bg-blue-700/10 p-8">
+                <dt class="text-sm font-semibold leading-6 text-gray-900">
+                  words written in 2023
+                </dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">
+                  {counter && <Counter number={1520} />}+
+                </dd>
+              </div>
+              <div class="flex flex-col bg-blue-700/10 p-8">
+                <dt class="text-sm font-semibold leading-6 text-gray-900">
+                  episodes uploaded
+                </dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">
+                  {counter && <Counter number={520} />}+
+                </dd>
+              </div>
+              <div class="flex flex-col bg-blue-700/10 p-8">
+                <dt class="text-sm font-semibold leading-6 text-gray-900">
+                  hours of media
+                </dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">
+                  {counter && <Counter number={720} />}+
+                </dd>
+              </div>
+              <div class="flex flex-col bg-blue-700/10 p-8">
+                <dt class="text-sm font-semibold leading-6 text-gray-900">
+                  answers
+                </dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">
+                  {counter && <Counter number={120} />}+
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </ScrollTrigger>
   );
 };
 
