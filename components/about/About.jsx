@@ -1,5 +1,4 @@
 import Image from "next/image";
-import img from "@/public/images/ab-pict.jpg";
 const About = () => {
   return (
     <div className="py-16 bg-white pb-20 ">
@@ -8,11 +7,18 @@ const About = () => {
           About Exam Help Online
         </h2>
 
-        <div class="flex space-x-6">
-          <div class="w-2/5 ">
-            <Image src={img} alt="img" className="rounded-full " />
+        <div className="flex space-x-6">
+          <div className="w-2/5 ">
+            <Image
+              src="/images/ab-pict.jpg"
+              alt="img"
+              width={500}
+              height={400}
+              className="rounded-full w-auto"
+              loading="lazy"
+            />
           </div>
-          <div class="w-3/5">
+          <div className="w-3/5">
             <p className="mt-4 text-black text-lg pt-16 ">
               We have thousands of exams experts for more than 50 + different
               subjects. Our exam experts possess higher educational
@@ -22,7 +28,6 @@ const About = () => {
               services.
             </p>
             <p className="mt-4 text-black text-lg ">
-              {" "}
               Our experts are proficient in solving the exams for a wide range
               of important subjects such as statistics, accounting, medical,
               mathematics, finance, computer science, programming, management,
@@ -30,7 +35,7 @@ const About = () => {
             </p>
             <button
               type="submit"
-              class="flex mt-6 w-52 justify-center rounded-md bg-orange-00 hover:bg-orange-800 px-3 py-2.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="flex mt-6 w-52 justify-center rounded-md bg-orange-00 hover:bg-orange-800 px-3 py-2.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Read More
             </button>

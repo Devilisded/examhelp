@@ -1,18 +1,8 @@
 "use client";
 import { useState } from "react";
-import {
-  Icon3dCubeSphere,
-  IconArrowRight,
-  IconCheck,
-  IconCheckbox,
-  IconChecks,
-  IconSend2,
-  IconStarFilled,
-  IconStarHalfFilled,
-} from "@tabler/icons-react";
+import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
 import axios from "axios";
 import "./style.css";
-import { IconCalculatorOff } from "@tabler/icons-react";
 
 const Hero = () => {
   const [data, setData] = useState({
@@ -46,14 +36,14 @@ const Hero = () => {
   };
 
   return (
-    <section class=" bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full hero">
-      <div class="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
-        <div class="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
-          <h1 class=" mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-white">
+    <section className=" bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full hero">
+      <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
+        <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
+          <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-white">
             Don't let exams get you down, sit back and take the
             <span className="text-orange-500"> Exam online!</span>
           </h1>
-          <p class="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
+          <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
             You've come to the correct site if you're looking for online exam
             assistance. We offer top-notch services to guarantee you receive the
             grade you want. Our professionals are highly skilled in providing
@@ -83,24 +73,24 @@ const Hero = () => {
 
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Get started
             <IconArrowRight className="w-5 h-5 ml-1" />
           </a>
           <a
             href="#services"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             View Services
           </a>
         </div>
-        <div class="lg:order-last order-1 justify-self-end  flex justify-center lg:justify-end w-full lg:col-span-2 z-10">
+        <div className="lg:order-last order-1 justify-self-end  flex justify-center lg:justify-end w-full lg:col-span-2 z-10">
           <form
-            class="space-y-6 shadow-xl p-8 border border-slate-300 rounded-lg  bg-white"
+            className="space-y-6 shadow-xl p-8 border border-slate-300 rounded-lg  bg-white"
             action="#"
           >
-            <h5 class="text-xl font-bold text-gray-900 dark:text-white">
+            <h5 className="text-xl font-bold text-gray-900 dark:text-white">
               Get the Best Online Exam Help
             </h5>
 
@@ -109,7 +99,7 @@ const Hero = () => {
                 type="text"
                 name="uname"
                 id="uname"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                 placeholder="Enter full name"
                 required
               />
@@ -119,7 +109,7 @@ const Hero = () => {
                 type="email"
                 name="email"
                 id="email"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                 placeholder="name@company.com"
                 required
               />
@@ -130,7 +120,7 @@ const Hero = () => {
                 type="tel"
                 name="phonenumber"
                 id="phone"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                 placeholder="Enter your Number"
                 required
               />
@@ -141,7 +131,7 @@ const Hero = () => {
                 type="datetime-local"
                 name="date-time"
                 id="datetime"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                 placeholder="When you need it Choose date and time "
                 required
               />
@@ -151,10 +141,10 @@ const Hero = () => {
               <select
                 name="user_subject"
                 id="subject"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white "
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white "
                 required=""
               >
-                <option value="" selected="" disabled="">
+                <option value="" disabled="">
                   Choose your subject
                 </option>
                 <option value="C Programming">C Programming</option>
@@ -227,14 +217,14 @@ const Hero = () => {
               <textarea
                 id="message"
                 rows="4"
-                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Write your thoughts here..."
               ></textarea>
             </div>
 
             <button
               type="submit"
-              class="w-full flex items-center  justify-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold align-middle rounded-lg text-xl px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="w-full flex items-center  justify-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold align-middle rounded-lg text-xl px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Submit <IconSend2 className="w-5 h-5" />
             </button>

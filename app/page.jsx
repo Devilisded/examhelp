@@ -18,9 +18,9 @@ export default function Home() {
       <Pricing />
       <Number />
       <div className="w-full cbg">
-        <div class="w-full">
-          <div class="z-50 text-center mx-auto max-w-[510px]">
-            <h2 class=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
+        <div className="w-full">
+          <div className="z-50 text-center mx-auto max-w-[510px]">
+            <h2 className=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
               Testimonials
             </h2>
           </div>

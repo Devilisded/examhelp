@@ -1,5 +1,3 @@
-import { IconUser } from "@tabler/icons-react";
-
 const Card = ({ data }) => {
   return (
     <div className="flex flex-col items-center mx-12 lg:mx-0 text-gray-300">
