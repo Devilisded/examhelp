@@ -1,12 +1,13 @@
+import React from "react";
 import Image from "next/image";
 import logo from "@/public/images/logo.webp";
 import { IconMenu2 } from "@tabler/icons-react";
 
-const Navbar = () => {
+const Header = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white z-50">
-      <div className="navbar md:pl-8 rounded-lg ">
-        <div className="navbar-start">
+    <div className="flex justify-center  fixed top-0 h-[70px] z-50 w-full shadow-2xl bg-white">
+      <div className="   flex items-center md:justify-between w-[75%] justify-center  ">
+        <div className="block lg:hidden">
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -14,7 +15,7 @@ const Navbar = () => {
               className="btn btn-ghost lg:hidden"
               aria-label="Menu"
             >
-              <IconMenu2 className="w-5 h-5" />
+              <IconMenu2 className="w-8 h-8" />
             </div>
             <ul
               tabIndex={0}
@@ -40,48 +41,46 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <span
-            className="btn btn-ghost text-xl hover:bg-white"
-            aria-label="Menu"
-          >
-            <Image
-              src={logo}
-              loading="eager"
-              className="md:h-9 md:w-64 h-10 w-72"
-              alt="Logo"
-            />
-          </span>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-3 text-lg">
+        <div>
+          <Image
+            src={logo}
+            loading="eager"
+            alt="Logo"
+            width={300}
+            className="lg:w-full w-[80%]"
+          />
+        </div>
+        <div className="hidden lg:block">
+          <ul className="flex px-1 gap-3 text-lg">
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                 Home
               </span>
             </li>
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                 About Us
               </span>
             </li>
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                 Service
               </span>
             </li>
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                 Pricing
               </span>
             </li>
             <li>
-              <span className=" hover:shadow-slate-600 hover:shadow-lg hover:bg-slate-200 font-semibold">
+              <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                 Testimonials
               </span>
             </li>
             <li>
-              <span className=" bg-red-600 hover:shadow-lg text-white font-semibold hover:text-red-600 border hover:border-red-600 py-1 px-2">
-                Offer Now
+              <span className="p-2 bg-orange-600 text-white rounded hover:bg-orange-700/90 cursor-pointer">
+                Call Now
               </span>
             </li>
           </ul>
@@ -91,4 +90,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

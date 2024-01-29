@@ -1,5 +1,14 @@
-.hero{
-    background: linear-gradient(90deg, rgba(56, 159, 255, 0.3) 0%, rgba(0,0,0,0.4) 100%),url("/images/hero4.webp");
-    background-position: 90% 35%;
+.hero {
+    background: url(/images/hero.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
 }
-
+.hero:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgb(2 6 12 / 76%);
+}

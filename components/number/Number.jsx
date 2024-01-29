@@ -3,29 +3,33 @@ import React from "react";
 
 const Number = () => {
   return (
-    <div className="flex flex-col items-center md:items-start md:flex-row justify-around p-8 mb-4">
-      <div className="flex flex-col p-4 gap-2">
-        <div className="flex gap-1">
-          <IconDashboard className="text-blue-600 w-12 h-12" />
-          <div className="text-blue-600 text-5xl font-semibold">400+</div>
-        </div>
-        <div> Lorem ipsum dolor sit amet consectetu</div>
-      </div>
-      <div className="flex flex-col p-4 gap-2">
-        <div className="flex gap-1">
-          <IconDashboard className="text-blue-600 w-12 h-12" />
-          <div className="text-blue-600 text-5xl font-semibold">6 Hr</div>
-        </div>
-        <div> Lorem ipsum dolor sit amet consectetu</div>
-      </div>
-      <div className="flex flex-col p-4 gap-2">
-        <div className="flex gap-1">
-          <IconDashboard className="text-blue-600 w-12 h-12" />
-          <div className="text-blue-600 text-5xl font-semibold">2000+</div>
-        </div>
-        <div> Lorem ipsum dolor sit amet consectetu</div>
-      </div>
-    </div>
+    <div className="grid grid-flow-col gap-5 text-center auto-cols-max mx-auto">
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":15}}></span>
+    </span>
+    days
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":10}}></span>
+    </span>
+    hours
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":24}}></span>
+    </span>
+    min
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":41}}></span>
+    </span>
+    sec
+  </div>
+</div>
+
   );
 };
 

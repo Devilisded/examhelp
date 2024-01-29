@@ -1,20 +1,28 @@
 import { IconUser } from "@tabler/icons-react";
 
-const Card = () => {
+const Card = ({data}) => {
   return (
-    <div class="p-6 text-white w-[70%]">
-      <div className="flex gap-4 ">
-        <div className="w-7 h-7 bg-blue-600 text-white  rounded flex justify-center items-center">
-          <IconUser className="w-5 h-5 " />
+    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+
+    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={data.image} alt="" width="384" height="512"/>
+    
+    <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+      <blockquote>
+        <p class="text-lg font-medium">
+          “{data.feedback}”
+        </p>
+      </blockquote>
+      <figcaption class="font-medium">
+        <div class="text-sky-500 dark:text-sky-400">
+          {data.name}
         </div>
-        <div class="mb-2 block font-sans text-xl font-semibold ">Mayank</div>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea
-        expedita dolore iure voluptates suscipit consequatur exercitationem eum
-        officiis maiores.
-      </p>
+        <div class="text-slate-700 dark:text-slate-500">
+          {data.designation}
+        </div>
+      </figcaption>
     </div>
+  </figure>
+  
   );
 };
 
