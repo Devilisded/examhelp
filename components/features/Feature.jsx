@@ -14,7 +14,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10">
+    <div className="px-3 md:px-40   border-t border-b py-20 bg-opacity-10">
       <div id="services" className="flex flex-wrap ">
         <div className="w-full px-4">
           <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
@@ -202,15 +202,15 @@ const Feature = () => {
         </div>
       </div>
 
-      <div className="w-full   bg-indigo-600 shadow-xl shadow-indigo-200 py-10 px-20 flex justify-between items-center">
-        <p className=" text-white">
-          <span className="text-4xl font-medium">Still Confused ?</span> <br />{" "}
-          <span className="text-lg">
+      <div className="w-full bg-indigo-600 shadow-xl shadow-indigo-200 py-10 md:px-20 px-5 flex justify-between items-center">
+        <div className=" text-white">
+          <div className="text-4xl font-medium">Still Confused ?</div>
+          <div className="text-lg">
             Book For Free Career Consultation Today !{" "}
-          </span>
-        </p>
-        <button className="px-5 py-3  font-medium text-slate-700 shadow-xl  hover:bg-white duration-150  bg-yellow-400">
-          BOOK AN APPOINTMENT{" "}
+          </div>
+        </div>
+        <button className="md:px-5 md:py-3 py-1 px-1 font-medium text-slate-700 shadow-xl  hover:bg-white duration-150  bg-yellow-400">
+          BOOK AN APPOINTMENT
         </button>
       </div>
     </div>

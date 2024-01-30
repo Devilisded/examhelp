@@ -1,6 +1,17 @@
+import Image from "next/image";
 const Card = ({ data }) => {
   return (
     <div className="flex flex-col items-center mx-12 lg:mx-0 text-gray-300">
+      <div>
+        <Image
+          src={data.image}
+          width={300}
+          height={300}
+          className="rounded-full w-32 h-32 object-cover"
+          alt="image"
+          loading="lazy"
+        />
+      </div>
       <div className="relative text-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +37,7 @@ const Card = ({ data }) => {
         </svg>
       </div>
       <span className="w-12 h-1 my-2 rounded-lg bg-orange-400"></span>
-      <p>Leroy Jenkins</p>
+      <p>{data.name}</p>
     </div>
   );
 };
