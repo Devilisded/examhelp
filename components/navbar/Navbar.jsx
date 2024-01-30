@@ -78,7 +78,7 @@ const Header = () => {
               </span>
             </li>
             <li>
-              <span className="p-2 bg-orange-600 text-white rounded hover:bg-orange-700/90 cursor-pointer">
+              <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
                 Call Now
               </span>
             </li>

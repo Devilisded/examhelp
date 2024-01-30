@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid lg:grid-cols-10 gap-2">
           <div className=" lg:col-span-4">
             <Image
-              src="/images/ab-pict.webp"
+              src="/images/ab.webp"
               alt="img"
               width={700}
               height={500}
