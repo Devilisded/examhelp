@@ -1,42 +1,13 @@
-"use client";
-import { useState } from "react";
 import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
-import axios from "axios";
 import "./style.css";
 
 const Hero = () => {
-  const [data, setData] = useState({
-    name: "",
-    email: "",
-    detail: "",
-    num: "",
-  });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    axios.post("http://localhost:3000/api/login", data).then(() => {
-      console.log("Inserted using axios");
-    });
-
-    document.getElementById("my_modal_5").showModal();
-  };
-
-  const handleChange = (e) => {
-    setData({ ...data, [e.target.name]: e.target.value });
-  };
-
-  const onClose = () => {
-    setData({
-      name: "",
-      email: "",
-      detail: "",
-      num: "",
-    });
-  };
-
   return (
-    <section className=" bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full hero">
+    <section
+      className={
+        "bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full hero1"
+      }
+    >
       <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
         <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
           <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-white">

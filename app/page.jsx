@@ -9,7 +9,6 @@ import Number from "@/components/number/Number";
 import FAQ from "@/components/faq/FAQ";
 import Trusted from "@/components/trusted/Trusted";
 export default function Home() {
-  const OPTIONS = {};
   return (
     <div className="overflow-x-hidden">
       <Navbar />
@@ -26,7 +25,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center">
-          <Carousel options={OPTIONS} />
+          <Carousel />
         </div>
       </div>
       <Trusted />
