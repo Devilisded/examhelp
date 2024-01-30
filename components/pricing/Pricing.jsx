@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div className="priceblock w-full ">
+    <div className="w-full ">
       <div className="container mx-auto">
         <div className="flex flex-wrap  mx-auto">
           <div className="w-full px-4">
@@ -28,7 +28,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-center -mx-4">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
             <div
               className="
               bg-white
@@ -368,7 +368,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
             <div
               className="
               bg-white
@@ -708,7 +708,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
             <div
               className="
               bg-white
@@ -746,9 +746,6 @@ const Pricing = () => {
                 Perfect for using in a Professional website or a client project.
               </p>
               <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Full Video Course Access
-                </p>
                 <p className="text-base text-body-color leading-loose mb-1">
                   Course Access
                 </p>

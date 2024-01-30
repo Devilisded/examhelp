@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex space-x-6">
           <div className="w-2/5 ">
             <Image
-              src="/images/ab-pict.jpg"
+              src="/images/ab-pict.webp"
               alt="img"
               width={500}
               height={400}

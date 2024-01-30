@@ -1,23 +1,10 @@
-"use client";
 import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
 import "./style.css";
-import { useEffect, useState } from "react";
 
 const Hero = () => {
-  const [hero, setHero] = useState(false);
-  const checkWidth = () => {
-    if (window.innerWidth >= 960) {
-      setHero(true);
-    }
-  };
-  useEffect(() => {
-    checkWidth();
-  }, []);
   return (
     <section
-      className={`bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full ${
-        hero ? "hero1" : "hero2"
-      }`}
+      className={`bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full ${"hero1"}`}
     >
       <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
         <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
@@ -52,20 +39,21 @@ const Hero = () => {
               <IconChecks className="me-2" /> Exam Completed Within The Deadline
             </li>
           </ul>
-
-          <a
-            href="#"
-            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
-            Get started
-            <IconArrowRight className="w-5 h-5 ml-1" />
-          </a>
-          <a
-            href="#services"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-          >
-            View Services
-          </a>
+          <div className="flex gap-3 sm:flex-row flex-col">
+            <a
+              href="#"
+              className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            >
+              Get started
+              <IconArrowRight className="w-5 h-5 ml-1" />
+            </a>
+            <a
+              href="#services"
+              className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              View Services
+            </a>
+          </div>
         </div>
         <div className="lg:order-last order-1 justify-self-end  flex justify-center lg:justify-end w-full lg:col-span-2 z-10">
           <form
