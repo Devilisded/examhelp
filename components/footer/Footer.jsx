@@ -39,9 +39,9 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-              <h2 className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
+              <div className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
                 About
-              </h2>
+              </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -61,9 +61,9 @@ const Footer = () => {
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-              <h2 className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
+              <div className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
                 Support
-              </h2>
+              </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -83,9 +83,9 @@ const Footer = () => {
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-              <h2 className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
+              <div className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
                 Platform
-              </h2>
+              </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -105,9 +105,9 @@ const Footer = () => {
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-              <h2 className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
+              <div className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">
                 Contact
-              </h2>
+              </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">

@@ -11,31 +11,31 @@ const Carousel = (props) => {
       name: "Akshit",
       designation: "Developer",
       feedback: "I Am good at this, how are you doing",
-      image: "/images/test1.jpg",
+      image: "/images/test1.webp",
     },
     {
       name: "Sunil",
       designation: "Developer",
       feedback: "I Am good at this, how are you doing",
-      image: "/images/test2.jpg",
+      image: "/images/test2.webp",
     },
     {
       name: "Vimal",
       designation: "Web Designer",
       feedback: "I Am good at this, how are you doing",
-      image: "/images/test3.jpg",
+      image: "/images/test3.webp",
     },
     {
       name: "Harsh",
       designation: "Developer",
       feedback: "I Am good at this, how are you doing",
-      image: "/images/test4.jpg",
+      image: "/images/test4.webp",
     },
     {
       name: "Ritik",
       designation: "SEO Executive",
       feedback: "They are the best ",
-      image: "/images/test5.jpg",
+      image: "/images/test5.webp",
     },
   ];
   const { options } = props;
