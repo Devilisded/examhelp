@@ -60,9 +60,9 @@ const Hero = () => {
             className="space-y-6 shadow-xl p-8 border border-slate-300 rounded-lg  bg-white"
             action="#"
           >
-            <h5 className="text-xl font-bold text-gray-900 dark:text-white">
+            <div className="text-xl font-bold text-gray-900 dark:text-white">
               Get the Best Online Exam Help
-            </h5>
+            </div>
 
             <div>
               <input
