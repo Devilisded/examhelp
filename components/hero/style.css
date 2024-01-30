@@ -7,3 +7,10 @@
     url("/images/hero.webp") no-repeat center top;
   background-size: cover;
 }
+.hero2 {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 6, 12, 0.7) 0%,
+    rgba(2, 6, 12, 0.7) 100%
+  );
+}

@@ -1,12 +1,23 @@
+"use client";
 import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
 import "./style.css";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [hero, setHero] = useState(false);
+  const checkWidth = () => {
+    if (window.innerWidth >= 960) {
+      setHero(true);
+    }
+  };
+  useEffect(() => {
+    checkWidth();
+  }, []);
   return (
     <section
-      className={
-        "bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full hero1"
-      }
+      className={`bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full ${
+        hero ? "hero1" : "hero2"
+      }`}
     >
       <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
         <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
