@@ -4,6 +4,7 @@ import {
   IconBrandLinkedin,
   IconBrandTwitter,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -66,9 +67,11 @@ const Footer = () => {
               </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
+                <Link href="/contact">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Contact Support
                   </div>
+                  </Link>
                 </div>
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -87,11 +90,16 @@ const Footer = () => {
                 Platform
               </div>
               <nav className="mb-10 list-none">
+                
+                
                 <div className="mt-3">
+                <Link href="/privacy">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
-                    Terms &amp; Privacy
+                    Privacy
                   </div>
+                  </Link>
                 </div>
+                
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
                     Pricing

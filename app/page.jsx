@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Footer from "@/components/footer/Footer";
-import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
+
 import Navbar from "@/components/navbar/Navbar";
 import Carousel from "@/components/carousel/Carousel";
 import Number from "@/components/number/Number";
@@ -16,101 +16,53 @@ import {
   IconUserCheck,
 } from "@tabler/icons-react";
 import { IconFilePlus } from "@tabler/icons-react";
-import Form from "@/components/form/Form";
+
+import Hero from "@/components/hero/Hero";
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
       <Navbar />
-      <section
-        className={`bg-slate-200 dark:bg-gray-900 mt-[60px] w-full flex justify-center image-full ${"hero1"}`}
-      >
-        <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
-          <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
-            <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-white">
-              Don't let exams get you down, sit back and take the
-              <span className="text-orange-500"> Exam online!</span>
-            </h1>
-            <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
-              You've come to the correct site if you're looking for online exam
-              assistance. We offer top-notch services to guarantee you receive
-              the grade you want. Our professionals are highly skilled in
-              providing the greatest services. Hiring a professional to take
-              your exam here ensures that it will be finished on time, that the
-              solutions will be of the highest caliber, and that the cost will
-              not break the bank. Please contact us at any time since we are
-              available day and night.
-            </p>
-            <ul className="list-none mb-4 font-light text-gray-300 md:text-lg lg:text-xl">
-              <li className="flex mb-1">
-                <IconChecks className="me-2" /> Live Chat Support
-              </li>
-              <li className="flex mb-1">
-                <IconChecks className="me-2" /> 24/7 Availability of Tutors
-              </li>
-              <li className="flex mb-1">
-                <IconChecks className="me-2" /> Instant Assistance
-              </li>
-              <li className="flex mb-1">
-                <IconChecks className="me-2" /> Over 5000 Professional &
-                Experienced Exam Helpers
-              </li>
-              <li className="flex mb-1">
-                <IconChecks className="me-2" /> Exam Completed Within The
-                Deadline
-              </li>
-            </ul>
-            <div className="flex gap-3 sm:flex-row flex-col">
-              <a
-                href="#"
-                className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-              >
-                Get started
-                <IconArrowRight className="w-5 h-5 ml-1" />
-              </a>
-              <a
-                href="#services"
-                className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-              >
-                View Services
-              </a>
-            </div>
-          </div>
-          <div className="lg:order-last order-1 justify-self-end  flex justify-center lg:justify-end w-full lg:col-span-2 z-10">
-            <Form />
-          </div>
-        </div>
-      </section>
+      <Hero />
       <div className="py-16 bg-white pb-20 ">
         <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6 ">
           <h2 className="text-2xl text-black font-bold justify-center items-center flex md:text-4xl  pb-10">
             About Exam Help Online
           </h2>
-          <div className="grid lg:grid-cols-10 gap-2">
-            <div className=" lg:col-span-4">
+          <div className="grid lg:grid-cols-2 gap-2  items-center">
+            <div>
               <Image
                 src="/images/ab.webp"
                 alt="img"
-                width={700}
-                height={500}
-                className="rounded-full w-auto"
+                width={600}
+                height={600}
+                className="rounded-full  lg:mt-24 lg:ml-4 "
                 loading="lazy"
               />
             </div>
-            <div className="lg:col-span-6">
-              <p className="mt-4 text-black text-lg pt-16 ">
-                We have thousands of exams experts for more than 50 + different
-                subjects. Our exam experts possess higher educational
-                qualifications from top colleges and years of taking exams for
-                students. We have been helping the students for the last seven
-                years, and we have served more than 18,750+ students with our
-                services.
+            <div>
+              <p className="mt-4 text-black text-lg  ">
+                Passing exams with high grades starts with having the right
+                support. That's why we started this online exam help website -
+                to give students like you customized help so you can pass your
+                exams with confidence.
               </p>
               <p className="mt-4 text-black text-lg ">
-                Our experts are proficient in solving the exams for a wide range
-                of important subjects such as statistics, accounting, medical,
-                mathematics, finance, computer science, programming, management,
-                nursing, history, chemistry, and many more subjects.
+                Our experienced tutors offer step-by-step exam prep tailored to
+                your needs. We take the time to understand what you find
+                difficult and easy to provide useful study tools, practice
+                questions, and tips on taking tests.
               </p>
+              <p className="mt-4 text-black text-lg ">
+                We believe every student can do well if guided correctly. We
+                want to provide that guidance, equip you with the tools to
+                succeed, and watch you ace every exam that comes your way.
+              </p>
+              <p className="mt-4 text-black text-lg ">
+                So don't struggle alone. With us supporting you, you'll gain
+                confidence, get better marks, and move toward success one exam
+                at a time!
+              </p>
+
               <button
                 type="submit"
                 className="flex mt-6 w-52 justify-center rounded-md bg-orange-00 bg-orange-800 hover:bg-orange-900 px-3 py-2.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
@@ -1257,12 +1209,18 @@ export default function Home() {
               Statistics Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Statistics is a branch of mathematics that deals with the
-              collection, analysis, interpretation, and presentation of masses
-              of numerical data. It's not easy to study statistics and become
-              proficient in all statistics techniques and methods of analysis of
-              large datasets. To be an expert in statistics, you must have good
-              command in Mathematics, along with a basic knowledge of Economics.
+              Statistical exams covering probability, data analysis,
+              interpreting information, and testing theories can be challenging.
+              But our statistics exam help can prepare you to tackle these
+              difficult tests successfully.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Our selected statistics experts provide step-by-step video
+              explanations to learn from solved examples. Access a cheat sheet
+              listing must-know formulas and theories to help solve questions
+              faster. Use custom study guides we create outlining main focus
+              topics, key concepts, and practice questions tailored to your
+              specific exam.
             </p>
           </div>
 
@@ -1274,12 +1232,23 @@ export default function Home() {
               Nursing Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Medical students mostly need nursing exam help. Nursing is an
-              occupation for health care. It focuses on the caring of persons,
-              children, and societies; so that they can stay fit or improve
-              their health. As a medical student, they are required to cover
-              medical documents, healthcare-related subjects. Students face
-              problems while they have an online nursing exam.
+              Nursing students must study anatomy, medicines, illnesses, and how
+              the body works. Then, passing hard nursing exams on top of that is
+              tough. But our nursing exam help is here for you.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Work one-on-one with tutor nurses to make exam preparation easier
+              for tests like NCLEX-RN, HESI, ATI TEAS, and more. Go through
+              example questions and get tips to master test-taking tactics. Use
+              cheat sheets and shortened study guides to refresh concepts you
+              need to know quickly. Stuck on a procedure, disease, or medicine
+              dose math? Our nursing experts will help you.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With experienced nurses guiding your study, you’ll finally
+              understand those tricky nursing ideas instead of feeling
+              overwhelmed. This gives confidence to ace exams. Soon, good grades
+              become normal and not so hard.
             </p>
           </div>
 
@@ -1291,12 +1260,23 @@ export default function Home() {
               Accounting Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              The accounting process includes summarizing, analyzing, and
-              reporting financial transactions to oversight agencies,
-              regulators, and tax collection entities. The definition of
-              accounting is the process of recording and managing financial
-              accounts properly in a systematic way. Preparing a Profit and Loss
-              Statement is an example of accounting.
+              Accounting exams full of number problems, journal entries, and
+              complex math can make anyone anxious or lose sleep. But you can
+              get expert help for this. Our accounting exam help is made for
+              you.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Get support from qualified accounting tutors to learn concepts for
+              tests like CPA, CA, ACCA, CMA, and more. Work through practice
+              questions tailored to your exam board until you can confidently
+              solve accounting issues.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an experienced accounting mentor guiding you, exam prep gets
+              less scary. You’ll know how to methodically tackle complex
+              accounting questions without feeling nervous. This gives the
+              confidence required to excel. Soon, top grades can become normal
+              for you!
             </p>
           </div>
 
@@ -1308,16 +1288,20 @@ export default function Home() {
               Math Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              The process of getting help from over services is very simple, you
-              need to let us know all the required details for your exam, and we
-              will discuss it with our mathematics exams expert, then we will
-              quote you our expected price based on the length of the paper and
-              complexity of questions in the exam. Don't worry about the price;
-              we have kept our costs very reasonable. After that, you can pay us
-              for your exam by using safe payment methods, and we will schedule
-              the best suitable mathematics expert who can take your exam on
-              time and answer all the questions asked correctly to help you get
-              the best grades.
+              Math exams testing formulas, theories, complex ideas, and
+              problem-solving can be hard. But learning math becomes easier with
+              the right help made for your needs.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Our math exam assistance offers 1-on-1 guidance to simplify the
+              challenges you face. Work through solutions to tough practice
+              questions until ideas click for you.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an expert math mentor helping you, you'll finally understand
+              how to systematically tackle and solve questions instead of
+              feeling overwhelmed. This builds the logic and confidence required
+              for excelling on math tests.
             </p>
           </div>
 
@@ -1329,15 +1313,21 @@ export default function Home() {
               Computer Science Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Computer science is the most demanding field in this era.
-              Everything is changing to digitalization resulting in demand for
-              the proper blend of software with technologies. Because of this,
-              students prefer to pursue their degree in computer science and its
-              sub-discipline field. For getting the degree, they have to clear
-              the exams. So, there might be the possibility that they look for
-              the best computer science exam help. The reason can be that
-              students do not have enough knowledge of their core subjects, do
-              not have enough time, and many more.
+              With difficult computer science exams covering complex topics like
+              data structures, algorithms, programming languages, and databases,
+              feeling overwhelmed is common. However, personalized help can ease
+              the pressure.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Our computer science exam assistance offers 1-on-1 support so you
+              can confidently tackle any test. Review practice questions and get
+              tips from expert tutors who know how to succeed on CS exams.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With a knowledgeable CS mentor guiding your prep, you'll finally
+              comprehend intricate ideas instead of memorizing surface facts.
+              This builds the specialized skills and confidence needed for
+              computer science exam success.
             </p>
           </div>
 
@@ -1349,15 +1339,22 @@ export default function Home() {
               Finance Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Finance is a broad term that describes banking, leverage or debt,
-              credit, capital markets, money, and investments. Finance
-              represents money management and the process of acquiring needed
-              funds—finance deals in Business funds, budgets, values, risks,
-              investments, and strategies. The simplest definition of Finance is
-              to provide money or credit for something. An example of Finance is
-              the bank giving a loan to someone to purchase a house. The purpose
-              of Finance is to help people save, manage, and raise money.
-              Finance needs to have its purpose enunciated and accepted.
+              Finance exams can be extremely demanding with complex concepts
+              like investment evaluation, portfolio management, asset valuation,
+              and hard math calculations. But you don’t have to feel anxious
+              tackling them alone. Our finance exam help is here for you.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Get 1-on-1 support from qualified finance tutors to understand key
+              CFA, CPA, ACCA exams, and more concepts. Work through tailored
+              practice questions until you can confidently solve finance
+              problems.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an experienced finance mentor guiding your prep, you’ll
+              finally comprehend complex ideas without feeling nervous. This
+              builds the specialized analytical skills and confidence required
+              for finance exam excellence.
             </p>
           </div>
 
@@ -1369,15 +1366,23 @@ export default function Home() {
               Java Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Are you burdened to get the finest grades in your upcoming JAVA
-              exam? It’s very challenging for students to deal with complicated
-              JAVA programs. If a student wants to get high scores in his JAVA
-              exam, he must have in-depth knowledge of JAVA's concepts,
-              mathematical problems, code optimization, and regular expressions.
-              So, if you are struggling with your JAVA skills and not prepared
-              for your JAVA exam and you don’t know how to proceed further, in
-              that case, you need to connect with our JAVA programming experts
-              to get JAVA exam help, JAVA test help, or JAVA quiz help.
+              Java exams can certainly be intimidating with tricky concepts like
+              inheritance, polymorphism, handling errors, and working with data
+              structures being tested. But with personalized 1-on-1 guidance
+              matched to your learning needs, passing Java exams seems much less
+              scary.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Our Java exam help offers tailored mentoring, so you grasp key
+              theory through simplified examples and practical coding exercises.
+              Work through practice multiple choice questions on beginner and
+              advanced Java one step at a time.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an expert Java programmer assisting your tailored test prep,
+              you’ll find that concepts stick faster. Soon, object-oriented
+              design, generics, multithreading, and collections will start
+              coming more naturally.
             </p>
           </div>
 
@@ -1389,16 +1394,22 @@ export default function Home() {
               Chemistry Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Chemistry exam help is the service provided by us to help students
-              in getting the finest and desired grades in their exams. Because
-              of the easy availability of the fast internet and new advancements
-              in technology, all universities and colleges are shifting towards
-              online classes and online tests or quizzes to test student skills.
-              It is difficult for students to learn and understand the concepts
-              in online classes and then to appear in online exams because of
-              new technology and interface. That is why we have started an
-              online exam help for students to ace their exams. In this online
-              help
+              Dealing with challenging chemistry concepts like atomic structure,
+              chemical bonding, thermodynamics, organic reactions, and more,
+              along with difficult exams, can be overwhelming. But we’re here to
+              help!
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Our chemistry exam helps provide 1-on-1 online tutoring customized
+              to your needs. Work with handpicked chemistry experts to clarify
+              your doubts about tricky concepts. Walk through practice questions
+              together step-by-step to improve.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an experienced chemistry tutor guiding you, topics become
+              less baffling and easier to understand. This builds the competence
+              and self-belief needed to confidently tackle any chemistry test
+              situation.
             </p>
           </div>
 
@@ -1410,16 +1421,23 @@ export default function Home() {
               Geometry Exam Help
             </p>
             <p className="mt-2 text-sm text-slate-500">
-              Geometry exam help is the service provided by us to help students
-              in getting the most satisfactory grades in their exams. Because of
-              the easy availability of the fast internet and new advancements in
-              technology, all universities and colleges are shifting towards
-              online classes and online tests or quizzes to test student skills.
-              It is difficult for students to learn and understand the concepts
-              in online classes and then to appear in online exams because of
-              new technology and interface. That is why we have started an
-              online exam help to help students ace their exams. In this online
-              help,{" "}
+              Dealing with geometry theorems, postulates, shapes, proofs,
+              problem-solving, and tough exams can be challenging. But you don’t
+              have to feel stuck or tackle it alone! Our geometry exam help is
+              here.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              Get 1-on-1 geometry tutoring tailored to your exact needs. Work
+              with expert geometry tutors to clarify your questions on angles,
+              triangles, quadrilaterals, and 3D shapes. Walk through practice
+              geometry problems step-by-step with an expert until the concepts
+              click.
+            </p>
+            <p className="mt-2 text-sm text-slate-500">
+              With an experienced geometry tutor assisting you, challenging
+              concepts will start making more sense, building knowledge and
+              confidence. You'll be able to tackle constructions, area & volume
+              questions, and proofs more competently.
             </p>
           </div>
         </div>
@@ -1447,62 +1465,65 @@ export default function Home() {
           <div className="py-5 w-full">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> What is a SAAS platform?</span>
+                <span> Do exams online provide help for online exams?</span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                SAAS platform is a cloud-based software service that allows
-                users to access and use a variety of tools and functionality.
+                Yes, we do provide expert assistance for online examinations.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> How does billing work?</span>
+                <span>
+                  {" "}
+                  Is your service available in the United States Of America?
+                </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                We offers a variety of billing options, including monthly and
-                annual subscription plans, as well as pay-as-you-go pricing for
-                certain services. Payment is typically made through a credit
-                card or other secure online payment method.
+                Yes, we do provide our online exam help service in the United
+                States of America
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> Can i get full refund ?</span>
+                <span>
+                  {" "}
+                  Can you help me with the exam with 1 day remaining?
+                </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                If you need help with the platform or have any other questions,
-                you can contact the company's support team by submitting a
-                support request through the website or by emailing
-                support@We.com.
+                Yes, we can help you with your exam despite the tightest
+                deadlines.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> How do I contact support?</span>
+                <span>
+                  Does online examination assist in working things out?
+                </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                If you need help with the platform or have any other questions,
-                you can contact the company's support team by submitting a
-                support request through the website or by emailing
-                support@We.com.
+                Yes, online exam help does work. Although it may seem
+                unbelievable, you stand a better chance of obtaining excellent
+                grades when professionals offer you full support during the
+                examination.
               </p>
             </details>
           </div>
