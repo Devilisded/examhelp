@@ -1,15 +1,11 @@
-
 "use client";
 import { IconSend2 } from "@tabler/icons-react";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { regEx } from "../regex";
+import { regEx } from "../regEx";
 import { Snackbar } from "@mui/material";
 
-
-
-const Form = ( {toggleLoader }) => {
-
+const Form = ({ toggleLoader }) => {
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -24,7 +20,6 @@ const Form = ( {toggleLoader }) => {
   let currentDate = new Date().toJSON().slice(0, 10);
   const [snackQ, setSnackQ] = useState(false);
 
-
   const [phoneError, setPhoneError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [nameError, setNameError] = useState(false);
@@ -32,7 +27,7 @@ const Form = ( {toggleLoader }) => {
   const [dateError, setDateError] = useState(false);
 
   const handleChange = (e) => {
-	setCheck(true);
+    setCheck(true);
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
@@ -40,12 +35,9 @@ const Form = ( {toggleLoader }) => {
     e.preventDefault();
     if (submitDisabled === false) {
       try {
-		toggleLoader(true);
+        toggleLoader(true);
         await axios.post(`${process.env.webURL}/api/login`, data);
-		
-		
-		
-        
+
         setSnackQ(true);
         setData({
           name: "",
@@ -55,7 +47,7 @@ const Form = ( {toggleLoader }) => {
           subject: "",
           message: "",
         });
-		toggleLoader(false);
+        toggleLoader(false);
         setDateError(false);
         setNameError(false);
         setEmailError(false);
@@ -68,8 +60,6 @@ const Form = ( {toggleLoader }) => {
       console.log("error");
     }
   };
-
-
 
   const phoneErrorFun = () => {
     if (data.phone.length > 9) {
@@ -98,7 +88,7 @@ const Form = ( {toggleLoader }) => {
         data.datetime !== "" && data.datetime > currentDate ? false : true
       );
       setSubjectError(data.subject === "" ? true : false);
-	  
+
       if (
         phoneErrorFun() === false &&
         emailErrorfun() === false &&
@@ -121,7 +111,6 @@ const Form = ( {toggleLoader }) => {
 
   return (
     <>
-	
       <form
         className="space-y-6 shadow-xl p-8 border border-slate-300 rounded-lg  bg-white"
         onSubmit={handleSubmit}
@@ -138,7 +127,7 @@ const Form = ( {toggleLoader }) => {
             maxLength={100}
             value={data.name}
             onChange={(e) => {
-				setCheck(true);
+              setCheck(true);
               setData({
                 ...data,
                 name: e.target.value.replace(regEx[4].textValidation, ""),
@@ -156,7 +145,7 @@ const Form = ( {toggleLoader }) => {
             maxLength={50}
             value={data.email}
             onChange={(e) => {
-				setCheck(true);
+              setCheck(true);
               setData({
                 ...data,
                 email: e.target.value.replace(regEx[3].emailTextValidation, ""),
@@ -176,7 +165,7 @@ const Form = ( {toggleLoader }) => {
             maxLength={10}
             value={data.phone}
             onChange={(e) => {
-				setCheck(true);
+              setCheck(true);
               setData({
                 ...data,
                 phone: e.target.value.replace(
@@ -285,7 +274,7 @@ const Form = ( {toggleLoader }) => {
             name="message"
             value={data.message}
             onChange={(e) => {
-				setCheck(true);
+              setCheck(true);
               setData({
                 ...data,
                 message: e.target.value.replace(
@@ -301,9 +290,9 @@ const Form = ( {toggleLoader }) => {
 
         <button
           //type="submit"
-        //   onClick={() => {
-        //     setCheck(true);
-        //   }}
+          //   onClick={() => {
+          //     setCheck(true);
+          //   }}
           className="w-full flex items-center  justify-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold align-middle rounded-lg text-xl px-5 py-2.5 text-center "
         >
           Submit <IconSend2 className="w-5 h-5" />
@@ -328,7 +317,6 @@ const Form = ( {toggleLoader }) => {
           />
         )}
       </form>
-	
     </>
   );
 };

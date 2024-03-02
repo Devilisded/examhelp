@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Footer from "@/components/footer/Footer";
-
 import Navbar from "@/components/navbar/Navbar";
 import Carousel from "@/components/carousel/Carousel";
 import Number from "@/components/number/Number";
@@ -73,6 +72,189 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* <div>
+        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center ">
+          Top 6 Benefits Of Choosing Our Online Exam Help
+        </h2>
+        <div className="text-center my-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ea iste
+          quaerat, architecto sit in quas exercitationem nesciunt commodi labore
+          quis fugiat, animi nam at ab! Ipsam inventore accusantium dolore
+          repudiandae earum.
+        </div>
+        <div className="flex justify-center my-10">
+          <div className="grid md:grid-cols-3 w-[80%] gap-10">
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  ></path>
+                </svg>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Multiple Accounts
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident ab nulla quod dignissimos vel non corrupti doloribus
+                voluptatum eveniet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> */}
       <div className="w-full ">
         <div className="container mx-auto">
           <div className="flex flex-wrap  mx-auto">
@@ -1454,11 +1636,76 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <div className="px-2">
+        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center text-orange-400">
+          Expert Assistance On Exam Help Online - Chat Now!
+        </h2>
+        <div className="flex justify-center my-10">
+          <div className=" w-[80%] text-slate-700">
+            <div className="p-2 text-center">
+              Exams are a stressful and challenging experience for many
+              students, especially when students cannot prepare well for their
+              exams for any reason. However, getting the right guidance and
+              support can make all the difference. Our online exam help service
+              provides expert assistance so you feel confident and prepared when
+              test day arrives.
+            </div>
+
+            <div className="p-2 text-center">
+              They can provide real-time answers through live chat and messaging
+              as you study or review practice questions. Our team holds advanced
+              degrees that they leverage to simplify difficult material using
+              proven teaching methods.
+            </div>
+            <div className="p-2 text-center">
+              We connect students with tutors with years of experience helping
+              pupils succeed on exams. Whether you're struggling with complex
+              concepts or just want someone to help you create an effective
+              study plan, our tutors offer personalized support customized to
+              your needs.
+            </div>
+            <div className="p-2 text-center">
+              With our help in understanding key subject matter, practicing
+              responses, and developing time management abilities, you will walk
+              into your exam equipped with the knowledge and skills needed to do
+              your best. So, reduce your stress and work one-on-one with an
+              expert tutor today - just chat with us now to get started.
+            </div>
+          </div>
+        </div>
+        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center text-blue-900">
+          Wondering About How Exam Help Online Works?
+        </h2>
+        <div className="flex justify-center my-10">
+          <div className="w-[80%] text-slate-700">
+            <div className="p-2 text-center">
+              If you are wondering how our online exam help works? Our service
+              uses new technology and a group of expert tutors to give you
+              custom help for any exam you're taking. When you sign up, we'll
+              match you with a tutor who knows about your exam subject. You can
+              then work one-on-one with them on our online platform. They'll
+              help you understand hard concepts, walk through practice
+              questions, pinpoint areas you need to work on and make a plan to
+              ace the real test.
+            </div>
+            <div className="p-2 text-center">
+              Your tutor will be there to guide you through prepping for your
+              exam. This way, you'll feel ready and confident when test day
+              comes. And the best part is all the tutoring happens online
+              through our website. So you can get the exam support you need from
+              anywhere with the internet. Whether you struggle with tough
+              material or want someone to help you learn your best, our online
+              exam help has covered you.
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen py-6 mb-8">
         <div className="flex flex-col items-center">
-          <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQ</h2>
+          <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
           <p className="text-neutral-500 text-xl mt-3">
-            Frequenty asked questions
+            Frequenty Asked Questions
           </p>
         </div>
         <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
