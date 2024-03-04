@@ -82,21 +82,18 @@ const Header = () => {
             />
           </div>
 
-        
           <List>
             {items.map((item, index) => (
-              
-               <Link href={item.linkto}>
-              <div key={item} className="p-2">
-              {console.log(item.linkto)}
-                <div className="p-2 pl-5 border-b ">
-                  <ListItemText className=" " primary={item.name} />
+              <Link href={item.linkto}>
+                <div key={item} className="p-2">
+                  {console.log(item.linkto)}
+                  <div className="p-2 pl-5 border-b ">
+                    <ListItemText className=" " primary={item.name} />
+                  </div>
                 </div>
-              </div>
-               </Link>
+              </Link>
             ))}
           </List>
-          
         </Box>
       ) : (
         ""
@@ -150,11 +147,8 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/aboutUs">
-                  <span
-                    linkto="/aboutUs"
-                    className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500"
-                  >
+                <Link href="/about">
+                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                     About Us
                   </span>
                 </Link>
@@ -177,10 +171,10 @@ const Header = () => {
                 </span>
               </li>
               <li>
-              <Link href="/contact">
-                <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
-                  Call Now
-                </span>
+                <Link href="/contact">
+                  <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
+                    Call Now
+                  </span>
                 </Link>
               </li>
             </ul>

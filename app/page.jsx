@@ -13,13 +13,20 @@ import {
   IconGeometry,
   IconMath,
   IconUserCheck,
+  IconClock2,
+  IconGraph,
+  IconWorld,
+  IconReportAnalytics,
+  IconPigMoney,
+  IconEdit,
 } from "@tabler/icons-react";
 import { IconFilePlus } from "@tabler/icons-react";
 
 import Hero from "@/components/hero/Hero";
+import { IconSchool } from "@tabler/icons-react";
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Navbar />
       <Hero />
       <div className="py-16 bg-white pb-20 ">
@@ -72,189 +79,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div>
-        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center ">
-          Top 6 Benefits Of Choosing Our Online Exam Help
-        </h2>
-        <div className="text-center my-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ea iste
-          quaerat, architecto sit in quas exercitationem nesciunt commodi labore
-          quis fugiat, animi nam at ab! Ipsam inventore accusantium dolore
-          repudiandae earum.
-        </div>
-        <div className="flex justify-center my-10">
-          <div className="grid md:grid-cols-3 w-[80%] gap-10">
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
 
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-            <div class="space-y-3">
-              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  ></path>
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Multiple Accounts
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="w-full ">
         <div className="container mx-auto">
           <div className="flex flex-wrap  mx-auto">
@@ -1307,7 +1132,212 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <h2 className="font-bold md:text-4xl text-3xl mt-5 tracking-tight text-center ">
+          Top 6 Benefits Of Choosing Our Online Exam Help
+        </h2>
+
+        <div className="flex justify-center my-10">
+          <div className="grid md:grid-cols-3 w-[80%] gap-10">
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconClock2 />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Save Time
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                Taking exams on your own can be hugely time-consuming. Between
+                studying content, practicing questions, and taking the exam,
+                exams can take up much precious time. Our service takes the exam
+                burden off your shoulders so you can allocate that time to other
+                priorities. From start to finish, we streamline everything to
+                save you the maximum time.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconSchool />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Domain Expertise
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                Unlike general tutoring services, our online tutors are niche
+                subject matter experts. They have extensive education and
+                real-world experience in their specific exam domain. This means
+                they have the greatest depth of knowledge to tackle any topic or
+                question within their field, lending you their insight and
+                guidance throughout your exam.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconGraph />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Customized Assistance
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                We provide a fully personalized 1-on-1 exam assistance service
+                tailored to your needs. Before your exam session, your tutor
+                will consult with you to understand your strengths and
+                weaknesses. This allows them to custom-craft potential
+                questions, practice problems, explanations, and learning
+                strategies just for you. It's like having a private tutor
+                designing a fully customized study plan to help you succeed.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconWorld />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Worldwide Access
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                As an online platform, we allow you to connect with expert
+                tutors remotely. That means you can get expert exam help from
+                the comfort of your home, from a library, while traveling -
+                anywhere with internet access! No need to commute or travel to
+                appointments. Just log in online at your convenience to start
+                your tutoring.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconReportAnalytics />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Secure Service
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                We invest heavily in security measures like end-to-end
+                encryption, stringent privacy policies, and authentication
+                protocols to protect your data. Exam integrity is vital, so our
+                top priority is safeguarding your information during online exam
+                assistance.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconPigMoney />
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Affordable Pricing
+              </h1>
+
+              <p class="text-gray-500 dark:text-gray-300 text-balance">
+                Our rates are designed for students on a budget. Pay just a
+                fraction of what expensive private tutoring normally costs.
+                Without geographical or access restrictions, we connect you to
+                specialists globally to find great tutors at affordable prices
+                for all educational levels and subjects. Our platform allows
+                tutors to set reasonable rates, keeping pricing competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <Number />
+      <div className="px-2">
+        <div className="flex justify-center">
+          <div className="grid lg:grid-cols-2  w-[80%]">
+            <div>
+              <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-slate-700">
+                Expert Assistance On Exam Help Online - Chat Now!
+              </h2>
+              <div className="flex justify-center">
+                <div className="text-slate-700">
+                  <div>
+                    Exams are a stressful and challenging experience for many
+                    students, especially when students cannot prepare well for
+                    their exams for any reason. However, getting the right
+                    guidance and support can make all the difference. Our online
+                    exam help service provides expert assistance so you feel
+                    confident and prepared when test day arrives.
+                  </div>
+
+                  <div>
+                    They can provide real-time answers through live chat and
+                    messaging as you study or review practice questions. Our
+                    team holds advanced degrees that they leverage to simplify
+                    difficult material using proven teaching methods.
+                  </div>
+                  <div>
+                    We connect students with tutors with years of experience
+                    helping pupils succeed on exams. Whether you're struggling
+                    with complex concepts or just want someone to help you
+                    create an effective study plan, our tutors offer
+                    personalized support customized to your needs.
+                  </div>
+                  <div>
+                    With our help in understanding key subject matter,
+                    practicing responses, and developing time management
+                    abilities, you will walk into your exam equipped with the
+                    knowledge and skills needed to do your best. So, reduce your
+                    stress and work one-on-one with an expert tutor today - just
+                    chat with us now to get started.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1491309055486-24ae511c15c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              className="w-full h-[80%] object-cover rounded"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="grid lg:grid-cols-2 w-[80%] gap-8">
+            <img
+              src="https://img.freepik.com/free-photo/portrait-pensive-young-girl-making-notes_171337-1646.jpg?w=1380&t=st=1709551527~exp=1709552127~hmac=ecfae6452af8eace653d0a5fa14ce166bfb894641296b29c46edb2cc33aadf39"
+              alt=""
+              className="w-full h-[80%] object-cover rounded"
+            />
+            <div>
+              <h2 className="font-bold md:text-4xl text-3xl tracking-tight  text-blue-900">
+                Wondering About How Exam Help Online Works?
+              </h2>
+              <div className="flex justify-center ">
+                <div className=" text-slate-700">
+                  <div>
+                    If you are wondering how our online exam help works? Our
+                    service uses new technology and a group of expert tutors to
+                    give you custom help for any exam you're taking. When you
+                    sign up, we'll match you with a tutor who knows about your
+                    exam subject. You can then work one-on-one with them on our
+                    online platform. They'll help you understand hard concepts,
+                    walk through practice questions, pinpoint areas you need to
+                    work on and make a plan to ace the real test.
+                  </div>
+                  <div>
+                    Your tutor will be there to guide you through prepping for
+                    your exam. This way, you'll feel ready and confident when
+                    test day comes. And the best part is all the tutoring
+                    happens online through our website. So you can get the exam
+                    support you need from anywhere with the internet. Whether
+                    you struggle with tough material or want someone to help you
+                    learn your best, our online exam help has covered you.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="w-full cbg">
         <div className="w-full">
           <div className="z-50 text-center mx-auto max-w-[510px]">
@@ -1368,7 +1398,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-3 md:px-40   border-t border-b py-20 bg-opacity-10">
+      {/* <div className="px-3 md:px-40   border-t border-b py-20 bg-opacity-10">
         <div id="services" className="flex flex-wrap ">
           <div className="w-full px-4">
             <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
@@ -1635,71 +1665,242 @@ export default function Home() {
             BOOK AN APPOINTMENT
           </button>
         </div>
-      </div>
-      <div className="px-2">
-        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center text-orange-400">
-          Expert Assistance On Exam Help Online - Chat Now!
-        </h2>
-        <div className="flex justify-center my-10">
-          <div className=" w-[80%] text-slate-700">
-            <div className="p-2 text-center">
-              Exams are a stressful and challenging experience for many
-              students, especially when students cannot prepare well for their
-              exams for any reason. However, getting the right guidance and
-              support can make all the difference. Our online exam help service
-              provides expert assistance so you feel confident and prepared when
-              test day arrives.
-            </div>
+      </div> */}
+      <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+          <div class="md:flex md:items-center">
+            <div className="md:flex items-end">
+              <div class="w-full space-y-12">
+                <div>
+                  <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                    Features
+                  </h1>
 
-            <div className="p-2 text-center">
-              They can provide real-time answers through live chat and messaging
-              as you study or review practice questions. Our team holds advanced
-              degrees that they leverage to simplify difficult material using
-              proven teaching methods.
-            </div>
-            <div className="p-2 text-center">
-              We connect students with tutors with years of experience helping
-              pupils succeed on exams. Whether you're struggling with complex
-              concepts or just want someone to help you create an effective
-              study plan, our tutors offer personalized support customized to
-              your needs.
-            </div>
-            <div className="p-2 text-center">
-              With our help in understanding key subject matter, practicing
-              responses, and developing time management abilities, you will walk
-              into your exam equipped with the knowledge and skills needed to do
-              your best. So, reduce your stress and work one-on-one with an
-              expert tutor today - just chat with us now to get started.
+                  <div class="mt-2">
+                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                  </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-5">
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Statistics Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300 text-balance">
+                        Statistical exams covering probability, data analysis,
+                        interpreting information, and testing theories can be
+                        challenging. But our statistics exam help can prepare
+                        you to tackle these difficult tests successfully. Our
+                        selected statistics experts provide step-by-step video
+                        explanations to learn from solved examples. Access a
+                        cheat sheet listing must-know formulas and theories to
+                        help solve questions faster. Use custom study guides we
+                        create outlining main focus topics, key concepts, and
+                        practice questions tailored to your specific exam.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Nursing Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Nursing students must study anatomy, medicines,
+                        illnesses, and how the body works. Then, passing hard
+                        nursing exams on top of that is tough. But our nursing
+                        exam help is here for you. Work one-on-one with tutor
+                        nurses to make exam preparation easier for tests like
+                        NCLEX-RN, HESI, ATI TEAS, and more. Go through example
+                        questions and get tips to master test-taking tactics.
+                        Use cheat sheets and shortened study guides to refresh
+                        concepts you need to know quickly. Stuck on a procedure,
+                        disease, or medicine dose math? Our nursing experts will
+                        help you. With experienced nurses guiding your study,
+                        you’ll finally understand those tricky nursing ideas
+                        instead of feeling overwhelmed. This gives confidence to
+                        ace exams. Soon, good grades become normal and not so
+                        hard.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Accounting Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Accounting exams full of number problems, journal
+                        entries, and complex math can make anyone anxious or
+                        lose sleep. But you can get expert help for this. Our
+                        accounting exam help is made for you. Get support from
+                        qualified accounting tutors to learn concepts for tests
+                        like CPA, CA, ACCA, CMA, and more. Work through practice
+                        questions tailored to your exam board until you can
+                        confidently solve accounting issues. With an experienced
+                        accounting mentor guiding you, exam prep gets less
+                        scary. You’ll know how to methodically tackle complex
+                        accounting questions without feeling nervous. This gives
+                        the confidence required to excel. Soon, top grades can
+                        become normal for you!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Math Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Math exams testing formulas, theories, complex ideas,
+                        and problem-solving can be hard. But learning math
+                        becomes easier with the right help made for your needs.
+                        Our math exam assistance offers 1-on-1 guidance to
+                        simplify the challenges you face. Work through solutions
+                        to tough practice questions until ideas click for you.
+                        With an expert math mentor helping you, you'll finally
+                        understand how to systematically tackle and solve
+                        questions instead of feeling overwhelmed. This builds
+                        the logic and confidence required for excelling on math
+                        tests.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Computer Science Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        With difficult computer science exams covering complex
+                        topics like data structures, algorithms, programming
+                        languages, and databases, feeling overwhelmed is common.
+                        However, personalized help can ease the pressure. Our
+                        computer science exam assistance offers 1-on-1 support
+                        so you can confidently tackle any test. Review practice
+                        questions and get tips from expert tutors who know how
+                        to succeed on CS exams. With a knowledgeable CS mentor
+                        guiding your prep, you'll finally comprehend intricate
+                        ideas instead of memorizing surface facts. This builds
+                        the specialized skills and confidence needed for
+                        computer science exam success.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Finance Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Finance exams can be extremely demanding with complex
+                        concepts like investment evaluation, portfolio
+                        management, asset valuation, and hard math calculations.
+                        But you don’t have to feel anxious tackling them alone.
+                        Our finance exam help is here for you. Get 1-on-1
+                        support from qualified finance tutors to understand key
+                        CFA, CPA, ACCA exams, and more concepts. Work through
+                        tailored practice questions until you can confidently
+                        solve finance problems. With an experienced finance
+                        mentor guiding your prep, you’ll finally comprehend
+                        complex ideas without feeling nervous. This builds the
+                        specialized analytical skills and confidence required
+                        for finance exam excellence.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Java Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Java exams can certainly be intimidating with tricky
+                        concepts like inheritance, polymorphism, handling
+                        errors, and working with data structures being tested.
+                        But with personalized 1-on-1 guidance matched to your
+                        learning needs, passing Java exams seems much less
+                        scary. Our Java exam help offers tailored mentoring, so
+                        you grasp key theory through simplified examples and
+                        practical coding exercises. Work through practice
+                        multiple choice questions on beginner and advanced Java
+                        one step at a time. With an expert Java programmer
+                        assisting your tailored test prep, you’ll find that
+                        concepts stick faster. Soon, object-oriented design,
+                        generics, multithreading, and collections will start
+                        coming more naturally.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                      <IconEdit />
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        Chemistry Exam Help
+                      </h1>
+
+                      <p class="mt-3 text-gray-500 dark:text-gray-300">
+                        Dealing with challenging chemistry concepts like atomic
+                        structure, chemical bonding, thermodynamics, organic
+                        reactions, and more, along with difficult exams, can be
+                        overwhelming. But we’re here to help! Our chemistry exam
+                        helps provide 1-on-1 online tutoring customized to your
+                        needs. Work with handpicked chemistry experts to clarify
+                        your doubts about tricky concepts. Walk through practice
+                        questions together step-by-step to improve. With an
+                        experienced chemistry tutor guiding you, topics become
+                        less baffling and easier to understand. This builds the
+                        competence and self-belief needed to confidently tackle
+                        any chemistry test situation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <h2 className="font-bold md:text-5xl text-3xl mt-5 tracking-tight text-center text-blue-900">
-          Wondering About How Exam Help Online Works?
-        </h2>
-        <div className="flex justify-center my-10">
-          <div className="w-[80%] text-slate-700">
-            <div className="p-2 text-center">
-              If you are wondering how our online exam help works? Our service
-              uses new technology and a group of expert tutors to give you
-              custom help for any exam you're taking. When you sign up, we'll
-              match you with a tutor who knows about your exam subject. You can
-              then work one-on-one with them on our online platform. They'll
-              help you understand hard concepts, walk through practice
-              questions, pinpoint areas you need to work on and make a plan to
-              ace the real test.
-            </div>
-            <div className="p-2 text-center">
-              Your tutor will be there to guide you through prepping for your
-              exam. This way, you'll feel ready and confident when test day
-              comes. And the best part is all the tutoring happens online
-              through our website. So you can get the exam support you need from
-              anywhere with the internet. Whether you struggle with tough
-              material or want someone to help you learn your best, our online
-              exam help has covered you.
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
 
       <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen py-6 mb-8">
         <div className="flex flex-col items-center">
