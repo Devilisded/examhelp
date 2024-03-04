@@ -1294,7 +1294,7 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="https://images.unsplash.com/photo-1491309055486-24ae511c15c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="/images/content.avif"
               alt=""
               className="w-full h-[80%] object-cover rounded"
             />
@@ -1303,7 +1303,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="grid lg:grid-cols-2 w-[80%] gap-8">
             <img
-              src="https://img.freepik.com/free-photo/portrait-pensive-young-girl-making-notes_171337-1646.jpg?w=1380&t=st=1709551527~exp=1709552127~hmac=ecfae6452af8eace653d0a5fa14ce166bfb894641296b29c46edb2cc33aadf39"
+              src="/images/content2.avif"
               alt=""
               className="w-full h-[80%] object-cover rounded"
             />
