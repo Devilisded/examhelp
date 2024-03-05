@@ -110,7 +110,7 @@ const Header = () => {
       >
         {list("add")}
       </Drawer>
-      <div className="flex justify-center  sticky top-0 h-[70px] z-50 w-full shadow-2xl bg-white">
+      <div className="flex justify-center sticky top-0 h-[70px] z-50 w-full shadow-2xl bg-white">
         <div className="flex items-center md:justify-between w-[75%] justify-center">
           <div className="block lg:hidden">
             <div className="dropdown">
@@ -128,14 +128,16 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <Image
-              src="/images/logo.webp"
-              loading="eager"
-              alt="Logo"
-              width={300}
-              height={300}
-              className="lg:w-full w-[80%]"
-            />
+            <Link href="/">
+              <Image
+                src="/images/logo.webp"
+                loading="eager"
+                alt="Logo"
+                width={300}
+                height={300}
+                className="lg:w-full w-[80%]"
+              />
+            </Link>
           </div>
           <div className="hidden lg:block">
             <ul className="flex px-1 gap-3 text-lg">
