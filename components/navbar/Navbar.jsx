@@ -84,9 +84,8 @@ const Header = () => {
 
           <List>
             {items.map((item, index) => (
-              <Link href={item.linkto}>
-                <div key={item} className="p-2">
-                  {console.log(item.linkto)}
+              <Link href={item.linkto} key={index}>
+                <div className="p-2">
                   <div className="p-2 pl-5 border-b ">
                     <ListItemText className=" " primary={item.name} />
                   </div>

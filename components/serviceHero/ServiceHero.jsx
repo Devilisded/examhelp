@@ -1,15 +1,15 @@
 "use client";
-import React from "react";
+
 import Form from "../form/Form";
 import { useState } from "react";
-import { IconArrowRight, IconChecks, IconSend2 } from "@tabler/icons-react";
+import { IconArrowRight, IconChecks } from "@tabler/icons-react";
 import Loader from "../loader/Loader";
-const Hero = () => {
+
+const ServiceHero = (props) => {
   const [showLoader, setShowLoader] = useState(false);
   const toggleLoader = (show) => {
     setShowLoader(show);
   };
-
   return (
     <section
       className={`bg-slate-200 dark:bg-gray-900  w-full flex justify-center image-full ${"hero1"}`}
@@ -18,9 +18,7 @@ const Hero = () => {
       <div className="grid w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  ">
         <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
           <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none  text-white">
-            Affordable And Prompt{" "}
-            <span className="text-orange-400">Exam Help Online</span> That Helps
-            You to Score High (24/7)
+            {props.title}
           </h1>
           <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
             Now, getting stressed due to exams is a matter of the past. Make the
@@ -28,25 +26,7 @@ const Hero = () => {
             online exam help, and score high grades with the assistance of our
             highly experienced experts.
           </p>
-          <ul className="list-none mb-4 font-light text-gray-300 md:text-lg lg:text-xl">
-            <li className="flex mb-1">
-              <IconChecks className="me-2" />
-              24 Hours Help Support
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> Highly Experienced Experts
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> 15000+ Happy Student Clients
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> On-Time Delivery
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> Affordable Online Exams Help
-              Service
-            </li>
-          </ul>
+
           <div className="flex gap-3 sm:flex-row flex-col">
             <a
               href="#"
@@ -71,4 +51,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default ServiceHero;

@@ -10,31 +10,36 @@ const Carousel = (props) => {
     {
       name: "Akshit",
       designation: "Developer",
-      feedback: "I Am good at this, how are you doing",
+      feedback:
+        "I was freaking out trying to balance a heavy course load with my two jobs when my roommate told me about this service. I'm always worried about plagiarism, but they sent me a scanned report showing that each paper was 100% original.",
       image: "/images/test1.webp",
     },
     {
       name: "Sunil",
       designation: "Developer",
-      feedback: "I Am good at this, how are you doing",
+      feedback:
+        "As an older student with a family, having an assignment service as a backup has kept me from dropping out when things get hectic. Between parenting, appointments, household stuff - you name it - I cram in learning whenever I can spare a minute. When I just can't find enough hours to complete big projects alone, it's a huge relief knowing I can get assistance from professionals who understand what professors want. This service hasn't let me down yet!",
       image: "/images/test2.webp",
     },
     {
       name: "Vimal",
       designation: "Web Designer",
-      feedback: "I Am good at this, how are you doing",
+      feedback:
+        "As someone working and attending nursing school, I need all the time-saving help I can get. This assignment service has written multiple evidence-based research papers for me on very short notice. They always assign me a writer who has medical expertise, too. My last paper earned one of the highest grades in my class! I'll return whenever I've got too much on my plate.",
       image: "/images/test3.webp",
     },
     {
       name: "Harsh",
       designation: "Developer",
-      feedback: "I Am good at this, how are you doing",
+      feedback:
+        "I can't complain about the programming homework help from this service. My tutor is patient and clearly explains concepts. Sometimes, the response to the queries may get a bit late, but they've come through when I've been stuck on tricky assignments.",
       image: "/images/test4.webp",
     },
     {
       name: "Ritik",
       designation: "SEO Executive",
-      feedback: "They are the best ",
+      feedback:
+        "I used this service to help me with some math problems I was struggling with. The tutor they matched me with was friendly and knew his stuff. He explained the concepts in a simple way that I could understand. While my last assignment was delivered just in time, and because of that, I didn’t get enough time to analyze it. But thank god the quality of the assignment was so good that it got me good grades, overall, it helped me get unstuck to finish my homework.",
       image: "/images/test5.webp",
     },
   ];
@@ -44,9 +49,9 @@ const Carousel = (props) => {
   return (
     <div className="embla lg:w-[50%] md:w-[70%] w-full">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container1">
           {data.map((item, index) => (
-            <div className="embla__slide justify-center flex" key={index}>
+            <div className="embla__slide1 justify-center flex" key={index}>
               <div className="flex flex-col items-center mx-12 lg:mx-0 text-gray-300">
                 <div>
                   <Image
@@ -69,9 +74,7 @@ const Carousel = (props) => {
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
                   <p className="px-6 py-1 text-lg italic text-wrap">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptatibus quibusdam, eligendi exercitationem molestias
-                    possimus facere.
+                    {item.feedback}
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
