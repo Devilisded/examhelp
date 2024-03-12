@@ -13,7 +13,7 @@ export async function POST(req) {
     ) {
       const info = {
         from: '"Examhelp" <noreply@examhelp.online>',
-        to: "harshgupta.calinfo@gmail.com",
+        to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
         subject: `Request from ${data.name}`,
         html: `    <div style="margin:0px;padding:0px;">
          <div style="margin:0px;padding:0px;  margin: 30px auto; width: 700px; padding: 10px 10px;  background-color: #f6f8fc; box-shadow:rgba(13, 109, 253, 0.25) 0px 25px 50px -10px !important; ">

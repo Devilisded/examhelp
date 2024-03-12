@@ -3,6 +3,16 @@ import Footer from "@/components/footer/Footer"
 import Hero from "@/components/hero/Hero"
 import Carousel from "@/components/carousel/Carousel"
 
+import {
+  IconClock2,
+  IconGraph,
+  IconWorld,
+  IconReportAnalytics,
+  IconPigMoney,
+} from "@tabler/icons-react";
+
+import { IconSchool } from "@tabler/icons-react";
+
 const Service = () => {
     return(
         <div>
@@ -1088,7 +1098,7 @@ const Service = () => {
       nam commodi! Magnam, labore.
     </p>
 
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/194.jpg"
+    <img src="/images/content2.avif"
       class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
 
     <ul class="mb-6 list-inside list-disc">
@@ -1123,6 +1133,92 @@ const Service = () => {
       similique eum vero in est velit quasi pariatur blanditiis incidunt
       quam.
     </p>
+
+    <div className="py-10 flex flex-col gap-14">
+        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
+        SERVICES EXAM HELP
+        </h2>        
+        <div className="container my-10 mx-auto md:px-6">
+          <div className="grid md:grid-cols-3 w-[100%] gap-10">
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconClock2 />
+              </span>
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Statistics Exam Help
+              </h1>
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              Statistics is a branch of mathematics that deals with the collection, analysis, interpretation, and presentation of masses of numerical data. It's not easy to study statistics and become proficient in all statistics techniques and methods of analysis of large datasets. To be an expert in statistics, you must have good command in Mathematics, along with a basic knowledge of Economics.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconSchool />
+              </span>
+
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Nursing Exam Help
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              Medical students mostly need nursing exam help. Nursing is an occupation for health care. It focuses on the caring of persons, children, and societies; so that they can stay fit or improve their health. As a medical student, they are required to cover medical documents, healthcare-related subjects. Students face problems while they have an online nursing exam.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconGraph />
+              </span>
+
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Accounting Exam Help
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              The accounting process includes summarizing, analyzing, and reporting financial transactions to oversight agencies, regulators, and tax collection entities. The definition of accounting is the process of recording and managing financial accounts properly in a systematic way. Preparing a Profit and Loss Statement is an example of accounting.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconWorld />
+              </span>
+
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Math Exam Help
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              The process of getting help from over services is very simple, you need to let us know all the required details for your exam, and we will discuss it with our mathematics exams expert, then we will quote you our expected price based on the length of the paper and complexity of questions in the exam. Don't worry about the price; we have kept our costs very reasonable. After that, you can pay us for your exam by using safe payment methods, and we will schedule the best suitable mathematics expert who can take your exam on time and answer all the questions asked correctly to help you get the best grades.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconReportAnalytics />
+              </span>
+
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Computer Science Exam Help
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              Computer science is the most demanding field in this era. Everything is changing to digitalization resulting in demand for the proper blend of software with technologies. Because of this, students prefer to pursue their degree in computer science and its sub-discipline field. For getting the degree, they have to clear the exams. So, there might be the possibility that they look for the best computer science exam help. The reason can be that students do not have enough knowledge of their core subjects, do not have enough time, and many more.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconPigMoney />
+              </span>
+
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              Finance Exam Help
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+              Finance is a broad term that describes banking, leverage or debt, credit, capital markets, money, and investments. Finance represents money management and the process of acquiring needed funds—finance deals in Business funds, budgets, values, risks, investments, and strategies. The simplest definition of Finance is to provide money or credit for something. An example of Finance is the bank giving a loan to someone to purchase a house. The purpose of Finance is to help people save, manage, and raise money. Finance needs to have its purpose enunciated and accepted.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <h1 class="mb-6 text-3xl font-bold">
