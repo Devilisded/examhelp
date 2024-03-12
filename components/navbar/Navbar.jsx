@@ -42,6 +42,11 @@ const Header = () => {
     // },
 
     {
+      name: "Contact Us",
+      linkto: "/contact",
+    },
+
+    {
       name: "Pricing",
       linkto: "#",
     },
@@ -151,6 +156,13 @@ const Header = () => {
                 <Link href="/about">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                     About Us
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
+                    Contact Us
                   </span>
                 </Link>
               </li>

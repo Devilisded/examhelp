@@ -7,7 +7,7 @@ const Privacy = () => {
         <div className="">
             <Navbar/>
 
-            <div className="flex  justify-center">   
+            <div className="flex  justify-center pb-7 pt-5">   
             <div className="w-[80%] text-slate-600">    
             <h1 className="text-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-blue-700">Privacy Policy</h1>
                 <p className="text-center">Last updated: March 01, 2024</p><br></br>

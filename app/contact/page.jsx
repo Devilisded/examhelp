@@ -35,8 +35,8 @@ const Contact = () => {
                                     <div class="ml-4 mb-4">
                                         <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
                                         </h3>
-                                        <p class="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                        <p class="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                                        <p class="text-gray-600 dark:text-slate-400">2685 California Street, Mountain View </p>
+                                        <p class="text-gray-600 dark:text-slate-400">CA 94040</p>
                                     </div>
                                 </li>
                                 <li class="flex">
@@ -54,8 +54,8 @@ const Contact = () => {
                                     <div class="ml-4 mb-4">
                                         <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                         </h3>
-                                        <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                        <p class="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                        <p class="text-gray-600 dark:text-slate-400">Mobile: +91 9053000124</p>
+                                        <p class="text-gray-600 dark:text-slate-400">Mail: info@examhelp.online</p>
                                     </div>
                                 </li>
                                 <li class="flex">
