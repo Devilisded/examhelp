@@ -52,12 +52,12 @@ export default function Home() {
               you find difficult and easy to provide useful study tools,
               practice questions, and tips on taking tests.
             </p>
-            <a
-              href="#"
+            <Link
+              href="/about"
               className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-blue-600 hover:border-transparent"
             >
               Explore Now
-            </a>
+            </Link>
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
             <div className="flex gap-10 h-[400px] justify-center">

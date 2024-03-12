@@ -48,7 +48,7 @@ const Header = () => {
 
     {
       name: "Pricing",
-      linkto: "#",
+      linkto: "/#pricing_section",
     },
     {
       name: "Testimonials",
@@ -174,7 +174,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-              <Link href="/">
+              <Link href="/#pricing_section">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                    Pricing
                   </span>

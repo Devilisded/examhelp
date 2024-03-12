@@ -26,7 +26,7 @@ const ServiceHero = (props) => {
 
           <div className="flex gap-3 sm:flex-row flex-col">
             <a
-              href="#"
+              href="/#pricing_section"
               className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Get started
