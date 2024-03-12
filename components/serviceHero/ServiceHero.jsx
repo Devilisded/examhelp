@@ -21,10 +21,7 @@ const ServiceHero = (props) => {
             {props.title}
           </h1>
           <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
-            Now, getting stressed due to exams is a matter of the past. Make the
-            right decision like thousands of students worldwide by choosing our
-            online exam help, and score high grades with the assistance of our
-            highly experienced experts.
+            {props.desc}
           </p>
 
           <div className="flex gap-3 sm:flex-row flex-col">

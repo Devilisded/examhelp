@@ -36,10 +36,10 @@ const Header = () => {
       linkto: "/aboutUs",
     },
 
-    {
-      name: "Service",
-      linkto: "/service",
-    },
+    // {
+    //   name: "Service",
+    //   linkto: "/service",
+    // },
 
     {
       name: "Pricing",

@@ -19,7 +19,7 @@ import {
   IconCoffee,
   IconMicroscope,
 } from "@tabler/icons-react";
-
+import Link from "next/link";
 import Hero from "@/components/hero/Hero";
 import { IconSchool } from "@tabler/icons-react";
 import Head from "next/head";
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="flex flex-col gap-5 items-center py-10">
+      <div className="flex flex-col gap-5 items-center py-10" id="pricing_section">
         <div className="flex flex-wrap  lg:w-[80%] w-[95%]">
           <div className="w-full px-4">
             <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
@@ -165,6 +165,7 @@ export default function Home() {
                 Same Tutor for all Sessions
                 </p>
               </div>
+              <Link target="_blank" href="https://api.whatsapp.com/send?phone=919053000124">
               <span
                 className="
             w-full
@@ -183,6 +184,7 @@ export default function Home() {
               >
                 Choose Personal
               </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -508,6 +510,7 @@ export default function Home() {
                 Same Tutor for all Sessions
                 </p>
               </div>
+              <Link target="_blank" href="https://api.whatsapp.com/send?phone=919053000124">
               <span
                 className="
             w-full
@@ -526,6 +529,7 @@ export default function Home() {
               >
                 Choose Business
               </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -852,6 +856,7 @@ export default function Home() {
                 </p>
               
               </div>
+              <Link target="_blank" href="https://api.whatsapp.com/send?phone=919053000124">
               <span
                 className="
             w-full
@@ -870,6 +875,7 @@ export default function Home() {
               >
                 Choose Professional
               </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1195,6 +1201,7 @@ export default function Home() {
                 Same Tutor for all Sessions
                 </p>
               </div>
+              <Link target="_blank" href="https://api.whatsapp.com/send?phone=919053000124">
               <span
                 className="
             w-full
@@ -1213,6 +1220,7 @@ export default function Home() {
               >
                 Choose Professional
               </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1488,7 +1496,7 @@ export default function Home() {
       </div>
 
       <div className="py-10 flex flex-col gap-14">
-        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
+        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center px-3 ">
           Top 6 Benefits Of Choosing Our Online Exam Help
         </h2>
         <div className="flex justify-center">

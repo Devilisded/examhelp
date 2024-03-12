@@ -32,7 +32,10 @@ const Aboutus = () => {
     <div>
       <Navbar />
 
-      <ServiceHero title="Testing Dynamic Title for the service hero" />
+      <ServiceHero title="Testing Dynamic Title for the service hero" desc="Now, getting stressed due to exams is a matter of the past. Make the
+            right decision like thousands of students worldwide by choosing our
+            online exam help, and score high grades with the assistance of our
+            highly experienced experts." />
 
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
