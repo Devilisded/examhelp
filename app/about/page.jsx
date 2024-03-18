@@ -1,363 +1,86 @@
-import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import ServiceHero from "@/components/serviceHero/ServiceHero";
-import ExpertCarousel from "@/components/expertCarousel/ExpertCarousel";
-import Carousel from "@/components/carousel/Carousel";
+import Header from "@/components/navbar/Navbar";
 import Image from "next/image";
-import {
-  IconChevronDown,
-  IconClock2,
-  IconGraph,
-  IconWorld,
-  IconReportAnalytics,
-  IconPigMoney,
-  IconChartInfographic,
-  IconStethoscope,
-  IconBriefcase,
-  IconMath,
-  IconDeviceDesktop,
-  IconReportMoney,
-  IconCoffee,
-  IconMicroscope,
-} from "@tabler/icons-react";
+import office from "../../public/images/abt_3_1.jpg";
+import contact from "../../public/images/abt_4_1.jpg";
+import "./style.css";
+import { IconAtom2 } from "@tabler/icons-react";
 
-import { IconSchool } from "@tabler/icons-react";
-
-
-const OPTIONS = { align: "start" };
-const SLIDE_COUNT = 6;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
-
-const Aboutus = () => {
+const Page = () => {
   return (
     <div>
-      <Navbar />
-
-      <ServiceHero title="Testing Dynamic Title for the service hero" desc="Now, getting stressed due to exams is a matter of the past. Make the
-            right decision like thousands of students worldwide by choosing our
-            online exam help, and score high grades with the assistance of our
-            highly experienced experts." />
-
-      <section class="bg-white dark:bg-gray-900">
-        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              We didn't reinvent the wheel
-            </h2>
-            <p class="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. Small enough to be simple and quick, but big
-              enough to deliver the scope you want at the pace you need. Small
-              enough to be simple and quick, but big enough to deliver the scope
-              you want at the pace you need.
-            </p>
-            <p>
-              We are strategists, designers and developers. Innovators and
-              problem solvers. Small enough to be simple and quick.
-            </p>
-          </div>
-          <div class="grid grid-cols-2 gap-4 mt-8">
-            <img
-              class="w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-              alt="office content 1"
-            />
-            <img
-              class="mt-4 w-full lg:mt-10 rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-              alt="office content 2"
-            />
-          </div>
-        </div>
-      </section>
-
-
-      <div className="py-10 flex flex-col gap-14">
-        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
-          Top 6 Benefits Of Choosing Our Online Exam Help
-        </h2>
-        <div className="flex justify-center">
-          <div className="grid md:grid-cols-3 w-[80%] gap-10">
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconClock2 />
-              </span>
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Save Time
-              </h1>
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Taking exams on your own can be hugely time-consuming. Between
-                studying content, practicing questions, and taking the exam,
-                exams can take up much precious time. Our service takes the exam
-                burden off your shoulders so you can allocate that time to other
-                priorities. From start to finish, we streamline everything to
-                save you the maximum time.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconSchool />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Domain Expertise
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Unlike general tutoring services, our online tutors are niche
-                subject matter experts. They have extensive education and
-                real-world experience in their specific exam domain. This means
-                they have the greatest depth of knowledge to tackle any topic or
-                question within their field, lending you their insight and
-                guidance throughout your exam.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconGraph />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Customized Assistance
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We provide a fully personalized 1-on-1 exam assistance service
-                tailored to your needs. Before your exam session, your tutor
-                will consult with you to understand your strengths and
-                weaknesses. This allows them to custom-craft potential
-                questions, practice problems, explanations, and learning
-                strategies just for you. It's like having a private tutor
-                designing a fully customized study plan to help you succeed.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconWorld />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Worldwide Access
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                As an online platform, we allow you to connect with expert
-                tutors remotely. That means you can get expert exam help from
-                the comfort of your home, from a library, while traveling -
-                anywhere with internet access! No need to commute or travel to
-                appointments. Just log in online at your convenience to start
-                your tutoring.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconReportAnalytics />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Secure Service
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We invest heavily in security measures like end-to-end
-                encryption, stringent privacy policies, and authentication
-                protocols to protect your data. <br /> Exam integrity is vital,
-                so our top priority is safeguarding your information during
-                online exam assistance.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconPigMoney />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Affordable Pricing
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Our rates are designed for students on a budget. Pay just a
-                fraction of what expensive private tutoring normally costs.
-                Without geographical or access restrictions, we connect you to
-                specialists globally to find great tutors at affordable prices
-                for all educational levels and subjects. Our platform allows
-                tutors to set reasonable rates, keeping pricing competitive.
-              </p>
-            </div>
+      <Header />
+      <div className="flex justify-center flex-col items-center text-5xl md:text-7xl  font-semibold py-8 mainDiv text-white">
+        About Us
+        <div className="flex items-center flex-col">
+          <div className="text-xl  text-center font-thin py-2 w-[80%]">
+            Welcome to Exam Help Online, your top place for exam prep and
+            tutoring services. We aim to help students succeed by providing
+            great exam prep tools and personalized academic support. Established
+            in 2010, Exam Help Online was created by teachers who understand
+            students' challenges when prepping for big exams. We aim to take the
+            stress out of test prep by offering:
           </div>
         </div>
       </div>
 
-      <div className="py-10">
-        <h1 className="text-4xl text-center font-semibold mb-10">
-          Our Experts
-        </h1>
-        <ExpertCarousel slides={SLIDES} options={OPTIONS} />
-      </div>
-
-
-
-      <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-
-        <section class=" container mb-32">
-          <h1 class="text-4xl font-bold">
-            An intriguing title for an interesting article
-          </h1>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+      <div className="grid grid-cols-2 p-12 gap-8">
+        <Image src={office} className="object-cover max-h-[400px]" />
+        <div className="flex flex-col gap-6 items-start justify-start">
+          <div className="text-md md:text-lg flex items-center gap-8">
+            <IconAtom2 color="red" className="w-16 h-16" />
+            <div>
+              Complete study guides and cheat sheets covering key concepts for
+              major standardized tests. Tutors and teachers design our study
+              materials with years of test prep experience.
+            </div>
           </div>
-
-          <p class="mb-5 mt-3 text-slate-700">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-            harum tempore cupiditate asperiores provident, itaque, quo ex iusto
-            rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
-            sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
-            soluta labore! Expedita quas, nesciunt similique autem, sunt,
-            doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
-            Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
-            ducimus consequatur corporis, architecto nesciunt vitae ipsum
-            consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
-            similique eum vero in est velit quasi pariatur blanditiis incidunt
-            quam.
-          </p>
-
-
-          <h1 class="text-4xl font-bold ">
-            An intriguing title for an interesting article
-          </h1>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+          <div className="text-md md:text-lg flex items-center gap-8">
+            <IconAtom2 color="red" className="w-16 h-16" />
+            Access 24/7 to online practice tests modeled closely after the real
+            exams. Our tests are designed to help you identify strengths and
+            weaknesses so you can focus your study time effectively.
           </div>
-
-          <p class="mb-5 mt-3 text-slate-700">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-            harum tempore cupiditate asperiores provident, itaque, quo ex iusto
-            rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
-            sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
-            soluta labore! Expedita quas, nesciunt similique autem, sunt,
-            doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
-            Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
-            ducimus consequatur corporis, architecto nesciunt vitae ipsum
-            consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
-            similique eum vero in est velit quasi pariatur blanditiis incidunt
-            quam.
-          </p>
-
-
-          <h1 class="text-4xl font-bold ">
-            An intriguing title for an interesting article
-          </h1>
-          <div className="mt-1">
-
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+          <div className="text-md md:text-lg flex items-center gap-8">
+            <IconAtom2 color="red" className="w-16 h-16" />
+            One-on-one tutoring with instructors who specialize in your exam.
+            Get personalized support, ask questions, review mistakes, and gain
+            confidence. Our tutors have scored in the top 10% on the exams they
+            teach.
           </div>
-
-          <p class="mb-5 mt-3 text-slate-700">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-            harum tempore cupiditate asperiores provident, itaque, quo ex iusto
-            rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
-            sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
-            soluta labore! Expedita quas, nesciunt similique autem, sunt,
-            doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
-            Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
-            ducimus consequatur corporis, architecto nesciunt vitae ipsum
-            consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
-            similique eum vero in est velit quasi pariatur blanditiis incidunt
-            quam.
-          </p>
-
-          <h1 class="text-4xl font-bold ">
-            An intriguing title for an interesting article
-          </h1>
-          <div className="mt-1">
-
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-
-          <p class="mb-5 mt-3 text-slate-700">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-            harum tempore cupiditate asperiores provident, itaque, quo ex iusto
-            rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
-            sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
-            soluta labore! Expedita quas, nesciunt similique autem, sunt,
-            doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
-            Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
-            ducimus consequatur corporis, architecto nesciunt vitae ipsum
-            consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
-            similique eum vero in est velit quasi pariatur blanditiis incidunt
-            quam.
-          </p>
-
-        </section>
-      </div>
-
-
-      <div className="w-full cbg ">
-        <div className="w-full">
-          <div className="z-50 text-center mx-auto max-w-[510px]">
-            <h2 className=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
-              Testimonials
-            </h2>
+          <div className="text-md md:text-lg flex items-center gap-8">
+            <IconAtom2 color="red" className="w-16 h-16" />
+            On-demand homework help and subject tutoring. Whether you need help
+            mastering algebra, writing an essay, or studying for a biology test,
+            our tutors are here to help students of all ages and grades.
           </div>
         </div>
-        <div className="flex justify-center">
-          <Carousel />
-        </div>
       </div>
-      <div className="bg-white py-10">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-            Trusted by the world’s most innovative teams
-          </h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1 "
-              src="/images/uni1.webp"
-              alt="logo1"
-              width={158}
-              height={48}
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un2.webp"
-              alt="logo2"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un3.webp"
-              alt="logo3"
-              width="158"
-              height="48"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain sm:col-start-2 lg:col-span-1"
-              src="/images/logo-un4.webp"
-              alt="logo4"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2 col-start-2 w-auto object-contain sm:col-start-auto lg:col-span-1"
-              src="/images/logo-un5.webp"
-              alt="logo5"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
+
+      <div className="flex flex-col-reverse lg:flex-row  md:mx-12 md:ml-24 gap-4 lg:gap-24 pb-10 md:pb-16">
+        <div className="flex flex-col gap-4 justify-center mx-16 md:mx-0">
+          <div className="text-lg md:text-2xl font-semibold ">
+            At Exam Help Online, we want each student to achieve their full
+            potential. We offer affordable test prep programs, flexible tutoring
+            options, and great customer service. Thousands of students have used
+            our services to get into their dream colleges and do well in school.
           </div>
+          <div className="text-md lg:text-xl text-slate-700 font-semibold">
+            Contact us today to learn how we can customize a test prep or
+            tutoring program to match your specific needs and goals.
+          </div>
+          <div className="text-md lg:text-xl text-slate-600 ">
+            We look forward to helping you succeed!
+            <br />
+            <br />
+            Email us at <span className="font-bold">info@examhelp.online</span>
+          </div>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src={contact}
+            className=" w-[300px] h-[300px] md:w-[400px] xl:w-[500px] md:h-[400px] xl:h-[500px] "
+          />
         </div>
       </div>
       <Footer />
@@ -365,4 +88,4 @@ const Aboutus = () => {
   );
 };
 
-export default Aboutus;
+export default Page;

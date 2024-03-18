@@ -167,22 +167,25 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/service">
+                <Link href="/sitemap">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                     Service
                   </span>
                 </Link>
               </li>
               <li>
-              <Link href="/#pricing_section">
+                <Link href="/#pricing_section">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                   Pricing
+                    Pricing
                   </span>
                 </Link>
               </li>
-             
+
               <li>
-                <Link href="https://api.whatsapp.com/send?phone=919053000124" target="_blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=919053000124"
+                  target="_blank"
+                >
                   <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
                     Call Now
                   </span>
