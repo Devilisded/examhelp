@@ -1,10 +1,9 @@
 .mainDiv {
   background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.201) 0%,
-      rgba(0, 0, 0, 0.205) 100%
-    ),
-    url(/images/abbg.avif);
-
+    0deg,
+    rgba(0, 0, 0, 0.401) 0%,
+    rgba(0, 0, 0, 0.411) 100%
+  );
+  background-size: 100%;
   background-position: 50% 50%;
 }
