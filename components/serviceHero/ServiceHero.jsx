@@ -23,7 +23,24 @@ const ServiceHero = (props) => {
           <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
             {props.desc}
           </p>
-
+          <ul className="list-none mb-4 font-light text-gray-300 md:text-lg lg:text-xl">
+            <li className="flex mb-1">
+              <IconChecks className="me-2" />
+              {props.p1}
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> {props.p2}
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> {props.p3}
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> {props.p4}
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> {props.p5}
+            </li>
+          </ul>
           <div className="flex gap-3 sm:flex-row flex-col">
             <a
               href="/#pricing_section"

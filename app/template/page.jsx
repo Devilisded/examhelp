@@ -40,13 +40,13 @@ const page = () => {
           highly experienced experts."
       />
 
-      <section class="bg-white dark:bg-gray-900">
-        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+          <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               We didn't reinvent the wheel
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               We are strategists, designers and developers. Innovators and
               problem solvers. Small enough to be simple and quick, but big
               enough to deliver the scope you want at the pace you need. Small
@@ -58,14 +58,14 @@ const page = () => {
               problem solvers. Small enough to be simple and quick.
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-4 mt-8">
+          <div className="grid grid-cols-2 gap-4 mt-8">
             <img
-              class="w-full rounded-lg"
+              className="w-full rounded-lg"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
               alt="office content 1"
             />
             <img
-              class="mt-4 w-full lg:mt-10 rounded-lg"
+              className="mt-4 w-full lg:mt-10 rounded-lg"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
               alt="office content 2"
             />
@@ -196,9 +196,9 @@ const page = () => {
         <ExpertCarousel slides={SLIDES} options={OPTIONS} />
       </div>
 
-      <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <section class=" container mb-32">
-          <h1 class="text-4xl font-bold">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <section className=" container mb-32">
+          <h1 className="text-4xl font-bold">
             An intriguing title for an interesting article
           </h1>
           <div className="mt-1">
@@ -207,7 +207,7 @@ const page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p class="mb-5 mt-3 text-slate-700">
+          <p className="mb-5 mt-3 text-slate-700">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
             harum tempore cupiditate asperiores provident, itaque, quo ex iusto
             rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -221,7 +221,7 @@ const page = () => {
             incidunt quam.
           </p>
 
-          <h1 class="text-4xl font-bold ">
+          <h1 className="text-4xl font-bold ">
             An intriguing title for an interesting article
           </h1>
           <div className="mt-1">
@@ -230,7 +230,7 @@ const page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p class="mb-5 mt-3 text-slate-700">
+          <p className="mb-5 mt-3 text-slate-700">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
             harum tempore cupiditate asperiores provident, itaque, quo ex iusto
             rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -244,7 +244,7 @@ const page = () => {
             incidunt quam.
           </p>
 
-          <h1 class="text-4xl font-bold ">
+          <h1 className="text-4xl font-bold ">
             An intriguing title for an interesting article
           </h1>
           <div className="mt-1">
@@ -253,7 +253,7 @@ const page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p class="mb-5 mt-3 text-slate-700">
+          <p className="mb-5 mt-3 text-slate-700">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
             harum tempore cupiditate asperiores provident, itaque, quo ex iusto
             rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -267,7 +267,7 @@ const page = () => {
             incidunt quam.
           </p>
 
-          <h1 class="text-4xl font-bold ">
+          <h1 className="text-4xl font-bold ">
             An intriguing title for an interesting article
           </h1>
           <div className="mt-1">
@@ -276,7 +276,7 @@ const page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p class="mb-5 mt-3 text-slate-700">
+          <p className="mb-5 mt-3 text-slate-700">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
             harum tempore cupiditate asperiores provident, itaque, quo ex iusto
             rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -292,15 +292,15 @@ const page = () => {
         </section>
       </div>
 
-      <div class="items-center grid grid-cols-2 gap-4 pl-10 pr-10">
-        <div class=" bg-white p-4">
-          <h2 class=" text-black text-3xl mb-2 ">Overview</h2>
+      <div className="items-center grid grid-cols-2 gap-4 pl-10 pr-10">
+        <div className=" bg-white p-4">
+          <h2 className=" text-black text-3xl mb-2 ">Overview</h2>
           <div className="mt-1">
             <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
             <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
-          <p class="text-slate-900">
+          <p className="text-slate-900">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
             harum tempore cupiditate asperiores provident, itaque, quo ex iusto
             rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -310,11 +310,11 @@ const page = () => {
             Dolores ex provident ipsa impedit, omnis magni earum. .{" "}
           </p>
 
-          <ul class="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0 mb-5">
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+          <ul className="pl-0 mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 space-y-5 lg:space-y-0 mb-5">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -325,14 +325,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Access to premium content and exclusive articles
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -343,14 +343,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Access to premium content and exclusive articles
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -361,14 +361,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Access to premium content and exclusive articles
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -379,14 +379,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Access to premium content and exclusive articles
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -397,14 +397,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Access to premium content and exclusive articles
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -415,14 +415,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Free Shipping on select products
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -433,14 +433,14 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Early access to upcoming events and promotions
               </p>
             </li>
-            <li class="flex items-start lg:col-span-1">
-              <div class="flex-shrink-0">
+            <li className="flex items-start lg:col-span-1">
+              <div className="flex-shrink-0">
                 <svg
-                  class="h-5 w-5 text-teal-400"
+                  className="h-5 w-5 text-teal-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -451,7 +451,7 @@ const page = () => {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
+              <p className="ml-3 text-lg leading-5 text-gray-700 font-ttnorms text-left">
                 Dedicated customer support
               </p>
             </li>
@@ -459,14 +459,14 @@ const page = () => {
         </div>
 
         <div className="container">
-          <div class="bg-white p-4">
+          <div className="bg-white p-4">
             <h2 className="text-black text-3xl mb-2">Background</h2>
             <div className="mt-1">
               <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
               <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
               <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
             </div>
-            <p class="text-slate-900">
+            <p className="text-slate-900">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
               ipsum vel nunc commodo hendrerit sit amet vel nisi. Donec sodales
               maximus justo, nec dictum lectus malesuada non. Sed auctor
@@ -475,14 +475,14 @@ const page = () => {
               Etiam eu lorem suscipit, sollicitudin ante at, pharetra quam.
             </p>
           </div>
-          <div class="bg-white p-4">
+          <div className="bg-white p-4">
             <h2 className="text-black text-3xl mb-2">Challenge</h2>
             <div className="mt-1">
               <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
               <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
               <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
             </div>
-            <p class="text-slate-900">
+            <p className="text-slate-900">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
               ipsum vel nunc commodo hendrerit sit amet vel nisi. Donec sodales
               maximus justo, nec dictum lectus malesuada non. Sed auctor
