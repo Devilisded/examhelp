@@ -4,8 +4,15 @@ import { IconLink } from "@tabler/icons-react";
 import React from "react";
 import Link from "next/link";
 const Page = () => {
-  const SLIDE_COUNT = 30;
-  const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+  const slides = [
+    {
+      to:"/economics-exam-help",
+      title:"Economics Exam Help"
+    },{
+      to:"/statistics-exam-help",
+      title:"Statistics Exam Help"
+    }
+  ]
   return (
     <div>
       <Header />
@@ -16,8 +23,8 @@ const Page = () => {
             <div className="w-full h-[2px] bg-gray-300/50"></div>
           </div>
           <div className="grid grid-cols-3 gap-5 py-4 ">
-            {SLIDES.map((item) => (
-              <Link href="/referer">
+            {slides.map((item,index) => (
+              <Link href={item.to} key={index}>
                 <div
                   className="flex items-center text-blue-600 text-lg gap-1 justify-center"
                   key={item}
@@ -25,7 +32,7 @@ const Page = () => {
                   <div className="text-slate-600">
                     <IconLink />
                   </div>
-                  <a href="/">Python Assignment Help</a>
+                  <span>{item.title}</span>
                 </div>
               </Link>
             ))}

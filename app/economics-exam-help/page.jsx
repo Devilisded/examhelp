@@ -15,11 +15,21 @@ import {
 import { IconSchool } from "@tabler/icons-react";
 
 const EconomicsExamHelp = () => {
+  const points = [
+    "economics",
+    "statistics",
+    "Maths",
+    "English",
+    "Akshit",
+    "Amar",
+    "Ritik",
+  ];
   return (
     <>
       <Navbar />
 
       <ServiceHero
+        points={points}
         title="Economics Exam Help | Expert Guidance for Academic Success"
         desc="Our knowledgeable tutors provide personalized guidance and proven strategies to help you master economic concepts and excel academically."
       />
@@ -146,8 +156,8 @@ const EconomicsExamHelp = () => {
         <ExpertCarousel />
       </div>
 
-      <div className=" mb-3 gap-16 items-center pb-3 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <section className=" container mb-32">
+      <div className="px-4 mx-auto pb-12 max-w-screen-xl  lg:px-6">
+        <section className="container">
           {/* <h1 className="text-4xl font-bold">
             An intriguing title for an interesting article
           </h1>
@@ -391,32 +401,32 @@ const EconomicsExamHelp = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p ClassName="pb-2 mt-3">
+          <p className="pb-2 mt-3">
             No matter where you live, our Economy Test Help service is ready to
             give you great help and show you the right way. With our team of
             super smart economy teachers worldwide, we can help students in any
             part of the earth.
           </p>
-          <p ClassName="pb-2">
+          <p className="pb-2">
             Through our safe online place, you can talk to an expert economy
             teacher from the coziness of your home, school, or any other spot
             that has internet. Our virtual classroom lets you learn in a fun and
             smooth manner, giving you special one-on-one time and fast feedback.{" "}
           </p>
-          <p ClassName="pb-2">
+          <p className="pb-2">
             If you live in a huge city or a far-off small town, our teachers are
             ready to help with your needs. They can help you prepare for tests,
             review school work, clarify difficult ideas, and give valuable
             insights into the economy's workings.
           </p>
-          <p ClassName="pb-2">
+          <p className="pb-2">
             Our service is flexible and easy to use. It lets you set up meeting
             times that fit your schedule, no matter what time zone or place
             you're in. We know students' unique struggles in different parts of
             the world, and we work hard to give you custom solutions that are
             right for you.
           </p>
-          <p ClassName="pb-2">
+          <p className="pb-2">
             Don't let distance or location stop you from getting a top-notch
             economy education. With our Economy Test Help service, you can open
             up a world of knowledge and become a superstar in your studies, no

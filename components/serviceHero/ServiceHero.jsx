@@ -24,22 +24,12 @@ const ServiceHero = (props) => {
             {props.desc}
           </p>
           <ul className="list-none mb-4 font-light text-gray-300 md:text-lg lg:text-xl">
-            <li className="flex mb-1">
+            {props.points?.map((item,index)=>(
+            <li className="flex mb-1" key={index}>
               <IconChecks className="me-2" />
-              {props.p1}
+              {item}
             </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> {props.p2}
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> {props.p3}
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> {props.p4}
-            </li>
-            <li className="flex mb-1">
-              <IconChecks className="me-2" /> {props.p5}
-            </li>
+            ))}
           </ul>
           <div className="flex gap-3 sm:flex-row flex-col">
             <a

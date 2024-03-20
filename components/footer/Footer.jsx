@@ -15,10 +15,10 @@ const Footer = () => {
         
           <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
               <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start">
+            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start uppercase">
               <h3>About Us</h3>
             </div>
-            <p className="mt-2 text-sm text-gray-200">
+            <p className="mt-2 text-gray-200">
             You can be confident that your personal information and examination details will remain
              completely
              confidential with us. We will never share that with anyone and ensure that it is not
@@ -43,17 +43,17 @@ const Footer = () => {
             </div>
           </div>
             <div className="w-full px-4 lg:w-1/6 md:w-1/2">
-            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start">
+            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start uppercase">
               <h3>Quick Link</h3>
             </div>
-              <div className="mt-3 text-sm font-medium tracking-widest text-white uppercase title-font">
-              <Link href="/">
-                  <div className="text-gray-200 cursor-pointer hover:text-white">
-                    Home
-                  </div>
-                  </Link>
-              </div>
               <nav className="mb-10 list-none">
+              <div className="mt-3">                 
+                  <Link href="/">
+                  <div className="text-gray-200 cursor-pointer hover:text-white">
+                   Home
+                  </div>
+                  </Link>                  
+                </div>
                 <div className="mt-3">                 
                   <Link href="/about">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -88,16 +88,13 @@ const Footer = () => {
             <div className="flex items-center justify-center font-medium text-white title-font md:justify-start">
               <h3>WHAT MAKES YOU HIRE US?</h3>
             </div>
-          
-
-
               <nav className="mb-10 list-none">
                 <div className="mt-3">
-                <Link href="/contact">
-                  <div className="text-gray-200 cursor-pointer hover:text-white">
-                  you get highly qualified and experienced professionals to help you with the best services.
+          
+                  <div className="text-gray-200 cursor-pointer hover:text-white ">
+                  You get highly qualified and experienced professionals to help you with the best services.
                   </div>
-                  </Link>
+            
                 </div>
                 <div className="mt-3">
                   <div className="text-gray-200 cursor-pointer hover:text-white">
@@ -169,7 +166,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/6 md:w-1/2">
-            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start">
+            <div className="flex items-center justify-center font-medium text-white title-font md:justify-start uppercase">
               <h3>Contact Info</h3>
             </div>
               <nav className="mb-10 list-none">
