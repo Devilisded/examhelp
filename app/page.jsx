@@ -64,19 +64,22 @@ export default function Home() {
               <div className="hidden xl:block rounded-full w-1/4  overflow-hidden rotate-[-20deg] object-cover">
                 <img
                   className="h-full  object-cover"
-                  src="/images/about1.avif"
+                  src="/images/about1.webp"
+                  alt="about image"
                 />
               </div>
               <div className=" hidden xl:block rounded-full w-1/4  overflow-hidden rotate-[-20deg] object-cover">
                 <img
                   className="h-full hidden xl:block object-cover"
-                  src="/images/about2.avif"
+                  src="/images/about2.webp"
+                  alt="about image"
                 />
               </div>
               <div className="xl:rounded-full xl:w-1/4  xl:overflow-hidden xl:rotate-[-20deg] object-cover">
                 <img
                   className="h-full object-cover"
-                  src="/images/about3.avif"
+                  src="/images/about3.webp"
+                  alt="about image"
                 />
               </div>
             </div>
@@ -1291,7 +1294,7 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="/images/content.avif"
+              src="/images/content.webp"
               alt=""
               className="lg:w-1/2 w-full object-cover rounded flex-1"
             />
@@ -1303,7 +1306,7 @@ export default function Home() {
           </h2>
           <div className="flex lg:flex-row flex-col w-[95%] lg:w-[75%] gap-5">
             <img
-              src="/images/content2.avif"
+              src="/images/content2.webp"
               alt=""
               className="lg:w-1/2 w-full object-cover  rounded"
             />
@@ -1367,7 +1370,7 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="/images/content3.avif"
+              src="/images/content3.webp"
               alt=""
               className="lg:w-1/2  w-full rounded"
             />
@@ -1627,7 +1630,7 @@ export default function Home() {
           <div className=" w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
             <div className="flex lg:py-12 ">
               <img
-                src="/images/content4.avif"
+                src="/images/content4.webp"
                 className="z-[10] w-full rounded-lg shadow-lg dark:shadow-black/20 lg:ml-[50px]"
                 alt="image"
               />

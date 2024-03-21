@@ -73,9 +73,9 @@ const ExpertCarousel = () => {
                   />
                   <div className="flex w-full flex-col gap-0.5">
                     <div className="flex items-center justify-between">
-                      <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">
+                      <p className="block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">
                         {item.name}
-                      </h5>
+                      </p>
                       <div className="5 flex items-center gap-0">
                         {Array.from(Array(item.stars).keys()).map(
                           (item, index) => (

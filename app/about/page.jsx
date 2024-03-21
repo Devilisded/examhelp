@@ -1,10 +1,9 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/navbar/Navbar";
 import Image from "next/image";
-import office from "../../public/images/abt_3_1.webp";
+import office from "@/public/images/abtpic.webp";
 import contact from "../../public/images/abt_4_1.jpg";
 import "./style.css";
-import { IconAtom2 } from "@tabler/icons-react";
 
 const Page = () => {
   return (
