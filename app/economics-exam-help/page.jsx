@@ -15,21 +15,11 @@ import {
 import { IconSchool } from "@tabler/icons-react";
 
 const EconomicsExamHelp = () => {
-  const points = [
-    "economics",
-    "statistics",
-    "Maths",
-    "English",
-    "Akshit",
-    "Amar",
-    "Ritik",
-  ];
   return (
     <>
       <Navbar />
 
       <ServiceHero
-        points={points}
         title="Economics Exam Help | Expert Guidance for Academic Success"
         desc="Our knowledgeable tutors provide personalized guidance and proven strategies to help you master economic concepts and excel academically."
       />
