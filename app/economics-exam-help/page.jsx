@@ -13,10 +13,19 @@ import {
 } from "@tabler/icons-react";
 
 import { IconSchool } from "@tabler/icons-react";
+export const metadata = {
+  title:"Economics Exam Help",
+  description:"this is a testing description for economics exam help",
+  openGraph:{
+    title:"Akshit is the editor"
+  
+  }
+}
 
-const EconomicsExamHelp = () => {
+const Page = () => {
   return (
     <>
+    <link rel="canonical" href="https://examhelp.online/economics-exam-help"/>
       <Navbar />
 
       <ServiceHero
@@ -33,9 +42,9 @@ const EconomicsExamHelp = () => {
               <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
                 <IconClock2 />
               </span>
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Save Time
-              </h1>
+              </h2>
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 Taking exams on your own can be hugely time-consuming. Between
                 studying content, practicing questions, and taking the exam,
@@ -50,9 +59,9 @@ const EconomicsExamHelp = () => {
                 <IconSchool />
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Domain Expertise
-              </h1>
+              </h2>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 Unlike general tutoring services, our online tutors are niche
@@ -68,9 +77,9 @@ const EconomicsExamHelp = () => {
                 <IconGraph />
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Customized Assistance
-              </h1>
+              </h2>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 We provide a fully personalized 1-on-1 exam assistance service
@@ -87,9 +96,9 @@ const EconomicsExamHelp = () => {
                 <IconWorld />
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Worldwide Access
-              </h1>
+              </h2>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 As an online platform, we allow you to connect with expert
@@ -105,9 +114,9 @@ const EconomicsExamHelp = () => {
                 <IconReportAnalytics />
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Secure Service
-              </h1>
+              </h2>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 We invest heavily in security measures like end-to-end
@@ -122,9 +131,9 @@ const EconomicsExamHelp = () => {
                 <IconPigMoney />
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Affordable Pricing
-              </h1>
+              </h2>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 Our rates are designed for students on a budget. Pay just a
@@ -140,17 +149,17 @@ const EconomicsExamHelp = () => {
       </div>
 
       <div className="py-10">
-        <h1 className="text-4xl text-center font-semibold mb-10">
+        <h2 className="text-4xl text-center font-semibold mb-10">
           Our Experts
-        </h1>
+        </h2>
         <ExpertCarousel />
       </div>
 
       <div className="px-4 mx-auto pb-12 max-w-screen-xl  lg:px-6">
         <section className="container">
-          {/* <h1 className="text-4xl font-bold">
+          {/* <h2 className="text-4xl font-bold">
             An intriguing title for an interesting article
-          </h1>
+          </h2>
           <div className="mt-1">
             <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
             <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
@@ -491,4 +500,4 @@ const EconomicsExamHelp = () => {
   );
 };
 
-export default EconomicsExamHelp;
+export default Page;
