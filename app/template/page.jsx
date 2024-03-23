@@ -485,7 +485,67 @@ const page = () => {
           </div>
         </div>
       </div>
-
+      <div className="flex justify-center py-8">
+        <table class="md:w-[80%]">
+          <tbody className="border">
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Mark
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Otto
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @mdo
+              </td>
+            </tr>
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Jacob
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Thornton
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td>
+            </tr>
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td
+                colspan="2"
+                class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap"
+              >
+                Larry
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @twitter
+              </td>
+            </tr>
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Whitney
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Austin
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @mdo
+              </td>
+            </tr>
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Ted
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Obama
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="w-full cbg ">
         <div className="w-full">
           <div className="z-50 text-center mx-auto max-w-[510px]">
