@@ -2,292 +2,180 @@ import Navbar from "@/components/navbar/Navbar"
 import Footer from "@/components/footer/Footer"
 
 
-const Privacy = () => {
+const Page = () => {
     return (
-        <div className="">
-            <Navbar/>
+        <div>
+            <Navbar />
+            <div className="flex  justify-center pb-7 pt-5">
+                <div className="w-[80%] text-slate-600">
+                    <h1 className="text-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-blue-700">Privacy Policy</h1>
+                    <p className="text-center">Last updated: March 01, 2024</p><br />
+                    <h2><b><center>Keeping Your Details Safe Is Our Top Focus</center></b></h2>
+                    <p>At Exam Help Online, saving your details is our main focus. This privacy policy explains how we manage your details openly and transparently. Our goal is to guard your data and keep it secure, no issue what.</p>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Cookies</b></h2>
+                    <p>Our website uses cookies to gather data for on-site use. You can disable cookies in your browser settings.</p>
+                    <br />
+                    <ol className="list-decimal ml-5">
+                        <li>Open your browser's settings menu and find the privacy & security section.</li>
+                        <li>Please have a look at the option to control cookies or site data.</li>
+                        <li>Simply click "Clear all" to remove any existing cookies.</li>
+                    </ol>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Sharing Details with Authorities (An Extremely Rare Situation)</b></h2>
+                    <p>We value your privacy above everything. However, suppose you use our services illegally or for business goals. In that case, we may need to share your information with legal authorities. This is rare, but we take it seriously.</p>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Your Information is With Us Only</b></h2>
+                    <p>At Exam Help Online, we realize that you are concerned about the confidentiality of your data. Thus, we take the best steps to keep it safe. We must ensure that your information is secure, and we consider this extremely crucial.
+                    </p>
+                    <br />
+                    <p>You can be assured that your private details will remain unknown to others on this website.</p>
+                    <br />
 
-            <div className="flex  justify-center pb-7 pt-5">   
-            <div className="w-[80%] text-slate-600">    
-            <h1 className="text-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-blue-700">Privacy Policy</h1>
-                <p className="text-center">Last updated: March 01, 2024</p><br></br>
+                    <h2 className="text-3xl pb-2"><b>Stay Updated With Our Policy Regularly</b></h2>
 
-                <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-                <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. </p>
-                <br></br>
-                <h2>Interpretation and Definitions</h2>
-                <br></br>
-                <h3>Interpretation</h3>
-                <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                <br></br>
-                <h3>Definitions</h3>
-                <p>For the purposes of this Privacy Policy:</p>
+                    <p>Our team at Exam Help Online knows the importance of data confidentiality, which is why we go above and beyond to ensure complete protection and security for you. It's our ethical duty to protect all the information you provide, and our privacy policy addresses all your concerns in this regard.</p>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Robust Data Protection Measures</b></h2>
+                    <p>You can rest assured that your data is secured by all means and will be kept hidden from third parties.
 
-                <ul>
-                <li>
-                <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
-                </li>
-<br></br>
-                <li>
-                <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Exam Help Online, 2685 California Street, Mountain View CA 94040.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Country</strong> refers to: California,  United States</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Service</strong> refers to the Website.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>Website</strong> refers to Exam Help Online, accessible from <a href="https://examhelp-ashy.vercel.app/" rel="external nofollow noopener" target="_blank">https://examhelp.online</a></p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
-                </li>
+                        Although Exam Help Online reserves the right to update this privacy policy at any time, we highly encourage you to review it thoroughly.</p>
+                    <br />
 
-                </ul>
+                    <h2 className="text-3xl pb-2"><b>Uninterrupted Communication</b></h2>
 
-                <h2>Collecting and Using Your Personal Data</h2>
-                <h3>Types of Data Collected</h3>
-                <h4>Personal Data</h4>
-                <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
+                    <p>To facilitate seamless communication, we'll request your email address, which will be kept hidden at all costs. Any email you receive from us is solely planned to benefit you.</p>
+                    <br />
+                    <h2><b>Order Fulfillment and Updates</b></h2>
+                    <p>We collect your information only for exam help order fulfillment. Your email will be used to keep you updated on service changes and discounts.</p>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Essential Information for Exam Help Online</b></h2>
 
-                <ul>
+                    <p>To ensure we have a full understanding of your needs, we'll need the following details from you:</p>
+                    <br />
+                    <ol className="list-decimal ml-5">
+                    
+                        <li>The subject of your exam and the assigned word count.</li>
+                        <li>The deadline for submission.</li>
+                        <li>Your preferred payment method and payment details.</li>
+                        <li>Your Data is Safe with Us.</li>
+                    </ol>
+                    <br />
+                    <p>Our company prioritizes privacy and ensures data protection and confidentiality.</p>
 
-                <li>
-                <p>Email address</p>
-                </li>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Safe Payment Options for Your Comfort</b></h2>
+                    <p>We prioritize the safety of your payment details. We offer secure payment options such as PayPal, direct debit/credit card payments, and bank transfers.
+                        Be assured that your email address will remain secret, and we will only send you helpful information.</p>
 
-                <li>
-                <p>First name and last name</p>
-                </li>
+                    <br />
 
-                <li>
-                <p>Usage Data</p>
-                </li>
+                    <h2 className="text-3xl pb-2"><b>Policy Updates & Contact Information</b></h2>
+                    <p>Exam Help Online retains the right to make changes to this privacy policy as and when required. If you have any queries or problems, please contact our friendly support team or Email us at info@examhelp.online.</p>
+                    <br />
+                    <h2 className="text-3xl pb-2"><b>Your Rights</b></h2>
+                    <div className="flex justify-center py-8">
+                        <table className="w-[80%]">
+                            <tbody className="border">
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100 ">
+                                    <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap ">
+                                        Right
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
+                                        What it Means
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
+                                        How We Help
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Knowing What We Do
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        You have the right to understand how we handle your personal information.
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        This Privacy Policy explains everything! We're always happy to answer your questions at info@examhelp.online.
 
-                </ul>
-                <br></br>
-                
-                <p>Usage Data is collected automatically when using the Service.</p>
-                <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-                <br></br>
-                <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
-                <br></br>
-                <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
-                <br></br>
-                <h4>Tracking Technologies and Cookies</h4>
-                <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td
+                                        className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Accessing Your Data
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        You can see what information we have about you.
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Just ask our Data Protection Officer (DPO) at info@examhelp.online.
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Fixing Inaccurate Information
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        If something's wrong, you can get it corrected.
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        We'll fix it ourselves and let anyone else who has that information know, too. Contact our support at info@examhelp.online.
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Erasing Your Data
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        You can ask us to delete your information entirely (with some exceptions).
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Contact our support at info@examhelp.online if you want this "right to be forgotten.
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Limiting How We Use Your Data
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        You can control how we use your information.
+                                    </td>
+                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        We'll only store it to remember your request. Contact our support  at info@examhelp.online.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <h2 className="text-3xl pb-2"><b>Contact Us</b></h2>
+                    <p>If you have any questions about this Privacy Policy,<br /> You can contact us:</p>
 
-                <ul>
-                <br></br>
-                <li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
-                <br></br>
-                <li><strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
-                </ul>
+                    <ul>
 
-                <p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. </p>
-                <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
+                        <li>
+                            <p>By email: info@examhelp.online</p>
+                        </li>
 
-                <ul>
+                        <li>
+                            <p>By visiting this page on our website: <a href="https://examhelp-ashy.vercel.app/" rel="external nofollow noopener" target="_blank">https://examhelp.online</a></p>
+                        </li>
 
-                <li>
-                <br></br>   
-                <p><strong>Necessary / Essential Cookies</strong></p>
-                <p>Type: Session Cookies</p>
-                <p>Administered by: Us</p>
-                <p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p>
-                </li>
+                        <li>
+                            <p>By mail: 2685 California Street, Mountain View CA 94040</p>
+                        </li>
 
-                <li>
-                <br></br>
-                <p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>
-                <p>Type: Persistent Cookies</p>
-                <p>Administered by: Us</p>
-                <p>Purpose: These Cookies identify if users have accepted the use of cookies on the Website.</p>
-                </li>
-
-                <li>
-                <br></br>
-                <p><strong>Functionality Cookies</strong></p>
-                <p>Type: Persistent Cookies</p>
-                <p>Administered by: Us</p>
-                <p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p>
-                </li>
-
-                </ul>
-                <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
-                <br></br>
-                <h3>Use of Your Personal Data</h3>
-                <p>The Company may use Personal Data for the following purposes:</p>
-
-                <ul>
-
-                <li>
-                <p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>To provide You</strong> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p>
-                </li>
-                <br></br>
-                <li>
-                <p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p>
-                </li>
-                <br></br>
-                </ul>
-
-                <p>We may share Your personal information in the following situations:</p>
-
-                <ul>
-
-                <li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
-                <br></br>
-                <li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
-                <br></br>
-                <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
-                <br></br>
-                <li><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
-                <br></br>
-                <li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
-                <br></br>
-                <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
-
-                </ul>
-                <br></br>
-                <h3>Retention of Your Personal Data</h3>
-                <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
-                <br></br>
-                <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
-                <br></br>
-
-                <h3>Transfer of Your Personal Data</h3>
-                <p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
-                <br></br>
-                <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
-                <br></br>
-                <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
-                <br></br>
-
-                <h3>Delete Your Personal Data</h3>
-                <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
-                <br></br>
-                <p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
-                <br></br>
-                <p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p>
-                <br></br>
-                <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
-                <br></br>
-
-                <h3>Disclosure of Your Personal Data</h3>
-                <h4>Business Transactions</h4>
-                <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
-                <br></br>
-                <h4>Law enforcement</h4>
-                <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-                <br></br>
-                <h4>Other legal requirements</h4>
-                <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
-                <ul>
-
-                <li>Comply with a legal obligation</li>
-                <li>Protect and defend the rights or property of the Company</li>
-                <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
-                <li>Protect the personal safety of Users of the Service or the public</li>
-                <li>Protect against legal liability</li>
-
-                </ul>
-                <br></br>
-                <h3>Security of Your Personal Data</h3>
-                <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
-                <br></br>
-                <h2>Children's Privacy</h2>
-                <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
-                <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
-                <br></br>
-                <h2>Links to Other Websites</h2>
-                <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
-                <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-                <br></br>
-                <h2>Changes to this Privacy Policy</h2>
-                <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-                <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
-                <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-                <br></br>
-                <h2>Contact Us</h2>
-                <p>If you have any questions about this Privacy Policy,<br></br> You can contact us:</p>
-
-                <ul>
-
-                <li>
-                <p>By email: info@examhelp.online</p>
-                </li>
-
-                <li>
-                <p>By visiting this page on our website: <a href="https://examhelp-ashy.vercel.app/" rel="external nofollow noopener" target="_blank">https://examhelp.online</a></p>
-                </li>
-
-                <li>
-                <p>By mail: 2685 California Street, Mountain View CA 94040</p>
-                </li>
-
-                </ul>
-                </div>  
+                    </ul>
+                </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
 
-//className="flex flex-col items-center justify-center h-screen"
-export default Privacy
+
+export default Page
 
 
 

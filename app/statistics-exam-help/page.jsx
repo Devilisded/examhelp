@@ -147,7 +147,7 @@ const StatisticsExamHelp = () => {
     </div>
 
     <div className="gap-16 items-center pb-3 px-4 mx-auto max-w-screen-xl  lg:px-6">
-      <section className=" container mb-32">
+      <section className=" container">
         {/* <h1 className="text-4xl font-bold">
           An intriguing title for an interesting article
         </h1>
@@ -157,7 +157,7 @@ const StatisticsExamHelp = () => {
           <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div> */}
 
-        <h2 className="text-4xl font-bold mt-5">Statistics Exam Help</h2>
+        <h2 className="text-4xl pb-2"><b>Statistics Exam Help</b></h2>
         <div className="mt-1">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
@@ -183,8 +183,8 @@ const StatisticsExamHelp = () => {
           
         </div>
 
-        <h2 className="text-4xl font-bold mt-5">
-        How Our Experts Will Help You In Your Statistics Exam?
+        <h2 className="text-4xl pb-2"><b>
+        How Our Experts Will Help You In Your Statistics Exam?</b>
         </h2>
         <div className="mt-1">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
@@ -235,9 +235,9 @@ const StatisticsExamHelp = () => {
         
         </div>
 
-        <h2 className="text-4xl font-bold mt-5">
+        <h2 className="text-4xl pb-2"><b>
         Top Benefits Of Choosing Our Statistics Exam Help
-        </h2>
+        </b></h2>
         <div className="mt-1">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
@@ -288,18 +288,18 @@ const StatisticsExamHelp = () => {
 <p className="pb-4">Our commitment to your success doesn't end after the test. We offer continuous support and guidance, so you can reach out whenever you face struggles or need more clarity on stats topics.</p></ul>
 
 <p className="pb-2">By choosing our statistics exam help, you gain access to a complete and custom learning experience designed to help you overcome hurdles, build a strong base in statistics, and achieve your school goals with courage.</p>
+<br/>
 
-
-        <h2 className="text-4xl font-bold mt-5">
-        Practical Tips For Preparing For The Statistics Exam
+        <h2 className="text-4xl pb-2"><b>
+        Practical Tips For Preparing For The Statistics Exam</b>
         </h2>
-        <div className="mt-1">
+        <div className="mt-1 pb-2">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div>
 
-        <p className="pb-4">Getting ready for a statistics test can be challenging but easy with the right plan and tricks.</p>
+        <p className="pb-2">Getting ready for a statistics test can be challenging but easy with the right plan and tricks.</p>
 
 <ul className= "list=disc"><li className= "list-disc pb-2">Fully understand what you learned by reviewing your notes, books, and any extra stuff your teacher gave.</li>
 
@@ -315,13 +315,13 @@ const StatisticsExamHelp = () => {
 
 <li className= "list-disc pb-4">Ask your teacher, teaching assistants, or tutors for help if you get stuck or need more explanation on certain topics.</li></ul>
 
-With hard work, a positive attitude, and the right plan, you can feel confident and do your best on the statistics test.
+<p className="pb-2">With hard work, a positive attitude, and the right plan, you can feel confident and do your best on the statistics test.</p>
 
-
-        <h2 className="text-4xl font-bold mt-5">
-        Is Hiring Experts Beneficial For Your Statistics Exam?
+<br/>
+        <h2 className="text-4xl pb-2"><b>
+        Is Hiring Experts Beneficial For Your Statistics Exam?</b>
         </h2>
-        <div className="mt-1">
+        <div className="mt-1 pb-2">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
@@ -337,11 +337,11 @@ With hard work, a positive attitude, and the right plan, you can feel confident 
 
 <p className="pb-2">While hiring an expert costs money, the investment can pay off by helping you understand better, get better grades, and feel more self-assured in your statistics abilities.</p>
 
-
-<h2 className="text-4xl font-bold mt-5">
-Get Instant Help With Statistics Exam Anywhere In The World!
+<br/>
+<h2 className="text-4xl pb-2"><b>
+Get Instant Help With Statistics Exam Anywhere In The World!</b>
         </h2>
-        <div className="mt-1">
+        <div className="mt-1 pb-2">
           <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
           <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>

@@ -510,17 +510,26 @@ const page = () => {
                 @fat
               </td>
             </tr>
-            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
-              <td
-                colspan="2"
-                class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap"
-              >
-                Larry
+            <tr><td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Mark
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @twitter
+                Otto
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @mdo
               </td>
             </tr>
+            <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Jacob
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Thornton
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td></tr>
             <tr class="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                 Whitney
