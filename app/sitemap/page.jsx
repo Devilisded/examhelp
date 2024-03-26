@@ -11,6 +11,15 @@ const Page = () => {
     },{
       to:"/statistics-exam-help",
       title:"Statistics Exam Help"
+    },{
+      to:"/chemistry-exam-help",
+      title:"Chemistry Exam Help"
+    },{
+      to:"/physics-exam-help",
+      title:"Physics Exam Help"
+    },{
+      to:"//r-programming-exam-help",
+      title:"R Programming Exam Help"
     }
   ]
   return (
