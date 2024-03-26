@@ -6,22 +6,26 @@ import Link from "next/link";
 const Page = () => {
   const slides = [
     {
-      to:"/economics-exam-help",
-      title:"Economics Exam Help"
-    },{
-      to:"/statistics-exam-help",
-      title:"Statistics Exam Help"
-    },{
-      to:"/chemistry-exam-help",
-      title:"Chemistry Exam Help"
-    },{
-      to:"/physics-exam-help",
-      title:"Physics Exam Help"
-    },{
-      to:"//r-programming-exam-help",
-      title:"R Programming Exam Help"
-    }
-  ]
+      to: "/economics-exam-help",
+      title: "Economics Exam Help",
+    },
+    {
+      to: "/statistics-exam-help",
+      title: "Statistics Exam Help",
+    },
+    {
+      to: "/chemistry-exam-help",
+      title: "Chemistry Exam Help",
+    },
+    {
+      to: "/physics-exam-help",
+      title: "Physics Exam Help",
+    },
+    {
+      to: "/r-programming-exam-help",
+      title: "R Programming Exam Help",
+    },
+  ];
   return (
     <div>
       <Header />
@@ -32,10 +36,10 @@ const Page = () => {
             <div className="w-full h-[2px] bg-gray-300/50"></div>
           </div>
           <div className="grid grid-cols-3 gap-5 py-4 ">
-            {slides.map((item,index) => (
+            {slides.map((item, index) => (
               <Link href={item.to} key={index}>
                 <div
-                  className="flex items-center text-blue-600 text-lg gap-1 justify-center"
+                  className="flex items-center text-blue-600 text-lg gap-1 justify-start"
                   key={item}
                 >
                   <div className="text-slate-600">

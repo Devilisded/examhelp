@@ -35,29 +35,13 @@ const Header = () => {
       name: "About Us",
       linkto: "/aboutUs",
     },
-
-    // {
-    //   name: "Service",
-    //   linkto: "/service",
-    // },
-
     {
       name: "Contact Us",
       linkto: "/contact",
     },
-
     {
-      name: "Pricing",
-      linkto: "/#pricing_section",
-    },
-    {
-      name: "Testimonials",
-      linkto: "#",
-    },
-
-    {
-      name: "Offer Now",
-      linkto: "#",
+      name: "Service",
+      linkto: "/sitemap",
     },
   ];
 
@@ -170,13 +154,6 @@ const Header = () => {
                 <Link href="/sitemap">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
                     Service
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/#pricing_section">
-                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Pricing
                   </span>
                 </Link>
               </li>
