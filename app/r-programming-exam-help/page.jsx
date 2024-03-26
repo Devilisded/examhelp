@@ -247,10 +247,10 @@ const Page = () => {
                     </div>
 
                     <p className="pb-2 mt-3">
-                    When it comes to looking for reliable R programming With our <Link href="/"className="text-blue-600"> Exam Help nline</Link>, our service stands out as the premier choice.
+                    When it comes to looking for reliable R programming <Link href="/"className="text-blue-600"> Exam Help Online</Link>, our service stands out as the premier choice.
 
                     </p>
-                    <ol className="list-disc pb-2">
+                    <ol className="list-disc pb-2 ml-7">
                     <li>Experienced R programming tutors with industry expertise</li>
 <li>Personalized guidance tailored to your specific needs</li>
 <li>Step-by-step explanations for better concept clarity</li>
@@ -313,14 +313,14 @@ const Page = () => {
 
 
                     <ul className="ml-7 list-decimal">
-                        <li>Object Coding: Make and use objects, understand inheritance, and apply common object rules in R.</li>
-                        <li>Data Structures: Get good with R's data structures like vectors, matrices, data frames, and lists.</li>
-                        <li>Function Coding: Explore R's support for function concepts like higher-order functions, unnamed functions, and closures.</li>
-                        <li>Data In/Out: Master transfers data between formats such as CSV, Excel, databases, and more.</li>
-                        <li>Data Shaping: Become awesome at reshaping, combining, cutting, and changing data using dplyr and data. table.</li>
-                        <li>Visualizations: Unlock R's picture power with ggplot2, plotly, and other graphing tools.</li>
-                        <li>Stat Models: Use R's stats package to build skills with stat models, such as linear/logistic regression, time series, and more.</li>
-                        <li className="pb-2">Package Handling: Learn how to install, update, and make your own R packages.</li>
+                        <li><strong>Object Coding:</strong> Make and use objects, understand inheritance, and apply common object rules in R.</li>
+                        <li><strong>Data Structures:</strong> Get good with R's data structures like vectors, matrices, data frames, and lists.</li>
+                        <li><strong>Function Coding:</strong> Explore R's support for function concepts like higher-order functions, unnamed functions, and closures.</li>
+                        <li><strong>Data In/Out:</strong> Master transfers data between formats such as CSV, Excel, databases, and more.</li>
+                        <li><strong>Data Shaping:</strong> Become awesome at reshaping, combining, cutting, and changing data using dplyr and data. table.</li>
+                        <li><strong>Visualizations:</strong> Unlock R's picture power with ggplot2, plotly, and other graphing tools.</li>
+                        <li><strong>Stat Models:</strong> Use R's stats package to build skills with stat models, such as linear/logistic regression, time series, and more.</li>
+                        <li className="pb-2"><strong>Package Handling:</strong> Learn how to install, update, and make your own R packages.</li>
                       
                     </ul>
                     <p className="pb-2">

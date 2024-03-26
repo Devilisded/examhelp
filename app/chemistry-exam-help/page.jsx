@@ -261,7 +261,7 @@ const Page = () => {
                     </div>
 
                     <p className="pb-2 mt-3">
-                        If you are thinking about how our online chemistry exam help is better than the other chemistry exam helpers. Moreover, if you looking for the physics exam help, visit our website.
+                        If you are thinking about how our online chemistry exam help is better than the other chemistry exam helpers. Moreover, if you looking for the <Link href="/physics-exam-help"className="text-blue-600">Physics Exam Help Online</Link>, then talk to our coustmer team.
 
                     </p>
 
@@ -303,7 +303,7 @@ const Page = () => {
                     </ul>
 
                     <p className="pb-2">
-                        With our <Link href="/"className="text-blue-600"> Exam Help nline</Link> , you'll have access to a team of dedicated experts who are passionate about helping you succeed. Don't hesitate to take the first step towards mastering chemistry and achieving academic excellence.
+                        With our <Link href="/"className="text-blue-600"> Exam Help Online</Link>, you'll have access to a team of dedicated experts who are passionate about helping you succeed. Don't hesitate to take the first step towards mastering chemistry and achieving academic excellence.
                     </p>
 
                     <h2 className="text-4xl font-bold mt-5">
@@ -348,7 +348,7 @@ const Page = () => {
 
                     </div>
                     <p className="pb-2 mt-3">
-                        Chemistry covers a wide range of topics, from atomic structure to cutting-edge computational chemistry. List of Chemistry Topics
+                        Chemistry covers a wide range of topics, from atomic structure to cutting-edge computational chemistry. List of chemistry topics:
                     </p>
 
 
