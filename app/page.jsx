@@ -22,7 +22,6 @@ import {
 
 import Hero from "@/components/hero/Hero";
 import { IconSchool } from "@tabler/icons-react";
-import Head from "next/head";
 import ExpertCarousel from "@/components/expertCarousel/ExpertCarousel";
 
 const OPTIONS = { align: "start" };
@@ -37,7 +36,7 @@ export default function Home() {
       <section>
         <div className="container mx-auto flex flex-col md:flex-row items-center md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-            <h1 className="text-2xl text-blue-600 tracking-loose">
+            <h1 className="text-xl text-blue-600 tracking-loose">
               Exam Help Online
             </h1>
             <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
@@ -59,7 +58,7 @@ export default function Home() {
               Explore Now
             </a>
           </div>
-          <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+          <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center hidden lg:block">
             <div className="flex gap-10 h-[400px] justify-center">
               <div className="hidden xl:block rounded-full w-1/4  overflow-hidden rotate-[-20deg] object-cover">
                 <img
@@ -75,7 +74,7 @@ export default function Home() {
                   alt="about image"
                 />
               </div>
-              <div className="xl:rounded-full xl:w-1/4  xl:overflow-hidden xl:rotate-[-20deg] object-cover">
+              <div className="xl:rounded-full xl:w-1/4  xl:overflow-hidden xl:rotate-[-20deg] object-cover ">
                 <img
                   className="h-full object-cover"
                   src="/images/about3.webp"
@@ -86,11 +85,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="flex flex-col gap-5 items-center py-10">
+      <div className="flex flex-col gap-5 items-center" id="pricing_section">
         <div className="flex flex-wrap  lg:w-[80%] w-[95%]">
           <div className="w-full px-4">
-            <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+            <div className="text-center mx-auto max-w-[510px]">
               <span className="font-semibold text-lg text-blue-600 mb-2 block">
                 Pricing Table
               </span>
@@ -107,8 +105,9 @@ export default function Home() {
                 Our Pricing Plan
               </h2>
               <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Get started with a free quote now. Our student-friendly exam
+                assistance services begin at the most accessible prices designed
+                to help you master your exams with confidence.
               </p>
             </div>
           </div>
@@ -144,7 +143,8 @@ export default function Home() {
             border-b border-[#F2F2F2]
             "
               >
-                Submit your requirements now to get a quote
+                Submit and let us know your requirements now to get a free
+                quote.
               </p>
               <div className="mb-7">
                 <p className="text-base text-body-color leading-loose mb-1">
@@ -1132,7 +1132,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-5 items-center py-10">
+      <div className="flex flex-col gap-5 items-center">
         <div className="flex flex-wrap justify-center lg:w-[80%] w-[95%]">
           <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
             <div
@@ -1838,7 +1838,7 @@ export default function Home() {
               <h2 className="font-bold text-dark mb-5 text-[42px]">
                 $990
                 <span className="text-base text-body-color font-medium">
-                  Complete Course In Subject Of Your Choice
+                  Complete Course
                 </span>
               </h2>
               <p
@@ -2278,7 +2278,6 @@ export default function Home() {
         <ExpertCarousel slides={SLIDES} options={OPTIONS} />
       </div>
       <Number />
-
       <div className="flex flex-col gap-10 py-10 items-center">
         <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-slate-700 block lg:hidden w-[95%] lg:w-[75%]">
           Expert Assistance On Exam Help Online - Chat Now!
@@ -2406,54 +2405,6 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <Carousel />
-        </div>
-      </div>
-      <div className="bg-white py-10">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-            Trusted by the world’s most innovative teams
-          </h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1 "
-              src="/images/uni1.webp"
-              alt="logo1"
-              width={158}
-              height={48}
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un2.webp"
-              alt="logo2"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un3.webp"
-              alt="logo3"
-              width="158"
-              height="48"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain sm:col-start-2 lg:col-span-1"
-              src="/images/logo-un4.webp"
-              alt="logo4"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2 col-start-2 w-auto object-contain sm:col-start-auto lg:col-span-1"
-              src="/images/logo-un5.webp"
-              alt="logo5"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-          </div>
         </div>
       </div>
       <section className="bg-white">
@@ -2644,6 +2595,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <div className="flex justify-center py-10">
         <div className="flex flex-wrap gap-8 w-[80%] lg:gap-0">
           <div className=" w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
@@ -2686,6 +2638,54 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white py-10">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-center text-2xl font-semibold leading-8 text-gray-900">
+            Trusted by the world’s most innovative teams
+          </h2>
+          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <Image
+              className="col-span-2  w-auto object-contain lg:col-span-1 "
+              src="/images/uni1.webp"
+              alt="logo1"
+              width={158}
+              height={48}
+              loading="lazy"
+            />
+            <Image
+              className="col-span-2  w-auto object-contain lg:col-span-1"
+              src="/images/logo-un2.webp"
+              alt="logo2"
+              width="158"
+              height="48"
+              loading="lazy"
+            />
+            <Image
+              className="col-span-2  w-auto object-contain lg:col-span-1"
+              src="/images/logo-un3.webp"
+              alt="logo3"
+              width="158"
+              height="48"
+            />
+            <Image
+              className="col-span-2  w-auto object-contain sm:col-start-2 lg:col-span-1"
+              src="/images/logo-un4.webp"
+              alt="logo4"
+              width="158"
+              height="48"
+              loading="lazy"
+            />
+            <Image
+              className="col-span-2 col-start-2 w-auto object-contain sm:col-start-auto lg:col-span-1"
+              src="/images/logo-un5.webp"
+              alt="logo5"
+              width="158"
+              height="48"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

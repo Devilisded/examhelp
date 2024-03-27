@@ -19,7 +19,7 @@ const ExpertCarousel = () => {
       name: "Manal Chiguerr",
       description:
         "My work ethic is of a relaxed yet extremely efficient nature, as I believe that a stressed worker is an inefficient worker; I, therefore, like to stay as organized and as up to date as possible.",
-      stars: 4,
+      stars: 5,
       subject: "Nursing",
       img: "/images/ex1.webp",
     },
@@ -27,7 +27,7 @@ const ExpertCarousel = () => {
       name: "Cameron Collins",
       description:
         "I hold a Ph.D. in history, which has given me extensive experience in academic writing and research. My work has been published in peer reviewed academic journals and popular publications.",
-      stars: 4,
+      stars: 5,
       subject: "History",
       img: "/images/ex2.webp",
     },
@@ -43,7 +43,7 @@ const ExpertCarousel = () => {
       name: "Gabriel Walker",
       description:
         "I am Australian ghostwriter of a reputed digital marketing firm. I am a resident of Brisbane and has done his higher education from the University of Melbourne.",
-      stars: 4,
+      stars: 5,
       subject: "History",
       img: "/images/ex4.webp",
     },
@@ -51,7 +51,7 @@ const ExpertCarousel = () => {
       name: "Vishal Bhadwaj",
       description:
         "I am an experienced finance professional with excellent writing, research and analysis capabilities. I have +6 years of professional work experience as an Auditor and Financial Analyst at Deloitte, KPMG and a NASDAQ registered Company.",
-      stars: 4,
+      stars: 5,
       subject: "Accounting",
       img: "/images/ex5.webp",
     },

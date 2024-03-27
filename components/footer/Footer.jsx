@@ -60,7 +60,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="mt-3">
-                  <Link href="/about">
+                  <Link href="/contact">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
                       Contact Us
                     </div>
@@ -95,19 +95,19 @@ const Footer = () => {
               </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
-                  <div className="text-gray-200 cursor-pointer hover:text-white ">
+                  <div className="text-gray-200  hover:text-white ">
                     You get highly qualified and experienced professionals to
                     help you with the best services.
                   </div>
                 </div>
                 <div className="mt-3">
-                  <div className="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200 hover:text-white">
                     We are highly acclaimed in the business when it comes to
                     providing affordable services.
                   </div>
                 </div>
                 <div className="mt-3">
-                  <div className="text-gray-200 cursor-pointer hover:text-white">
+                  <div className="text-gray-200  hover:text-white">
                     We have experts available worldwide to ensure that you are
                     getting assistance whenever you need it.
                   </div>
@@ -120,46 +120,39 @@ const Footer = () => {
               </div>
               <nav className="mb-10 list-none">
                 <div className="mt-3">
-                  <Link href="/">
+                  <Link href="/economics-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Computer Science Help
+                      Economics Exam Help
                     </div>
                   </Link>
                 </div>
 
                 <div className="mt-3">
-                  <Link href="/">
+                  <Link href="/statistics-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Data Science Help
+                      Statistics Exam Help
                     </div>
                   </Link>
                 </div>
                 <div className="mt-3">
-                  <Link href="/">
+                  <Link href="/chemistry-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Programming Help
+                      Chemistry Exam Help
                     </div>
                   </Link>
                 </div>
                 <div className="mt-3">
-                  <Link href="/">
+                  <Link href="/physics-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Statistics Help
+                      Physics Exam Help
                     </div>
                   </Link>
                 </div>
 
                 <div className="mt-3">
-                  <Link href="/">
+                  <Link href="/r-programming-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Java Homework Help
-                    </div>
-                  </Link>
-                </div>
-                <div className="mt-3">
-                  <Link href="/">
-                    <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Python Assignment Help
+                      R Programming Exam Help
                     </div>
                   </Link>
                 </div>
