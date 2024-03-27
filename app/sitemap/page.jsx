@@ -25,6 +25,14 @@ const Page = () => {
       to: "/r-programming-exam-help",
       title: "R Programming Exam Help",
     },
+    {
+      to: "/calculus-exam-help",
+      title: "Calculus Exam Help",
+    },
+    {
+      to: "/sociology-exam-help",
+      title: "Sociology Exam Help",
+    },
   ];
   return (
     <div>
