@@ -23,13 +23,24 @@ const ServiceHero = (props) => {
           <p className="mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-300">
             {props.desc}
           </p>
-          <ul className="list-none mb-4 font-light text-gray-300 md:text-lg lg:text-xl">
-            {props.points?.map((item,index)=>(
-            <li className="flex mb-1" key={index}>
+          <ul className="list-none mb-5 font-light text-white md:text-lg lg:text-xl">
+            <li className="flex mb-1">
               <IconChecks className="me-2" />
-              {item}
+              24 Hours Help Support
             </li>
-            ))}
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> Highly Experienced Experts
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> 15000+ Happy Student Clients
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> On-Time Delivery
+            </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> Affordable Online Exams Help
+              Service
+            </li>
           </ul>
           <div className="flex gap-3 sm:flex-row flex-col">
             <a
