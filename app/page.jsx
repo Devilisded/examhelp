@@ -2395,18 +2395,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full cbg ">
-        <div className="w-full">
-          <div className="z-50 text-center mx-auto max-w-[510px]">
-            <h2 className=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
-              Testimonials
-            </h2>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <Carousel />
-        </div>
-      </div>
       <section className="bg-white">
         <div className="container px-6 py-10 mx-auto">
           <div className="md:flex md:items-center">
@@ -2687,6 +2675,18 @@ export default function Home() {
               loading="lazy"
             />
           </div>
+        </div>
+      </div>
+      <div className="w-full cbg ">
+        <div className="w-full">
+          <div className="z-50 text-center mx-auto max-w-[510px]">
+            <h2 className=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
+              Testimonials
+            </h2>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <Carousel />
         </div>
       </div>
       <div className="py-10">

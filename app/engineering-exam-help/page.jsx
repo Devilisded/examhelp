@@ -219,7 +219,7 @@ const Page = () => {
 
 
                         </p>
-                        <ul className="pb-2 list-disc">
+                        <ul className="pb-2 list-disc ml-7">
                        <li>Basics of Engineering (FE) Test (USA)</li> 
 <li>Skills and Practice of Engineering (PE) Test (USA)</li>
 <li>Grad Skills Test in Engineering (GATE) (India)</li>

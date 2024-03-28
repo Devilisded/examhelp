@@ -14,18 +14,20 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title:"Economics Exam Help",
-  description:"this is a testing description for economics exam help",
-  openGraph:{
-    title:"Akshit is the editor"
-  
-  }
-}
+  title: "Economics Exam Help",
+  description: "this is a testing description for economics exam help",
+  openGraph: {
+    title: "Akshit is the editor",
+  },
+};
 
 const Page = () => {
   return (
     <>
-    <link rel="canonical" href="https://examhelp.online/economics-exam-help"/>
+      <link
+        rel="canonical"
+        href="https://examhelp.online/economics-exam-help"
+      />
       <Navbar />
 
       <ServiceHero
