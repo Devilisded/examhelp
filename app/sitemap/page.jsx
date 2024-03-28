@@ -33,6 +33,14 @@ const Page = () => {
       to: "/sociology-exam-help",
       title: "Sociology Exam Help",
     },
+    {
+      to: "/biology-exam-help",
+      title: "Biology Exam Help",
+    },
+    {
+      to: "/engineering-exam-help",
+      title: "Engineering Exam Help",
+    },
   ];
   return (
     <div>
