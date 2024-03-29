@@ -69,7 +69,7 @@ const Footer = () => {
                 <div className="mt-3">
                   <Link href="/privacy">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                      Privacy
+                      Privacy Policy
                     </div>
                   </Link>
                 </div>
@@ -153,6 +153,13 @@ const Footer = () => {
                   <Link href="/r-programming-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
                       R Programming Exam Help
+                    </div>
+                  </Link>
+                </div>
+                <div className="mt-3">
+                  <Link href="/engineering-exam-help">
+                    <div className="text-gray-200 cursor-pointer hover:text-white">
+                    Engineering Exam Help
                     </div>
                   </Link>
                 </div>
