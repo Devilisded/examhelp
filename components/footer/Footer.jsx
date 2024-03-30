@@ -159,7 +159,7 @@ const Footer = () => {
                 <div className="mt-3">
                   <Link href="/engineering-exam-help">
                     <div className="text-gray-200 cursor-pointer hover:text-white">
-                    Engineering Exam Help
+                      Engineering Exam Help
                     </div>
                   </Link>
                 </div>
@@ -169,10 +169,10 @@ const Footer = () => {
               <div className="flex items-center justify-center font-medium text-white title-font md:justify-start uppercase">
                 <h3>Contact Info</h3>
               </div>
-              <nav className="mb-10 list-none">
+              <nav className="mb-10  list-none">
                 <div className="mt-3">
                   <Link href="https://api.whatsapp.com/send?phone=919053000124">
-                    <div className="flex text-gray-200 cursor-pointer hover:text-white">
+                    <div className="flex text-gray-200 cursor-pointer hover:text-white md:justify-start justify-center">
                       <IconBrandWhatsapp className="mr-3 " /> WhatsApp
                     </div>
                   </Link>
@@ -181,7 +181,7 @@ const Footer = () => {
                 <div className="mt-3">
                   <p className="text-white">We Accept</p>
 
-                  <div className="flex text-gray-200 cursor-pointer hover:text-white">
+                  <div className="flex text-gray-200 cursor-pointer hover:text-white md:justify-start justify-center">
                     <img src="/images/paypal.gif" alt="paypal" />
                     <img src="/images/amazon.gif" alt="amazon" />
                     <img src="/images/master.gif" alt="master" />

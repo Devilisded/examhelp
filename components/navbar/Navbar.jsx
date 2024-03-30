@@ -36,12 +36,16 @@ const Header = () => {
       linkto: "/about",
     },
     {
-      name: "Contact Us",
+      name: "Contact",
       linkto: "/contact",
     },
     {
-      name: "Service",
+      name: "Exam Help",
       linkto: "/sitemap",
+    },
+    {
+      name: "Submit Work",
+      linkto: "/submit-work",
     },
   ];
 
@@ -139,32 +143,29 @@ const Header = () => {
               <li>
                 <Link href="/about">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    About Us
+                    About US
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Contact Us
+                    Contact US
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/sitemap">
                   <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Service
+                    Exam Help
                   </span>
                 </Link>
               </li>
 
               <li>
-                <Link
-                  href="https://api.whatsapp.com/send?phone=919053000124"
-                  target="_blank"
-                >
+                <Link href="/submit-work">
                   <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
-                    Call Now
+                    Submit Work
                   </span>
                 </Link>
               </li>
