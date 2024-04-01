@@ -13,14 +13,22 @@ import {
 } from "@tabler/icons-react";
 
 import { IconSchool } from "@tabler/icons-react";
-const StatisticsExamHelp = () => {
+export const metadata = {
+  title: "Statistics Exam Help",
+  description: "Are you struggling with statistics exams? Get professional statistics exam help from our team of expert statistics tutors. We offer personalized guidance and proven strategies for success.",
+  openGraph: {
+      title: "#1 Statistics Exam Help (Top Rated Tutors for Statistics Exam Help)"
+
+  }
+}
+const Page = () => {
   return (
     <>
     <Navbar />
 
     <ServiceHero
     
-      title="#1 Statistics Exam Help | World Class Tutors for Statistics Exam Help"
+      title="#1 Statistics Exam Help (Top Rated Tutors for Statistics Exam Help)"
       desc="Are you struggling with statistics exams? Get professional statistics exam help from our team of expert statistics tutors. We offer personalized guidance and proven strategies for success."
     />
     <div className="py-10 flex flex-col gap-14">
@@ -426,4 +434,4 @@ Get Instant Help With Statistics Exam Anywhere In The World!</b>
   )
 }
 
-export default StatisticsExamHelp;
+export default Page;

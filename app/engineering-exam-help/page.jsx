@@ -19,7 +19,7 @@ export const metadata = {
     title: "Engineering Exam Help ",
     description: "Our engineering exam help service provides high-class help from experienced professionals. Get personalized guidance, exam strategies, and subject mastery to ace your engineering exams.",
     openGraph: {
-        title: "Engineering Exam Help: Expert Guidance for Academic Success"
+        title: "Engineering Exam Help (Expert Guidance for Academic Success)"
 
     }
 }
@@ -425,7 +425,7 @@ const Page = () => {
 </p>
           
 
-                    <p className="text-2xl font-bold mt-5"><strong>No Limits of Geographical Boundaries</strong></p>
+                    <p className="text-xl font-bold mt-5"><b>No Limits of Geographical Boundaries</b></p>
              
             
                     <p className="pb-2 mt-3">

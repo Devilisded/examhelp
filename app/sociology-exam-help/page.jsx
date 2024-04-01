@@ -18,7 +18,7 @@ export const metadata = {
     title: "Sociology Exam Help",
     description: "Struggling with sociology exams? Our team of expert tutors provides personalized guidance, exam strategies, and comprehensive support to help you ace your sociology exams with confidence. ",
     openGraph: {
-        title: "#1 Sociology Exam Help | 24/7 Expert Tutors Available for Exam Success"
+        title: "#1 Sociology Exam Help (24/7 Expert Tutors Available for Exam Success) "
 
     }
 }
