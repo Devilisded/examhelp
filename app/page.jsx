@@ -19,7 +19,7 @@ import {
   IconCoffee,
   IconMicroscope,
 } from "@tabler/icons-react";
-
+import Link from "next/link";
 import Hero from "@/components/hero/Hero";
 import { IconSchool } from "@tabler/icons-react";
 import ExpertCarousel from "@/components/expertCarousel/ExpertCarousel";
@@ -160,8 +160,9 @@ export default function Home() {
                   No SignUp Or Account Needed
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -175,9 +176,10 @@ export default function Home() {
             hover:text-white hover:bg-blue-600 hover:border-bg-blue-600
             transition
             "
-              >
-                Choose Personal
-              </span>
+                >
+                  Choose Personal
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -501,8 +503,9 @@ export default function Home() {
                   Project Manager
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -516,9 +519,10 @@ export default function Home() {
             hover:bg-opacity-90
             transition
             "
-              >
-                Choose Business
-              </span>
+                >
+                  Choose Business
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -841,8 +845,9 @@ export default function Home() {
                   24x7 Email & Chat
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -856,9 +861,10 @@ export default function Home() {
             hover:text-white hover:bg-blue-600 hover:border-blue-600
             transition
             "
-              >
-                Choose Professional
-              </span>
+                >
+                  Choose Professional
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1185,8 +1191,9 @@ export default function Home() {
                   Confidentiality Guaranteed
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -1200,9 +1207,10 @@ export default function Home() {
             hover:text-white hover:bg-blue-600 hover:border-bg-blue-600
             transition
             "
-              >
-                Choose Personal
-              </span>
+                >
+                  Choose Personal
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1525,8 +1533,9 @@ export default function Home() {
                   24x7 Chat Support
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -1540,9 +1549,10 @@ export default function Home() {
             hover:bg-opacity-90
             transition
             "
-              >
-                Choose Business
-              </span>
+                >
+                  Choose Business
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1865,8 +1875,9 @@ export default function Home() {
                   Certificate From US Inc.
                 </p>
               </div>
-              <span
-                className="
+              <Link href="/submit-work">
+                <span
+                  className="
             w-full
             block
             text-base
@@ -1880,9 +1891,10 @@ export default function Home() {
             hover:text-white hover:bg-blue-600 hover:border-blue-600
             transition
             "
-              >
-                Choose Professional
-              </span>
+                >
+                  Choose Professional
+                </span>
+              </Link>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
