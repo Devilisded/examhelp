@@ -57,6 +57,14 @@ const Page = () => {
       to: "/finance-exam-help",
       title: "Finance Exam Help",
     },
+    {
+      to: "/management-exam-help",
+      title: "Management Exam Help",
+    },
+    {
+      to: "/nursing-exam-help",
+      title: "Nursing Exam Help",
+    },
   ];
   return (
     <div>
