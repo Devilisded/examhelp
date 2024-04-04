@@ -47,7 +47,7 @@ const Page = async ({ params }) => {
 
             <img
               src={post.coverImage}
-              class="w-[70%] max-h-[400px] object-cover lg:rounded"
+              class="md:w-[70%] max-h-[400px] object-cover lg:rounded w-full"
             />
           </div>
 
