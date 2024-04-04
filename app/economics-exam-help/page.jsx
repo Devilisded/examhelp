@@ -16,9 +16,9 @@ import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
   title: "Economics Exam Help",
-  description: "this is a testing description for economics exam help",
+  description: "Our knowledgeable tutors provide personalized guidance and proven strategies to help you master economic concepts and excel academically.",
   openGraph: {
-    title: "Akshit is the editor",
+    title: "Economics Exam Help [Expert Guidance for Academic Success]",
   },
 };
 

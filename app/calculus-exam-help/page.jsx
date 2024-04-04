@@ -15,13 +15,13 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Calculus Exam Help",
-  description:
-    "Get expert calculus exam help from our highly qualified tutors. We provide personalized guidance, practice problems, and exam strategies to ensure your success. ",
-  openGraph: {
-    title: "#1 Calculus Exam Help | Get Expert Tutors At One Click!",
-  },
-};
+    title: "Calculus Exam Help",
+    description: "Get expert calculus exam help from our highly qualified tutors. We provide personalized guidance, practice problems, and exam strategies to ensure your success. ",
+    openGraph: {
+        title: "#1 Calculus Exam Help | Get Expert Tutors At One Click!"
+
+    }
+}
 
 const Page = () => {
   return (

@@ -1,9 +1,7 @@
-'use client'
+import Card from "@/components/card/Card";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/navbar/Navbar";
-import React, { useState } from "react";
-
-import Card from "@/components/card/Card";
+import React from "react";
 
 const page = () => {
   return (
@@ -20,8 +18,7 @@ const page = () => {
             </h1>
           </div>
 
-          <div>
-          </div>
+          <div></div>
 
           <div class="mt-5 max-w-3xl text-center mx-auto">
             <p class="text-lg text-gray-500 dark:text-gray-400">
@@ -41,14 +38,7 @@ const page = () => {
           </h1>
         </div>
         <div class="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10">
-          
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
-
+          <Card />
         </div>
       </section>
 

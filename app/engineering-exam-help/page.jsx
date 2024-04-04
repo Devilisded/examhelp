@@ -15,13 +15,13 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Engineering Exam Help ",
-  description:
-    "Our engineering exam help service provides high-class help from experienced professionals. Get personalized guidance, exam strategies, and subject mastery to ace your engineering exams.",
-  openGraph: {
-    title: "Engineering Exam Help: Expert Guidance for Academic Success",
-  },
-};
+    title: "Engineering Exam Help ",
+    description: "Our engineering exam help service provides high-class help from experienced professionals. Get personalized guidance, exam strategies, and subject mastery to ace your engineering exams.",
+    openGraph: {
+        title: "Engineering Exam Help: Expert Guidance for Academic Success"
+
+    }
+}
 
 const Page = () => {
   return (
@@ -2552,41 +2552,41 @@ const Page = () => {
             in every stage of your engineering education.
           </p>
 
-          <h2 className="text-4xl font-bold mt-5">
-            Get Quality Engineering Exam Help Anywhere
-          </h2>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-          <p className="pb-2 mt-3">
-            In recent times, the search for help in studies has become highly
-            dependent on how easily it can be accessed and applied. This is
-            something that our online engineering examination assistance service
-            comprehends by ensuring that people receive helpful support from any
-            place at any moment.
-          </p>
-          <p className="pb-2 mt-3">
-            It doesn’t matter where you are or what your timetable is; we have
-            created our interface to allow you to experience the best exam help.
-          </p>
+                    <h2 className="text-4xl font-bold mt-5">
+                    Get Quality Engineering Exam Help Anywhere
 
-          <p className="text-2xl font-bold mt-5">
-            <strong>No Limits of Geographical Boundaries</strong>
-          </p>
 
-          <p className="pb-2 mt-3">
-            Our online services are there to ensure that we do not limit your
-            access to expert advice based on geographical location. Our virtual
-            platform enables you to interact with our panel of engineering
-            experts irrespective of whether you are studying on campus, at home,
-            or even while one is traveling. You only need an internet connection
-            and a few clicks on your computer, tablet, or phone to gain access
-            to knowledgeable professionals who have all the answers.
-          </p>
-        </section>
-      </div>
+                    </h2>
+                    <div className="mt-1">
+                        <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+                        <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                        <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+
+                    </div>
+                    <p className="pb-2 mt-3">
+                    In recent times, the search for help in studies has become highly dependent on how easily it can be accessed and applied. This is something that our online engineering examination assistance service comprehends by ensuring that people receive helpful support from any place at any moment. 
+
+                    </p>
+                    <p className="pb-2 mt-3">
+                    It doesn’t matter where you are or what your timetable is; we have created our interface to allow you to experience the best exam help.
+</p>
+          
+
+                    <p className="text-2xl font-bold mt-5"><strong>No Limits of Geographical Boundaries</strong></p>
+             
+            
+                    <p className="pb-2 mt-3">
+                    Our online services are there to ensure that we do not limit your access to expert advice based on geographical location. Our virtual platform enables you to interact with our panel of engineering experts irrespective of whether you are studying on campus, at home, or even while one is traveling. You only need an internet connection and a few clicks on your computer, tablet, or phone to gain access to knowledgeable professionals who have all the answers.
+
+
+                    </p>
+                
+
+                
+                    
+               
+                </section>
+            </div>
 
       <div className="w-full cbg ">
         <div className="w-full">
