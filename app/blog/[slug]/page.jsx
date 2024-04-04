@@ -1,16 +1,33 @@
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/navbar/Navbar";
 import { getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdowntohtml";
 import React from "react";
+import "./markdownstyling.css";
+export function generateMetadata({ params }) {
+  const post = getPostBySlug(params.slug);
+
+  if (!post) {
+    return notFound();
+  }
+
+  const title = post.title;
+
+  return {
+    title,
+    description: post.description,
+    openGraph: {
+      title: post.ogtitle,
+    },
+  };
+}
 
 const Page = async ({ params }) => {
   const post = getPostBySlug(params.slug);
+
   const content = await markdownToHtml(post.content || "");
 
-  return ( 
-    // <div>
-
-    // </div>
+  return (
     <>
       <Header />
       <div class="max-w-screen-lg mx-auto">
@@ -29,43 +46,44 @@ const Page = async ({ params }) => {
             </div>
 
             <img
-              src="https://images.unsplash.com/photo-1587614387466-0a72ca909e16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+              src={post.coverImage}
               class="w-[70%] max-h-[400px] object-cover lg:rounded"
             />
           </div>
 
           <div class="flex flex-col lg:flex-row lg:space-x-12">
             <div class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
-                 <div className="markdown" dangerouslySetInnerHTML={{ __html: content }} />
+              <div
+                className="markdown"
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
             </div>
             <div class="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
               <div class="p-4 border-t border-b md:border md:rounded">
                 <div class="flex py-2">
                   <img
-                    src= {post.coverImage}
+                    src={post.coverImage}
                     class="h-10 w-10 rounded-full mr-2 object-cover"
                   />
                   <div>
                     <p class="font-semibold text-gray-700 text-sm">
                       {" "}
-                     {post.author}{" "}
+                      {post.author}{" "}
                     </p>
                     <p class="font-semibold text-gray-600 text-xs"> Editor </p>
                   </div>
                 </div>
-                <p class="text-gray-700 py-3">
-                  Mike writes about technology Yourself required no at thoughts
-                  delicate landlord it be. Branched dashwood do is whatever it.
-                </p>
-                <button class="px-2 py-1 text-gray-100 bg-green-700 flex w-full items-center justify-center rounded">
+                <p class="text-gray-700 py-3">{post.description}</p>
+                {/* <button class="px-2 py-1 text-gray-100 bg-green-700 flex w-full items-center justify-center rounded">
                   Follow
                   <i class="bx bx-user-plus ml-2"></i>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
         </main>
       </div>
+      <Footer />
     </>
   );
 };
