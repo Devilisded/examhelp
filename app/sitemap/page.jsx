@@ -65,6 +65,14 @@ const Page = () => {
       to: "/nursing-exam-help",
       title: "Nursing Exam Help",
     },
+    {
+      to: "/psychology-exam-help",
+      title: "Psychology Exam Help",
+    },
+    {
+      to: "/english-exam-help",
+      title: "English Exam Help",
+    },
   ];
   return (
     <div>

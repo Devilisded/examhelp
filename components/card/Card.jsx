@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import ab from "../../public/images/expert4.jpg";
 
 const Card = () => {
   return (
     <div className=" py-4  shadow rounded-xl shadow-[#666EF6]  ">
       <div className="flex md:flex-row flex-col rounded-xl justify-around ">
         <div className="flex justify-center items-center">
-          <img
-            src="https://st3.depositphotos.com/1017228/18878/i/450/depositphotos_188781580-stock-photo-handsome-cheerful-young-man-standing.jpg"
-            className="object-center object-cover h-40 w-40 rounded-xl"
-            alt=""
+          <Image
+            class="object-center object-cover h-40 w-40 rounded-xl"
+            src={ab}
+            alt="photo"
           />
         </div>
 
@@ -92,3 +93,26 @@ const Card = () => {
 };
 
 export default Card;
+// <div class=" gap-3 flex items-center justify-center">
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     width="24"
+//     height="24"
+//     viewBox="0 0 24 24"
+//     fill="none"
+//     stroke="currentColor"
+//     stroke-width="2"
+//     stroke-linecap="round"
+//     stroke-linejoin="round"
+//     class="icon icon-tabler icons-tabler-outline icon-tabler-aperture bg-green-500 text-white rounded-full"
+//   >
+//     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+//     <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+//     <path d="M3.6 15h10.55" />
+//     <path d="M6.551 4.938l3.26 10.034" />
+//     <path d="M17.032 4.636l-8.535 6.201" />
+//     <path d="M20.559 14.51l-8.535 -6.201" />
+//     <path d="M12.257 20.916l3.261 -10.034" />
+//   </svg>
+//   <p className="text-lg font-semibold">Verified</p>
+// </div>

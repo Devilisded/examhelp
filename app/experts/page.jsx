@@ -3,7 +3,7 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/navbar/Navbar";
 import React from "react";
 
-const Page = () => {
+const page = () => {
   return (
     <div>
       <Header />
@@ -47,4 +47,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
