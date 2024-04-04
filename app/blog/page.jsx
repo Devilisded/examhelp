@@ -6,11 +6,13 @@ import Footer from "@/components/footer/Footer";
 
 const Page = () => {
   const post = getAllPosts();
+  console.log(post);
   const heroPost = post[0];
   const morePost = post.slice(1);
   return (
     <div>
       <Header />
+
       {/* <div className="py-10 flex flex-col gap-10">
         {post.map((item) => (
           <div className="dark:bg-gray-100 dark:text-gray-900" key={item.slug}>
@@ -364,56 +366,10 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div class="grid lg:grid-cols-2 gap-6">
-          {morePost.map((item, index) => (
-            <Link
-              class="group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              href={`/blog/${item.slug}`}
-              key={index}
-            >
-              <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:size-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]">
-                <div className="bg-black/30 z-10 size-full absolute top-0 start-0"></div>
-                <img
-                  class="size-full absolute top-0 start-0 object-cover"
-                  src={item.coverImage}
-                  alt="Image Description"
-                />
-              </div>
-
-              <div class="absolute top-0 inset-x-0 z-10">
-                <div class="p-4 flex flex-col h-full sm:p-6">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0">
-                      <img
-                        class="size-[46px] border-2 border-white rounded-full"
-                        src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                        alt="Image Description"
-                      />
-                    </div>
-                    <div class="ms-2.5 sm:ms-4">
-                      <h4 class="font-semibold text-white">{item.author}</h4>
-                      <p class="text-xs text-white/[.8]">
-                        {Date(item.date).slice(4, 16)}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="absolute bottom-0 inset-x-0 z-10">
-                <div class="flex flex-col h-full p-4 sm:p-6">
-                  <h3 class="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/[.8]">
-                    {item.title}
-                  </h3>
-                  <p class="mt-2 text-white/[.8]">{item.description}</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+       
       </div>
 
-      {/* {post.map((post) => (
+    {/* {post.map((post) => (
         <Link href={`/blog/${post.slug}`} key={post.slug}>
           <h1>{post.title}</h1>
         </Link>
