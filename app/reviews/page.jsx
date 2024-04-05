@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import axios from "axios";
@@ -9,18 +9,11 @@ import { useRouter } from "next/navigation";
 const Reviews = async ({ searchParams }) => {
   const router = useRouter();
   const currentPage = searchParams["page"] || 1;
-  //   const [currentPage, setCurrentPage] = useState(1);
   const recordsPerPage = 21;
   const lastIndex = currentPage * recordsPerPage;
   let firstIndex = lastIndex - recordsPerPage;
-  //   const [data, setData] = useState([]);
   const res = await fetch(process.env.webURL + "/api/reviews");
   const data = await res.json();
-  //   useEffect(() => {
-  //     axios.get(process.env.webURL + "/api/reviews").then((res) => {
-  //       setData(res.data);
-  //     });
-  //   }, []);
   const records = data.slice(firstIndex, lastIndex);
   const nPages = Math.ceil(data.length / recordsPerPage);
   return (
@@ -64,14 +57,6 @@ const Reviews = async ({ searchParams }) => {
                 key={index}
               >
                 <div className="flex gap-4">
-                  <img
-                    className="w-12 h-12 rounded-full"
-                    src="https://randomuser.me/api/portraits/women/12.jpg"
-                    alt="user avatar"
-                    width="400"
-                    height="400"
-                    loading="lazy"
-                  />
                   <div>
                     <h6 className="text-lg font-medium text-gray-700 dark:text-white">
                       {item.author_name}
@@ -81,41 +66,16 @@ const Reviews = async ({ searchParams }) => {
                     </p>
 
                     <div className="flex items-center mt-1">
-                      <svg
-                        className="w-4 h-4 fill-current text-yellow-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                      <svg
-                        className="w-4 h-4 fill-current text-yellow-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                      <svg
-                        className="w-4 h-4 fill-current text-yellow-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                      <svg
-                        className="w-4 h-4 fill-current text-yellow-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                      <svg
-                        className="w-4 h-4 fill-current text-yellow-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
+                      {Array.from(Array(5).keys()).map((item) => (
+                        <svg
+                          className="w-4 h-4 fill-current text-yellow-400"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          key={item}
+                        >
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                        </svg>
+                      ))}
                     </div>
                   </div>
                 </div>
