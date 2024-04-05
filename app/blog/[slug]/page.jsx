@@ -4,6 +4,7 @@ import { getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdowntohtml";
 import React from "react";
 import "./markdownstyling.css";
+import { IconChevronDown } from "@tabler/icons-react";
 export function generateMetadata({ params }) {
   const post = getPostBySlug(params.slug);
 
@@ -26,7 +27,7 @@ const Page = async ({ params }) => {
   const post = getPostBySlug(params.slug);
 
   const content = await markdownToHtml(post.content || "");
-
+  const faq = post.faq;
   return (
     <>
       <Header />
@@ -54,7 +55,7 @@ const Page = async ({ params }) => {
           <div class="flex flex-col lg:flex-row lg:space-x-12">
             <div class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
               <div
-                className="markdown"
+                className="markdown py-4"
                 dangerouslySetInnerHTML={{ __html: content }}
               />
             </div>
@@ -74,14 +75,35 @@ const Page = async ({ params }) => {
                   </div>
                 </div>
                 <p class="text-gray-700 py-3">{post.description}</p>
-                {/* <button class="px-2 py-1 text-gray-100 bg-green-700 flex w-full items-center justify-center rounded">
-                  Follow
-                  <i class="bx bx-user-plus ml-2"></i>
-                </button> */}
               </div>
             </div>
           </div>
         </main>
+        <div className="py-10 px-5 ">
+          <div className="flex flex-col items-center">
+            <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
+            <p className="text-neutral-500 text-xl mt-3">
+              Frequenty Asked Questions
+            </p>
+          </div>
+          <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
+            {faq.map((item, index) => (
+              <div className="py-5 w-full" key={index}>
+                <details className="group">
+                  <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
+                    <span>{item.question}</span>
+                    <span className="transition group-open:rotate-180">
+                      <IconChevronDown />
+                    </span>
+                  </summary>
+                  <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                    {item.answer}
+                  </p>
+                </details>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
       <Footer />
     </>

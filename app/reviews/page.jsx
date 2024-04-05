@@ -1,21 +1,28 @@
-"use client";
-import React from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import axios from "axios";
-import { Pagination } from "@mui/material";
-import { useRouter } from "next/navigation";
+import pool from "../libs/mysql";
+import Pagination1 from "./Pagination";
+
+const getData = async (currentPage) => {
+  try {
+    const db = await pool;
+    const query = "select * from reviews where id > ? LIMIT 21";
+    const q = "SELECT COUNT(*) as total from reviews";
+
+    const [rows] = await db.query(query, (currentPage - 1) * 21);
+    const [res] = await db.query(q);
+
+    return { data: rows, count: res };
+  } catch (error) {
+    return error;
+  }
+};
 
 const Reviews = async ({ searchParams }) => {
-  const router = useRouter();
   const currentPage = searchParams["page"] || 1;
+  const res = await getData(currentPage);
   const recordsPerPage = 21;
-  const lastIndex = currentPage * recordsPerPage;
-  let firstIndex = lastIndex - recordsPerPage;
-  const res = await fetch(process.env.webURL + "/api/reviews");
-  const data = await res.json();
-  const records = data.slice(firstIndex, lastIndex);
-  const nPages = Math.ceil(data.length / recordsPerPage);
+  const nPages = Math.ceil(res.count[0].total / recordsPerPage);
   return (
     <div>
       <Navbar />
@@ -51,7 +58,7 @@ const Reviews = async ({ searchParams }) => {
           </div>
 
           <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
-            {records.map((item, index) => (
+            {res.data.map((item, index) => (
               <div
                 className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none"
                 key={index}
@@ -90,12 +97,7 @@ const Reviews = async ({ searchParams }) => {
                       disabled:pointer-events-none 
                       disabled:opacity-50 disabled:shadow-none"
           >
-            <Pagination
-              count={nPages}
-              size="large"
-              page={parseInt(currentPage)}
-              onChange={(e, value) => router.push(`/reviews?page=${value}`)}
-            />
+            <Pagination1 Pages={nPages} currentPage={currentPage} />
           </div>
         </div>
       </div>

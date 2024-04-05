@@ -6,6 +6,11 @@ date: "2020-03-16T05:35:07.322Z"
 author: JJ Kasper
 ogtitle: "#1 Examhelp website"
 category: "Exam Help"
+faq:
+  [
+    { question: "Is Akshit a good developer?", answer: "Yes he is " },
+    { question: "Is Amar into girls?", answer: "Yes he is" },
+  ]
 ---
 
 This is for the testing of this app

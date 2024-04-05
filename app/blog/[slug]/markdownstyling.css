@@ -2,7 +2,6 @@
   @apply text-lg leading-relaxed;
 }
 
-
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
@@ -16,10 +15,21 @@
 .markdown h3 {
   @apply text-2xl  leading-snug;
 }
-.markdown ul{
+.markdown ul {
   @apply list-disc;
 }
-.markdown ol{
+.markdown ol {
   @apply list-decimal;
 }
-
+.markdown p {
+  @apply py-1;
+}
+.markdown ul {
+  @apply ml-10;
+}
+.markdown ol {
+  @apply ml-10;
+}
+.markdown ol h3 {
+  @apply -ml-12 py-4;
+}

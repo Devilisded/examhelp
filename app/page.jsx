@@ -2701,7 +2701,7 @@ export default function Home() {
           <Carousel />
         </div>
       </div>
-      <div className="py-10">
+      <div className="py-10 px-5 ">
         <div className="flex flex-col items-center">
           <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
           <p className="text-neutral-500 text-xl mt-3">
