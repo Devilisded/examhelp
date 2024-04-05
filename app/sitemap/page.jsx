@@ -73,6 +73,10 @@ const Page = () => {
       to: "/english-exam-help",
       title: "English Exam Help",
     },
+    {
+      to: "/history-exam-help",
+      title: "History Exam Help",
+    },
   ];
   return (
     <div>
