@@ -5,7 +5,6 @@ import axios from "axios";
 import React from "react";
 
 const Page = async () => {
-  const { data } = await axios.get(process.env.webURL + "/api/experts");
   return (
     <div>
       <Header />
@@ -40,9 +39,7 @@ const Page = async () => {
           </h1>
         </div>
         <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10">
-          {data.map((item, index) => (
-            <Card />
-          ))}
+          <Card />
         </div>
       </section>
 
