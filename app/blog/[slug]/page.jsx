@@ -87,7 +87,7 @@ const Page = async ({ params }) => {
             </p>
           </div>
           <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
-            {faq.map((item, index) => (
+            {faq?.map((item, index) => (
               <div className="py-5 w-full" key={index}>
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
