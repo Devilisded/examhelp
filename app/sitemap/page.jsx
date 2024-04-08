@@ -81,6 +81,10 @@ const Page = () => {
       to: "/business-exam-help",
       title: "Business Exam Help",
     },
+    {
+      to: "/geometry-exam-help",
+      title: "Geometry Exam Help",
+    },
   ];
   return (
     <div>
