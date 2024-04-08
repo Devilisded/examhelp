@@ -3,8 +3,32 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/navbar/Navbar";
 import axios from "axios";
 import React from "react";
+import pool from "../libs/mysql";
+import Link from "next/link";
+import Expagination from "./Expagination";
 
-const Page = async () => {
+const getData = async (currentPage) => {
+  try {
+    const db = await pool;
+    const query =
+      "SELECT * from experts LEFT JOIN expert_subjects ON experts.SubjectID = expert_subjects.sid WHERE experts.id > ? limit 12";
+    const q = "SELECT COUNT(*) as total from experts";
+
+    const [rows] = await db.query(query, (currentPage - 1) * 12);
+    const [total] = await db.query(q);
+    return { data: rows, total: total };
+  } catch (error) {
+    return error;
+  }
+};
+
+const Page = async ({ searchParams }) => {
+  const currentPage = searchParams["page"] || 1;
+  const res = await getData(currentPage);
+  // console.log(res);
+  const recordsPerPage = 12;
+  const nPages = Math.ceil(res.total[0].total / recordsPerPage);
+
   return (
     <div>
       <Header />
@@ -39,9 +63,73 @@ const Page = async () => {
           </h1>
         </div>
         <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10">
-          <Card />
+          {/* <Card /> */}
+          {res.data.map((item, index) => (
+            <div class="max-w-3xl w-full mx-auto z-10" key={index}>
+              <div class="bg-white border border-white shadow-lg  rounded-3xl p-4 m-4">
+                <div class="flex-none sm:flex gap-3">
+                  <div class=" relative h-32 w-32   sm:mb-0 mb-3">
+                    <img
+                      src={`/experts/${item.id}.jpg`}
+                      alt="aji"
+                      class=" w-32 h-32 object-cover rounded-2xl"
+                    />
+                  </div>
+                  <div class="flex flex-col">
+                    <div class="flex items-center justify-between sm:mt-2">
+                      <div class="flex items-center">
+                        <div class="flex flex-col">
+                          <div class="w-full flex-none text-lg text-gray-800 font-bold leading-none">
+                            {item.Name}
+                          </div>
+                          <div class="flex-auto text-gray-500 my-1">
+                            <span class="mr-3 capitalize">{item.Title}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="flex">
+                        {Array.from(Array(5).keys()).map((item, index) => (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5 text-yellow-400"
+                            key={index}
+                          >
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                          </svg>
+                        ))}
+                      </div>
+                    </div>
+                    <div class="flex pt-2  text-sm text-gray-500">
+                      <Link
+                        href={`/experts/${
+                          item.Name.toLowerCase().replaceAll(" ", "-") +
+                          "-" +
+                          item.id
+                        }`}
+                        className="shadow shadow-blue-600 text-blue-600 py-1 px-2 rounded hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out"
+                      >
+                        Hire Expert
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
+      <div
+        className="flex justify-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center
+                     text-gray-900 uppercase align-middle transition-all rounded-full select-none
+                      disabled:pointer-events-none 
+                      disabled:opacity-50 disabled:shadow-none"
+      >
+        <Expagination Pages={nPages} currentPage={currentPage} />
+      </div>
 
       <Footer />
     </div>

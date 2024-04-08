@@ -41,7 +41,7 @@ const Contact = () => {
         }}
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
         open={snack}
-        autoHideDuration={2000}
+        autoHideDuration={3000}
         onClose={() => setSnack(false)}
         message={"Thank You, we will get back to you soon."}
       />

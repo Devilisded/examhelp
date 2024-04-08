@@ -126,7 +126,7 @@ const Page = () => {
           }}
           anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
           open={snackQ}
-          autoHideDuration={1000}
+          autoHideDuration={3000}
           onClose={() => setSnackQ(false)}
           message={
             "Thank You for showing interest, we will get back to you soon."
