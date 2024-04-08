@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "psychology Exam Help",
+  title: "Psychology Exam Help",
   description: "Are you struggling with psychology exams? Get expert help from our team of qualified tutors. We offer personalized guidance, exam tips, and strategies to boost your confidence and scores.",
   openGraph: {
       title: "#1 Psychology Exam Help - Expert Helpers for Academic Success"

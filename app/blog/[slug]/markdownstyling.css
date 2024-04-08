@@ -33,3 +33,9 @@
 .markdown ol h3 {
   @apply -ml-12 py-4;
 }
+.markdown a{
+  @apply text-blue-600;
+}
+.markdown a:hover{
+  @apply underline;
+}
