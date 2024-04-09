@@ -466,13 +466,13 @@ By following these plans, you'll be well-prepared to handle the challenges of ma
             Frequenty Asked Questions
           </p>
         </div>
-        <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
-          <div className="py-5 w-full">
+        <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8" itemType="https://schema.org/Question">
+          <div className="py-5 w-full ">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
                 <span> How can expert assistance improve my performance in management exams?
 </span>
-                <span className="transition group-open:rotate-180">
+                <span className="transition group-open:rotate-180" itemType="https://schema.org/Answer">
                   <IconChevronDown />
                 </span>
               </summary>
@@ -483,7 +483,7 @@ By following these plans, you'll be well-prepared to handle the challenges of ma
               
             </details>
           </div>
-          <div className="py-5">
+          <div className="py-5" itemType="https://schema.org/Question">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
                 <span>
@@ -491,7 +491,7 @@ By following these plans, you'll be well-prepared to handle the challenges of ma
                   Are management exam help services affordable?
 
                 </span>
-                <span className="transition group-open:rotate-180">
+                <span className="transition group-open:rotate-180" itemType="https://schema.org/Answer">
                   <IconChevronDown />
                 </span>
               </summary>
@@ -500,14 +500,14 @@ By following these plans, you'll be well-prepared to handle the challenges of ma
               </p>
             </details>
           </div>
-          <div className="py-5">
+          <div className="py-5" itemType="https://schema.org/Question" >
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
                 <span>
                   {" "}
                   When choosing a management exam help service, can I trust online reviews?
                 </span>
-                <span className="transition group-open:rotate-180">
+                <span className="transition group-open:rotate-180" itemType="https://schema.org/Answer">
                   <IconChevronDown />
                 </span>
               </summary>
