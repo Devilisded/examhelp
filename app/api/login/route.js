@@ -45,7 +45,7 @@ export async function POST(req) {
                                             data.name
                                           } and his email is ${
           data.email
-        } and his phone number is ${data.phone}</p>
+        } and his phone number is +${data.phone}</p>
          <p style="margin-bottom: 10px; font-size: 16px;">His Subject is ${
            data.subject
          } the time of expected delivery is ${data.datetime}</p>

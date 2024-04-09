@@ -7,9 +7,11 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const Header = () => {
+  const path = usePathname();
   const [state, setState] = useState({
     add: false,
   });
@@ -48,7 +50,6 @@ const Header = () => {
       linkto: "/submit-work",
     },
   ];
-
   const list = (anchor) => (
     <Box sx={{ width: 300 }} role="presentation">
       {anchor === "add" ? (
@@ -133,42 +134,21 @@ const Header = () => {
           </div>
           <div className="hidden lg:block">
             <ul className="flex px-1 gap-3 text-lg">
-              <li>
-                <Link href="/">
-                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Home
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    About US
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/reviews">
-                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Reviews
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/sitemap">
-                  <span className="p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500">
-                    Exam Help
-                  </span>
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/submit-work">
-                  <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
-                    Submit Work
-                  </span>
-                </Link>
-              </li>
+              {items.map((item, index) => (
+                <li key={index}>
+                  <Link href={item.linkto}>
+                    <span
+                      className={
+                        path === item.linkto
+                          ? "p-2 border-b-2 cursor-pointer font-semibold text-[15px] uppercase  text-orange-500 border-orange-500"
+                          : "p-2 hover:border-b-2 cursor-pointer font-semibold text-[15px] uppercase text-slate-800 hover:text-orange-500 border-orange-500"
+                      }
+                    >
+                      {item.name}
+                    </span>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

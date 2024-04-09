@@ -11,10 +11,10 @@ const Page = () => {
     <>
       <Header />
       <div className="flex justify-center flex-col items-center">
-        <div className="grid md:grid-cols-2 md:w-[70%] w-[90%]  gap-10 pt-10 py-5">
+        <div className="grid md:grid-cols-2 md:w-[80%] w-[90%]  gap-10 pt-10 py-5">
           <div class="relative max-h-[550px]">
             <div>
-              <div className="bg-black/30 absolute top-0 right-0 w-full h-full"></div>
+              <div className="bg-black/50 absolute top-0 right-0 w-full h-full"></div>
               <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
                 {Date(post[0].date).slice(4, 16)}
               </p>
@@ -57,7 +57,7 @@ const Page = () => {
           </div>
           <div class="relative max-h-[550px]">
             <div>
-              <div className="bg-black/30 absolute top-0 right-0 w-full h-full"></div>
+              <div className="bg-black/50 absolute top-0 right-0 w-full h-full"></div>
               <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
                 {Date(post[1].date).slice(4, 16)}
               </p>
@@ -99,11 +99,11 @@ const Page = () => {
             />
           </div>
         </div>
-        <div className="grid md:grid-cols-3 md:w-[70%]  w-[90%]  gap-10 py-5">
+        <div className="grid md:grid-cols-3 md:w-[80%]  w-[90%]  gap-10 py-5">
           {morePost.map((item, index) => (
-            <div class="relative max-h-[350px]" key={index}>
+            <div class="relative max-h-[400px]" key={index}>
               <div>
-                <div className="bg-black/30 absolute top-0 right-0 w-full h-full"></div>
+                <div className="bg-black/50 absolute top-0 right-0 w-full h-full"></div>
                 <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
                   {Date(item.date).slice(4, 16)}
                 </p>

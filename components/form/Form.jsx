@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { regEx } from "../regEx";
 import { Snackbar } from "@mui/material";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const Form = ({ toggleLoader }) => {
   const [data, setData] = useState({
@@ -158,7 +160,7 @@ const Form = ({ toggleLoader }) => {
         </div>
 
         <div>
-          <input
+          {/* <input
             type="tel"
             name="phone"
             id="phone"
@@ -177,6 +179,21 @@ const Form = ({ toggleLoader }) => {
             className={phoneError === true ? inputErrorCss : inputCss}
             placeholder="Enter your Number"
             required
+          /> */}
+          <PhoneInput
+            country={"us"}
+            placeholder="Enter your phone number"
+            value={data.phone}
+            inputClass="!w-full"
+            // value={phoneNumber}
+            // onChange={handleChange}
+            onChange={(value) => {
+              setCheck(true);
+              setData({
+                ...data,
+                phone: value,
+              });
+            }}
           />
         </div>
 
