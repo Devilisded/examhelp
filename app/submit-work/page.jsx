@@ -7,6 +7,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Snackbar } from "@mui/material";
 import Loader from "@/components/loader/Loader";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const Page = () => {
   const [loader, setLoader] = useState(false);
@@ -211,25 +213,20 @@ const Page = () => {
               >
                 Phone Number
               </label>
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                maxLength={10}
+              <PhoneInput
+                country={"us"}
+                placeholder="Enter your phone number"
                 value={data.phone}
-                onChange={(e) => {
+                inputClass="!w-full"
+                // value={phoneNumber}
+                // onChange={handleChange}
+                onChange={(value) => {
                   setCheck(true);
                   setData({
                     ...data,
-                    phone: e.target.value.replace(
-                      regEx[2].phoneNumberValidation,
-                      ""
-                    ),
+                    phone: value,
                   });
                 }}
-                className={phoneError === true ? inputErrorCss : inputCss}
-                placeholder="Enter your Number"
-                required
               />
             </div>
           </div>
