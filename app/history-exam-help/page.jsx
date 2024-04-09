@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "History Exam Help",
+  title: "#1 History Exam Help By Top Educators - Success Is Just A Click Away!",
   description: "Get personalized history exam help from experienced tutors. Improve your grades and master key concepts with our comprehensive study resources and one-on-one guidance.", 
   openGraph: {
       title: "#1 History Exam Help By Top Educators - Success Is Just A Click Away!"

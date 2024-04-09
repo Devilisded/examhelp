@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Biology Exam Help ",
+  title: "#1 Biology Exam Help | Ace Your Exams with Expert Assistance ",
   description:
     "Our expert tutors provide personalized guidance, exam strategies, and comprehensive biology exam help. Get the support you need to succeed. Boost your confidence and scores today! ",
   openGraph: {

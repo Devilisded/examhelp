@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Management Exam Help",
+  title: "#1 Management Exam Help {Boost Your Scores with Expert Assistance}",
   description: "Our expert tutors provide personalized guidance, test-taking strategies, and comprehensive exam preparation to help you excel and achieve your goals.",
   openGraph: {
       title: "#1 Management Exam Help {Boost Your Scores with Expert Assistance}"

@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Geometry Exam Help",
+  title: "#1 Geometry Exam Help - Nail Your Tests with Expert Assistance",
   description: "Get the guidance you need to conquer your geometry exams. Our team of experienced tutors provides personalized support to help you excel in your studies.",
   openGraph: {
       title: "#1 Geometry Exam Help - Nail Your Tests with Expert Assistance"

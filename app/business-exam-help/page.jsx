@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Business Exam Help",
+  title: "High-Quality Business Exam Help - Ace Your Exams with Confidence",
   description: "Get personalized business exam help from our experienced experts. Improve your test scores and achieve academic success. Contact us today!",
   openGraph: {
       title: "High-Quality Business Exam Help - Ace Your Exams with Confidence"

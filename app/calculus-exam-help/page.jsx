@@ -15,10 +15,10 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-    title: "Calculus Exam Help",
+    title: "#1 Calculus Exam Help [Get Expert Tutors At One Click!]",
     description: "Get expert calculus exam help from our highly qualified tutors. We provide personalized guidance, practice problems, and exam strategies to ensure your success. ",
     openGraph: {
-        title: "#1 Calculus Exam Help | Get Expert Tutors At One Click!"
+        title: "#1 Calculus Exam Help [Get Expert Tutors At One Click!]"
 
     }
 }

@@ -15,11 +15,11 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Computer Science Exam Help",
+  title: "#1 Computer Science Exam Help - Get Expert Assistance Today!",
   description:
     "Struggling with computer science exams? Our experienced tutors provide personalized guidance and support to help you excel. Get comprehensive exam prep, practice problems, and more.",
   openGraph: {
-    title: " #1 Computer Science Exam Help | Get Expert Assistance Today!",
+    title: "#1 Computer Science Exam Help - Get Expert Assistance Today!",
   },
 };
 

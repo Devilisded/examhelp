@@ -15,10 +15,10 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-    title: "Physics Exam Help",
+    title: "#1 Physics Exam Help (Expert Tutors for Your Physics Exams)",
     description: "Struggling with physics exams? Our team of experienced tutors provides personalized physics exam help to students of all levels. Get the guidance you need to excel.",
     openGraph: {
-        title: "#1 Physics Exam Help | Expert Tutors for Your Physics Exams "
+        title: "#1 Physics Exam Help (Expert Tutors for Your Physics Exams) "
 
     }
 }

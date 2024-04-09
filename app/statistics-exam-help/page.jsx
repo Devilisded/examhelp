@@ -15,7 +15,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Statistics Exam Help",
+  title: "#1 Statistics Exam Help (Top Rated Tutors for Statistics Exam Help)",
   description: "Are you struggling with statistics exams? Get professional statistics exam help from our team of expert statistics tutors. We offer personalized guidance and proven strategies for success.",
   openGraph: {
       title: "#1 Statistics Exam Help (Top Rated Tutors for Statistics Exam Help)"

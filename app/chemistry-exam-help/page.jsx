@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Chemistry Exam Help",
+  title: "#1 Chemistry Exam Help | Expert Tutoring & Test Prep Solutions",
   description:
     "Struggling with chemistry exams? Get expert chemistry exam help from our team of experienced tutors. Personalized study plans, practice tests, and proven strategies to boost your confidence and score higher on chemistry tests and finals. ",
   openGraph: {

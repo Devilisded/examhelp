@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-    title: "Engineering Exam Help ",
+    title: "Engineering Exam Help: Expert Guidance for Academic Success ",
     description: "Our engineering exam help service provides high-class help from experienced professionals. Get personalized guidance, exam strategies, and subject mastery to ace your engineering exams.",
     openGraph: {
         title: "Engineering Exam Help: Expert Guidance for Academic Success"

@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Nursing Exam Help",
+  title: "#1 Nursing Exam Help (Expert Tutoring for Nursing Students",
   description: "Get professional help from experienced nursing tutors to prepare for your nursing exams. Our tailored guidance covers all nursing subjects and exam formats. Boost your confidence and ace your tests.",
   openGraph: {
       title: "#1 Nursing Exam Help (Expert Tutoring for Nursing Students)"

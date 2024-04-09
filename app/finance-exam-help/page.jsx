@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-    title: "Finance Exam Help",
+    title: "Nail Your Finance Exams with Experts - Personalized Finance Exam Help",
     description: "Our team of experts provides customized finance exam help. Get personalized guidance, exam strategies, and comprehensive support to boost your confidence and scores.",
     openGraph: {
         title: "Nail Your Finance Exams with Experts - Personalized Finance Exam Help"

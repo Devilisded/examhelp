@@ -15,12 +15,12 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "Accounting Exam Help",
+  title: "Best Accounting Exam Help (Expert Assistance for Your Accounting Exams!)",
   description:
     "Our team of experienced accounting professionals provides comprehensive exam help. Get personalized guidance, practice questions, and proven strategies to boost your confidence and achieve success.",
   openGraph: {
     title:
-      " Best Accounting Exam Help | Expert Assistance for Your Accounting Exams!",
+      " Best Accounting Exam Help (Expert Assistance for Your Accounting Exams!)",
   },
 };
 

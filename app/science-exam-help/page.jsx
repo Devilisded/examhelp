@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-    title: "Science Exam Help",
+    title: "#1 Science Exam Help (Expert Tutoring for Academic Success)",
     description: "Get personalized science exam help from experienced tutors. Our tailored approach ensures you master key concepts and excel in your exams. Online or in-person tutoring is available.",
     openGraph: {
         title: "#1 Science Exam Help (Expert Tutoring for Academic Success)"

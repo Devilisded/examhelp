@@ -15,7 +15,7 @@ import {
 
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "R Programming Exam Help",
+  title: "R Programming Exam Help | Get Expert Assistance for Your Exams",
   description:
     "Struggling with R programming exams? Our experienced tutors provide comprehensive exam help, from concept clarification to coding assistance and exam prep strategies.   ",
   openGraph: {

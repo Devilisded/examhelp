@@ -16,7 +16,7 @@ import {
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
-  title: "English Exam Help",
+  title: "Best English Exam Help - Nail Your Tests with Expert Guidance",
   description: "Get personalized English exam preparation assistance from experienced teachers. Improve your skills, boost your confidence, and maximize your scores with our tailored coaching.",
   openGraph: {
       title: "Best English Exam Help - Nail Your Tests with Expert Guidance"
