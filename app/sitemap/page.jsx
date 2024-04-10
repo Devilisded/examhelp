@@ -89,10 +89,6 @@ const Page = () => {
       to: "/java-exam-help",
       title: "Java Exam Help",
     },
-    {
-      to: "/law-exam-help",
-      title: "Law Exam Help",
-    },
   ];
   return (
     <div>
