@@ -4,6 +4,7 @@ import Form from "../form/Form";
 import { useState } from "react";
 import { IconArrowRight, IconChecks } from "@tabler/icons-react";
 import Loader from "../loader/Loader";
+import Link from "next/link";
 
 const ServiceHero = (props) => {
   const [showLoader, setShowLoader] = useState(false);
@@ -43,19 +44,13 @@ const ServiceHero = (props) => {
             </li>
           </ul>
           <div className="flex gap-3 sm:flex-row flex-col">
-            <a
+            <Link
               href="/#pricing_section"
               className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
-              Get started
+              Check Pricing
               <IconArrowRight className="w-5 h-5 ml-1" />
-            </a>
-            <a
-              href="#services"
-              className="flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white hover:text-black border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              View Services
-            </a>
+            </Link>
           </div>
         </div>
         <div className="lg:order-last order-1 justify-self-end  flex justify-center lg:justify-end w-full lg:col-span-2 z-10">

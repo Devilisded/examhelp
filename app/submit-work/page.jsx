@@ -368,6 +368,7 @@ const Page = () => {
           </div>
         </form>
       </div>
+
       <Footer />
     </>
   );

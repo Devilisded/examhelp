@@ -34,8 +34,12 @@ const Header = () => {
       linkto: "/",
     },
     {
-      name: "About Us",
-      linkto: "/about",
+      name: "Blog",
+      linkto: "/blog",
+    },
+    {
+      name: "Experts",
+      linkto: "/experts",
     },
     {
       name: "Reviews",
@@ -44,10 +48,6 @@ const Header = () => {
     {
       name: "Exam Help",
       linkto: "/sitemap",
-    },
-    {
-      name: "Submit Work",
-      linkto: "/submit-work",
     },
   ];
   const list = (anchor) => (
@@ -86,6 +86,13 @@ const Header = () => {
                 </div>
               </Link>
             ))}
+            <Link href="/submit-work">
+              <div className="p-2">
+                <div className="p-2 pl-5 border-b ">
+                  <ListItemText className=" " primary={"Submit Work"} />
+                </div>
+              </div>
+            </Link>
           </List>
         </Box>
       ) : (
@@ -149,6 +156,13 @@ const Header = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/submit-work">
+                  <span className="p-2 bg-orange-700 text-white rounded hover:bg-orange-900/90 cursor-pointer">
+                    Submit Work
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -90,8 +90,8 @@ const Page = () => {
       title: "Java Exam Help",
     },
     {
-      to: "/geography-exam-help",
-      title: "Geography Exam Help",
+      to: "/marketing-exam-help",
+      title: "Marketing Exam Help",
     },
     {
       to: "/econometrics-exam-help",
