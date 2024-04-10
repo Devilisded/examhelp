@@ -89,6 +89,10 @@ const Page = () => {
       to: "/java-exam-help",
       title: "Java Exam Help",
     },
+    {
+      to: "/marketing-exam-help",
+      title: "Marketing Exam Help",
+    },
   ];
   return (
     <div>
