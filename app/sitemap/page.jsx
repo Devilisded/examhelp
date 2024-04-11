@@ -101,6 +101,10 @@ const Page = () => {
       to: "/marketing-exam-help",
       title: "Marketing Exam Help",
     },
+    {
+      to: "/information-technology-exam-help",
+      title: "Information Technology Exam Help",
+    },
   ];
   return (
     <div>
