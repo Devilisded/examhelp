@@ -23,129 +23,7 @@ const Page = () => {
       title="High-Quality Business Exam Help - Ace Your Exams with Confidence"
       desc="Get personalized business exam help from our experienced experts. Improve your test scores and achieve academic success. Contact us today!"
     />
-    <div className="py-10 flex flex-col gap-14">
-      <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
-        Top 6 Benefits Of Choosing Our Online Exam Help
-      </h2>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-3 w-[80%] gap-10">
-          <div className="space-y-3">
-            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-              <IconClock2 />
-            </span>
-            <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Save Time
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300 text-balance">
-              Taking exams on your own can be hugely time-consuming. Between
-              studying content, practicing questions, and taking the exam,
-              exams can take up much precious time. Our service takes the exam
-              burden off your shoulders so you can allocate that time to other
-              priorities. From start to finish, we streamline everything to
-              save you the maximum time.
-            </p>
-          </div>
-          <div className="space-y-3">
-            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-              <IconSchool />
-            </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Domain Expertise
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Unlike general tutoring services, our online tutors are niche
-                subject matter experts. They have extensive education and
-                real-world experience in their specific exam domain. This means
-                they have the greatest depth of knowledge to tackle any topic or
-                question within their field, lending you their insight and
-                guidance throughout your exam.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconGraph />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Customized Assistance
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We provide a fully personalized 1-on-1 exam assistance service
-                tailored to your needs. Before your exam session, your tutor
-                will consult with you to understand your strengths and
-                weaknesses. This allows them to custom-craft potential
-                questions, practice problems, explanations, and learning
-                strategies just for you. It's like having a private tutor
-                designing a fully customized study plan to help you succeed.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconWorld />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Worldwide Access
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                As an online platform, we allow you to connect with expert
-                tutors remotely. That means you can get expert exam help from
-                the comfort of your home, from a library, while traveling -
-                anywhere with internet access! No need to commute or travel to
-                appointments. Just log in online at your convenience to start
-                your tutoring.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconReportAnalytics />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-`white">
-                Secure Service
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We invest heavily in security measures like end-to-end
-                encryption, stringent privacy policies, and authentication
-                protocols to protect your data. <br /> Exam integrity is vital,
-                so our top priority is safeguarding your information during
-                online exam assistance.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-                <IconPigMoney />
-              </span>
-
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Affordable Pricing
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Our rates are designed for students on a budget. Pay just a
-                fraction of what expensive private tutoring normally costs.
-                Without geographical or access restrictions, we connect you to
-                specialists globally to find great tutors at affordable prices
-                for all educational levels and subjects. Our platform allows
-                tutors to set reasonable rates, keeping pricing competitive.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="py-10">
-        <h1 className="text-4xl text-center font-semibold mb-10">
-          Our Experts
-        </h1>
-        <ExpertCarousel />
-      </div>
-
+    <Layout>
       <div className="gap-16 items-center pb-3 px-4 mx-auto max-w-screen-xl  lg:px-6">
         <section className=" container">
           {/* <h1 className="text-4xl font-bold">
@@ -547,7 +425,7 @@ const Page = () => {
             </p>
           </section>
         </div>
-      </Layout>
+        </Layout>
 
       <div className="py-10">
         <div className="flex flex-col items-center">
