@@ -1,32 +1,21 @@
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import ServiceHero from "@/components/serviceHero/ServiceHero";
-import ExpertCarousel from "@/components/expertCarousel/ExpertCarousel";
-import Carousel from "@/components/carousel/Carousel";
-import Image from "next/image";
-
-import {
-  IconClock2,
-  IconGraph,
-  IconWorld,
-  IconReportAnalytics,
-  IconPigMoney,
-  IconChevronDown
-} from "@tabler/icons-react";
+import { IconChevronDown } from "@tabler/icons-react";
 import Link from "next/link";
-import { IconSchool } from "@tabler/icons-react";
+import Layout from "@/components/layout/Layout";
 export const metadata = {
   title: "High-Quality Business Exam Help - Ace Your Exams with Confidence",
-  description: "Get personalized business exam help from our experienced experts. Improve your test scores and achieve academic success. Contact us today!",
+  description:
+    "Get personalized business exam help from our experienced experts. Improve your test scores and achieve academic success. Contact us today!",
   openGraph: {
-      title: "High-Quality Business Exam Help - Ace Your Exams with Confidence"
-
-  }
-}
+    title: "High-Quality Business Exam Help - Ace Your Exams with Confidence",
+  },
+};
 const Page = () => {
   return (
     <>
-     <link rel="canonical" href="https://examhelp.online/business-exam-help" />
+      <link rel="canonical" href="https://examhelp.online/business-exam-help" />
       <Navbar />
 
     <ServiceHero
@@ -34,2092 +23,6 @@ const Page = () => {
       title="High-Quality Business Exam Help - Ace Your Exams with Confidence"
       desc="Get personalized business exam help from our experienced experts. Improve your test scores and achieve academic success. Contact us today!"
     />
-          <div
-        className="flex flex-col gap-5 items-center pt-10"
-        id="pricing_section"
-      >
-        <div className="flex flex-wrap  lg:w-[80%] w-[95%]">
-          <div className="w-full px-4">
-            <div className="text-center mx-auto max-w-[510px]">
-              <span className="font-semibold text-lg text-blue-600 mb-2 block">
-                Pricing Table
-              </span>
-              <h2
-                className="
-            font-bold
-            text-3xl
-            sm:text-4xl
-            md:text-[40px]
-            text-dark
-            mb-4
-            "
-              >
-                Our Pricing Plan
-              </h2>
-              <p className="text-base text-body-color">
-                Get started with a free quote now. Our student-friendly exam
-                assistance services begin at the most accessible prices designed
-                to help you master your exams with confidence.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-wrap justify-center lg:w-[80%] w-[95%]">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className="text-blue-600 font-semibold text-lg block mb-4">
-                Custom Quote & Discussion
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">$0</h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                Submit and let us know your requirements now to get a free
-                quote.
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Quick Reply
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free Discussion
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Genuine Quote
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  No SignUp Or Account Needed
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-blue-600
-            bg-transparent
-            border border-[#D4DEFF]
-            rounded-md
-            text-center
-            p-4
-            hover:text-white hover:bg-blue-600 hover:border-bg-blue-600
-            transition
-            "
-                >
-                  Choose Personal
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className=" text-blue-600 font-semibold text-lg block mb-4">
-                Programming Homework Help
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $39
-                <span className="text-base text-body-color font-medium">
-                  Starting Price
-                </span>
-              </h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                Basic Assignments or Projects in any Programming language or
-                STEM
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Plagiarism Free
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Expert Programmers
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  On Time Delivery
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Project Manager
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-white
-            bg-blue-600
-            border border-bg-blue-600
-            rounded-md
-            text-center
-            p-4
-            hover:bg-opacity-90
-            transition
-            "
-                >
-                  Choose Business
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className=" text-blue-600 font-semibold text-lg block mb-4">
-                Capstone Project / Major Assignment
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $290
-                <span className="text-base text-body-color font-medium">
-                  Starting Price
-                </span>
-              </h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                Bigger Assignments with Advance & Complex requirements
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Academic Integrity
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free Revisions
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Personalised Support
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  24x7 Email & Chat
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-blue-600
-            bg-transparent
-            border border-[#D4DEFF]
-            rounded-md
-            text-center
-            p-4
-            hover:text-white hover:bg-blue-600 hover:border-blue-600
-            transition
-            "
-                >
-                  Choose Professional
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col gap-5 items-center">
-        <div className="flex flex-wrap justify-center lg:w-[80%] w-[95%]">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className="text-blue-600 font-semibold text-lg block mb-4">
-                Exam Help & Prepration
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $59
-                <span className="text-base text-body-color font-medium">
-                  Per Hour
-                </span>
-              </h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                Online Test and Quizzes from Qualified Experts
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  1:1 Live Sessions
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Expert Tutors
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Take My Exam For Me
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Confidentiality Guaranteed
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-blue-600
-            bg-transparent
-            border border-[#D4DEFF]
-            rounded-md
-            text-center
-            p-4
-            hover:text-white hover:bg-blue-600 hover:border-bg-blue-600
-            transition
-            "
-                >
-                  Choose Personal
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className=" text-blue-600 font-semibold text-lg block mb-4">
-                Online 1:1 Tutoring
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $49
-                <span className="text-base text-body-color font-medium">
-                  Per Hour
-                </span>
-              </h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                For all Programming and STEM Courses
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Live Sessions
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Expert Programmers
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Flexible Time Slots
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  24x7 Chat Support
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-white
-            bg-blue-600
-            border border-bg-blue-600
-            rounded-md
-            text-center
-            p-4
-            hover:bg-opacity-90
-            transition
-            "
-                >
-                  Choose Business
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 md:mx-0 mx-4">
-            <div
-              className="
-        bg-white
-        rounded-xl
-        relative
-        z-10
-        overflow-hidden
-        border border-primary border-opacity-20
-        shadow-pricing
-        py-10
-        px-8
-        sm:p-12
-        lg:py-10 lg:px-6
-        xl:p-12
-        mb-10
-        "
-            >
-              <span className=" text-blue-600 font-semibold text-lg block mb-4">
-                Full Courses / Internship Program
-              </span>
-              <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $990
-                <span className="text-base text-body-color font-medium">
-                  Complete Course
-                </span>
-              </h2>
-              <p
-                className="
-            text-base text-body-color
-            pb-8
-            mb-8
-            border-b border-[#F2F2F2]
-            "
-              >
-                Become an Expert Programmer
-              </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Full Semester Support
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Personalized 1:1 Sessions
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Hand Picked Tutors
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Certificate From US Inc.
-                </p>
-              </div>
-              <Link href="/submit-work">
-                <span
-                  className="
-            w-full
-            block
-            text-base
-            font-semibold
-            text-blue-600
-            bg-transparent
-            border border-[#D4DEFF]
-            rounded-md
-            text-center
-            p-4
-            hover:text-white hover:bg-blue-600 hover:border-blue-600
-            transition
-            "
-                >
-                  Choose Professional
-                </span>
-              </Link>
-              <div>
-                <span className="absolute right-0 top-7 z-[-1]">
-                  <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="86"
-                      cy="86"
-                      r="86"
-                      fill="url(#paint0_linear)"
-                    ></circle>
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
-                        <stop
-                          offset="1"
-                          stopColor="#C4C4C4"
-                          stopOpacity="0"
-                        ></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span className="absolute right-4 top-4 z-[-1]">
-                  <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="13.9177"
-                      cy="1.42019"
-                      r="1.42021"
-                      transform="rotate(180 13.9177 1.42019)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 87.4849)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 74.9871)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 62.4892)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 38.3457)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 13.634)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 50.2754)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 26.1319)"
-                      fill="#3056D3"
-                    ></circle>
-                    <circle
-                      cx="1.41963"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 1.41963 1.4202)"
-                      fill="#3056D3"
-                    ></circle>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     <div className="py-10 flex flex-col gap-14">
       <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
         Top 6 Benefits Of Choosing Our Online Exam Help
@@ -2254,256 +157,399 @@ const Page = () => {
           <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div> */}
 
-          <h2 className="text-4xl pb-2">
-            <b>Business Exam Help</b>
-          </h2>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-
-          <div className="mb-5 mt-3 text-slate-900">
-          <p className= "pb-2">Facing the complexities and difficulties of business exams can be frightening and confusing, but you don’t have to do it alone. Our tutors are very experienced and knowledgeable enough for your needs in business courses that would make it possible for you to achieve academic success. </p>
-
-<p className= "pb-2">Maybe you find yourself struggling through complicated accounting principles, battling with the details of strategic management concepts, or looking to improve on your grades or test-taking abilities generally; we have solutions required as well as approaches adapted exclusively for you to enable you to overcome all hurdles, thus unsealing your potential.  </p>
-
-<p className= "pb-2">We will help you understand the business content and be prepared and ready during examinations by providing tailored lesson plans, specific practice materials, and one-on-one coaching sessions with each student to highlight their strengths, weaknesses, and learning styles, boosting their confidence levels toward tackling exams. </p>
-
-<p className= "pb-2">Take a step towards brilliance in academia, and let us be your reliable partner for your business test prep when pursuing your business education ambitions.</p>
-
-          </div>
-
-          <h2 className="text-4xl pb-2">
-            <b>Importance of Getting Online Business Exam Help Services</b>
-          </h2>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-          
-          <div className="mb-5 mt-3 text-slate-900">
-          <p className="pb-2">Students must wish to perform well in business exams because they are central to their career prospects and future. Today’s academic environment is very competitive and dynamic, and getting high grades on these tests can help you open many doors of opportunity. </p>
-
-<p className="pb-2">It does not matter whether you are studying finance, marketing, or any other business discipline; how you perform in these exams will either make or mar your chances of scholarships, internships, or job opportunities.</p>
-
-<p className="pb-2">When you come to us for our online assistance with business exams, you will have a major edge over others. This ensures that when our clients hire us to offer them the services needed for their exams online, we will be able to tailor your strategies to achieve better results, as we understand the latest formats of examination questions and assessment criteria. </p>
-
-<p className="pb-2">The guidance given through one-on-one sessions helps the learners develop a stronger foundation in concepts covering business basics, which leads to improved problem-solving skills, critical thinking abilities, and time management during examinations. They also learn how to manage time effectively during the exam process.</p>
-
-<p className="pb-2">Our online business <Link href="/" className="text-blue-600">
-          
-              Exam Help  
-            </Link> services can further relieve the massive nervousness and tension that regularly accompany these high-stakes evaluations; they also boost test scores. </p>
-
-<p className="pb-2">We assure you of a friendly, facilitative, and cooperative platform that will give you confidence, minimize your worries, and develop a positive attitude—all essential for maximum academic development.</p>
-
-          </div>
-          <h2 className="text-4xl pb-2">
-            <b>Why Our Online Business Exam Help Is Highly Beneficial For You!
-</b>
-          </h2>
-          <div className="mt-1 pb-2">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-
-          <p className="pb-4">Undertaking an online business exam is a dreadful experience. Nevertheless, with our expert help, you will be armed with the means and backup to guide you through the examination process smoothly. Here’s why we are the ultimate partner in your academic success.</p>
-
-<ul className="list-decimal"><li className="pb-2 font-bold">Proficiency in Business Subjects </li>
-
-<p className="pb-2">Our team comprises professionals experienced in various aspects of business studies who ensure precise and complete assistance that suits your examination requirements.</p>
-
-<li className="pb-2 font-bold">Bespoke Study Materials </li>
-
-<p className="pb-2">We have personalized study materials specifically crafted to improve your understanding of essential issues, giving you a competitive edge over your peers during an online business exam.</p>
-
-<li className="pb-2 font-bold">Prompt Support</li>
-
-<p className="pb-2">Whenever demanded, even on exam day, our support group is readily accessible at any given time to handle all your questions or concerns without delay.</p>
-
-<li className="pb-2 font-bold">Examination Readiness without Omission </li>
-
-<p className="pb-2">We provide comprehensive preparation for exams, including mock tests and targeted revision sessions, to equip students with the knowledge and confidence needed to pass their online business exams successfully.</p>
-
-<li className="pb-2 font-bold">Flexible Options for Learning</li>
-
-<p className="pb-2">When it comes to teaching, IEPs, and support groups, we have provided various learning methods that suit your particular learning approach and timetable, which can guarantee the best exam results.</p>
-
-<li className="pb-2 font-bold">Access to Latest Resources </li>
-
-<p className="pb-2">Our wide range of resources, including articles, journals, case studies, industry reports, etc., can keep you updated with current trends in the business world.</p>
-
-<li className="pb-2 font-bold">Instant Help on Exam Day </li>
-
-<p className="pb-4">In addition to being well-prepared, we also provide instant help and direction on the examination day so that you can face any difficulties or doubts with certainty and a clear mind.</p></ul>
-
-<p className="pb-2">Ready to nail your online business exams? Do not let pressure or doubt stop you. With our team dedicated to this goal, you can take your exams without worry because immediate assistance is at hand. Let’s go together for academic excellence.</p>
-
-
-          <h2 className="text-4xl pb-2">
-            <b>Some Of The Important Business Topics We Have Expertise In!</b>
-          </h2>
-          <div className="mt-1">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-
-          <p className="pb-4 mt-3">
-          You can dive into business with confidence because we have expertise in several different areas. For example, there are the basics of marketing or the complexities of international business, which we have complete knowledge and proficiency in and will help you navigate without any difficulty.</p>
-          <ul className="list-disc"><li className="pb-2">Marketing Strategies</li>
-<li className="pb-2">Financial Management</li>
-<li className="pb-2">Entrepreneurship</li>
-<li className="pb-2">Business Ethics and Corporate Social Responsibility (CSR)</li>
-<li className="pb-2">Supply Chain Management</li>
-<li className="pb-2">Business Law and Regulations</li>
-<li className="pb-2">Strategic Management</li>
-<li className="pb-2">International Business</li>
-<li className="pb-2">Market Research and Analysis</li>
-<li className="pb-2">Business Development Strategies</li>
-<li className="pb-2">Human Resource Management</li>
-<li className="pb-2">Organizational Behavior</li>
-<li className="pb-2">Risk Management</li>
-<li className="pb-2">Project Management</li>
-<li className="pb-2">Innovation and Creativity in Business</li>
-<li className="pb-2">Customer Relationship Management (CRM)</li>
-<li className="pb-2">Business Communication Strategies</li>
-<li className="pb-4">Data Analytics and Business Intelligence</li></ul>
-<p className= "pb-2">Are you prepared to learn more about these important business subjects? Our experts will help you build your knowledge of the dynamic world of business. Together, let’s do justice to these topics so that you can unleash your full potential for success in business.</p>
-          
-          <br />
-
-          <h2 className="text-4xl pb-2">
-            <b>Tips for Maximizing the Benefits of Business Exam Help Services</b>
-          </h2>
-          <div className="mt-1 pb-2">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-          <p className="pb-4">
-          Here are some of the tips for maximizing the benefits of business exam help; let’s take a look.  
-In today’s competitive business terrain, examination assistance can be a move that proprietors and professionals consider.</p>         
-          
-<ul className="list-decimal"><li className="pb-2 font-bold">Know Your Needs</li>
-
-<p className="pb-2">Before deciding on an external source of aid like a tutoring service, identify your weak areas when it comes to the topic under scrutiny. Make sure you know the exact parts where you need the most backing to make the whole process easier for you.</p>
-
-<li className="pb-2 font-bold">Select The Best Service Provider</li>
-
-<p className="pb-2">Conduct an analysis and select a trustworthy business exam help service that matches your learning style and objectives. You should go for those with tutors who know exactly what your examination requires.</p>
-
-<li className="pb-2 font-bold">Be Clear In Communication</li>
-
-<p className="pb-2">Communication has to be very clear to ensure effective collaboration between yourself and your service provider about exams. From the beginning of your study relationship with these people, let them understand your objectives and requirements, if any.</p>
-
-<li className="pb-2 font-bold">Actively Participate in Sessions</li>
-
-<p className="pb-2">You can maximize the value of your exam help sessions by actively participating in conversations, asking questions at the table, and getting clarifications for hard subjects. Therefore, to achieve higher comprehension and retention rates, one should take control of his/her learning journey.</p>
-
-<li className="pb-2 font-bold">Utilize Additional Resources</li>
-
-<p className="pb-2">In addition to exam help sessions, you may use supplementary materials such as textbooks, online resources, or practice exams. By integrating different study strategies, one can improve one's performance during examination time.</p>
-
-<li className="pb-2 font-bold">Practice Time Management</li>
-
-<p className="pb-2">Develop sound time management tips that will enable you to optimize your study schedule and include ample time for reviewing the course content and finishing assignments. This is key to managing all academic work adequately and avoiding cramming at the last minute.</p>
-
-<li className="pb-2 font-bold">Embrace Feedback and Adaptation</li>
-
-<p className="pb-2">Making good use of feedback from an exam helps the tutor improve the studying methods used and then focus more on areas that need adjustments. We should be ready to change whenever necessary based on what new information would bring about our approach.</p>
-
-<li className="pb-2 font-bold">Stay Consistent and Persistent </li>
-
-<p className="pb-4">An unswerving approach is equivalent to victory in business exam help services. As a result, you should be able to live up to your study plan without fail, always staying in touch with your mentor and pressuring yourself through difficulties so that you may succeed academically and professionally.</p></ul>
-
-<p className="pb-2">If you follow these suggestions and develop a proactive attitude to studying, you can get the most out of these services and improve your general performance. Important considerations when selecting a reliable provider are mentioned, as are tips for communicating efficiently, actively participating during sessions, making use of additional resources, and being flexible with study habits. If you work hard, keep going even when it gets tough, and are supported well enough for examination purposes, then success is possible for you.</p>
-
-<h2 className="text-4xl pb-2">
-            <b>Quality Online Business Exam Help Anywhere In The World!</b>
-          </h2>
-          <div className="mt-1 pb-2">
-            <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          </div>
-          <p className="pb-2">At our online business exam help service, we provide superior assistance to all people globally, regardless of where they are. Our committed team of professional tutors specializes in a wide range of business-related subjects, thus meeting the different needs of students and professionals from all over the world.</p>
-
-<p className="pb-2">Whether you are preparing for a demanding test or just need clarification on some complex topics or you wish to improve your performance holistically, we will not let you down. Our flexible online platform enables you to get expert guidance and support whenever you want it, wherever you might be in the world.</p>
-
-<p className="pb-4">We always strive to ensure that we provide the highest-quality assistance tailored to your specific requirements by employing personal study plans, interactive sessions, and extensive resources designed specifically for your needs. Whatever part of the globe you may be in, believe in us when it comes to realizing your academic and career aims.</p>
-
-
-
-    
-          
-        </section>
-      </div>
-
-      <div className="w-full cbg ">
-        <div className="w-full">
-          <div className="z-50 text-center mx-auto max-w-[510px]">
-            <h2 className=" font-bold  text-3xl sm:text-4xl  md:text-[40px]  text-white z-50 ">
-              Testimonials
+            <h2 className="text-4xl pb-2">
+              <b>Business Exam Help</b>
             </h2>
-          </div>
+            <div className="mt-1">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+
+            <div className="mb-5 mt-3 text-slate-900">
+              <p className="pb-2">
+                Facing the complexities and difficulties of business exams can
+                be frightening and confusing, but you don’t have to do it alone.
+                Our tutors are very experienced and knowledgeable enough for
+                your needs in business courses that would make it possible for
+                you to achieve academic success.{" "}
+              </p>
+
+              <p className="pb-2">
+                Maybe you find yourself struggling through complicated
+                accounting principles, battling with the details of strategic
+                management concepts, or looking to improve on your grades or
+                test-taking abilities generally; we have solutions required as
+                well as approaches adapted exclusively for you to enable you to
+                overcome all hurdles, thus unsealing your potential.{" "}
+              </p>
+
+              <p className="pb-2">
+                We will help you understand the business content and be prepared
+                and ready during examinations by providing tailored lesson
+                plans, specific practice materials, and one-on-one coaching
+                sessions with each student to highlight their strengths,
+                weaknesses, and learning styles, boosting their confidence
+                levels toward tackling exams.{" "}
+              </p>
+
+              <p className="pb-2">
+                Take a step towards brilliance in academia, and let us be your
+                reliable partner for your business test prep when pursuing your
+                business education ambitions.
+              </p>
+            </div>
+
+            <h2 className="text-4xl pb-2">
+              <b>Importance of Getting Online Business Exam Help Services</b>
+            </h2>
+            <div className="mt-1">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+
+            <div className="mb-5 mt-3 text-slate-900">
+              <p className="pb-2">
+                Students must wish to perform well in business exams because
+                they are central to their career prospects and future. Today’s
+                academic environment is very competitive and dynamic, and
+                getting high grades on these tests can help you open many doors
+                of opportunity.{" "}
+              </p>
+
+              <p className="pb-2">
+                It does not matter whether you are studying finance, marketing,
+                or any other business discipline; how you perform in these exams
+                will either make or mar your chances of scholarships,
+                internships, or job opportunities.
+              </p>
+
+              <p className="pb-2">
+                When you come to us for our online assistance with business
+                exams, you will have a major edge over others. This ensures that
+                when our clients hire us to offer them the services needed for
+                their exams online, we will be able to tailor your strategies to
+                achieve better results, as we understand the latest formats of
+                examination questions and assessment criteria.{" "}
+              </p>
+
+              <p className="pb-2">
+                The guidance given through one-on-one sessions helps the
+                learners develop a stronger foundation in concepts covering
+                business basics, which leads to improved problem-solving skills,
+                critical thinking abilities, and time management during
+                examinations. They also learn how to manage time effectively
+                during the exam process.
+              </p>
+
+              <p className="pb-2">
+                Our online business{" "}
+                <Link href="/" className="text-blue-600">
+                  Exam Help
+                </Link>{" "}
+                services can further relieve the massive nervousness and tension
+                that regularly accompany these high-stakes evaluations; they
+                also boost test scores.{" "}
+              </p>
+
+              <p className="pb-2">
+                We assure you of a friendly, facilitative, and cooperative
+                platform that will give you confidence, minimize your worries,
+                and develop a positive attitude—all essential for maximum
+                academic development.
+              </p>
+            </div>
+            <h2 className="text-4xl pb-2">
+              <b>
+                Why Our Online Business Exam Help Is Highly Beneficial For You!
+              </b>
+            </h2>
+            <div className="mt-1 pb-2">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+
+            <p className="pb-4">
+              Undertaking an online business exam is a dreadful experience.
+              Nevertheless, with our expert help, you will be armed with the
+              means and backup to guide you through the examination process
+              smoothly. Here’s why we are the ultimate partner in your academic
+              success.
+            </p>
+
+            <ul className="list-decimal">
+              <li className="pb-2 font-bold">
+                Proficiency in Business Subjects{" "}
+              </li>
+
+              <p className="pb-2">
+                Our team comprises professionals experienced in various aspects
+                of business studies who ensure precise and complete assistance
+                that suits your examination requirements.
+              </p>
+
+              <li className="pb-2 font-bold">Bespoke Study Materials </li>
+
+              <p className="pb-2">
+                We have personalized study materials specifically crafted to
+                improve your understanding of essential issues, giving you a
+                competitive edge over your peers during an online business exam.
+              </p>
+
+              <li className="pb-2 font-bold">Prompt Support</li>
+
+              <p className="pb-2">
+                Whenever demanded, even on exam day, our support group is
+                readily accessible at any given time to handle all your
+                questions or concerns without delay.
+              </p>
+
+              <li className="pb-2 font-bold">
+                Examination Readiness without Omission{" "}
+              </li>
+
+              <p className="pb-2">
+                We provide comprehensive preparation for exams, including mock
+                tests and targeted revision sessions, to equip students with the
+                knowledge and confidence needed to pass their online business
+                exams successfully.
+              </p>
+
+              <li className="pb-2 font-bold">Flexible Options for Learning</li>
+
+              <p className="pb-2">
+                When it comes to teaching, IEPs, and support groups, we have
+                provided various learning methods that suit your particular
+                learning approach and timetable, which can guarantee the best
+                exam results.
+              </p>
+
+              <li className="pb-2 font-bold">Access to Latest Resources </li>
+
+              <p className="pb-2">
+                Our wide range of resources, including articles, journals, case
+                studies, industry reports, etc., can keep you updated with
+                current trends in the business world.
+              </p>
+
+              <li className="pb-2 font-bold">Instant Help on Exam Day </li>
+
+              <p className="pb-4">
+                In addition to being well-prepared, we also provide instant help
+                and direction on the examination day so that you can face any
+                difficulties or doubts with certainty and a clear mind.
+              </p>
+            </ul>
+
+            <p className="pb-2">
+              Ready to nail your online business exams? Do not let pressure or
+              doubt stop you. With our team dedicated to this goal, you can take
+              your exams without worry because immediate assistance is at hand.
+              Let’s go together for academic excellence.
+            </p>
+
+            <h2 className="text-4xl pb-2">
+              <b>Some Of The Important Business Topics We Have Expertise In!</b>
+            </h2>
+            <div className="mt-1">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+
+            <p className="pb-4 mt-3">
+              You can dive into business with confidence because we have
+              expertise in several different areas. For example, there are the
+              basics of marketing or the complexities of international business,
+              which we have complete knowledge and proficiency in and will help
+              you navigate without any difficulty.
+            </p>
+            <ul className="list-disc">
+              <li className="pb-2">Marketing Strategies</li>
+              <li className="pb-2">Financial Management</li>
+              <li className="pb-2">Entrepreneurship</li>
+              <li className="pb-2">
+                Business Ethics and Corporate Social Responsibility (CSR)
+              </li>
+              <li className="pb-2">Supply Chain Management</li>
+              <li className="pb-2">Business Law and Regulations</li>
+              <li className="pb-2">Strategic Management</li>
+              <li className="pb-2">International Business</li>
+              <li className="pb-2">Market Research and Analysis</li>
+              <li className="pb-2">Business Development Strategies</li>
+              <li className="pb-2">Human Resource Management</li>
+              <li className="pb-2">Organizational Behavior</li>
+              <li className="pb-2">Risk Management</li>
+              <li className="pb-2">Project Management</li>
+              <li className="pb-2">Innovation and Creativity in Business</li>
+              <li className="pb-2">Customer Relationship Management (CRM)</li>
+              <li className="pb-2">Business Communication Strategies</li>
+              <li className="pb-4">Data Analytics and Business Intelligence</li>
+            </ul>
+            <p className="pb-2">
+              Are you prepared to learn more about these important business
+              subjects? Our experts will help you build your knowledge of the
+              dynamic world of business. Together, let’s do justice to these
+              topics so that you can unleash your full potential for success in
+              business.
+            </p>
+
+            <br />
+
+            <h2 className="text-4xl pb-2">
+              <b>
+                Tips for Maximizing the Benefits of Business Exam Help Services
+              </b>
+            </h2>
+            <div className="mt-1 pb-2">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+            <p className="pb-4">
+              Here are some of the tips for maximizing the benefits of business
+              exam help; let’s take a look. In today’s competitive business
+              terrain, examination assistance can be a move that proprietors and
+              professionals consider.
+            </p>
+
+            <ul className="list-decimal">
+              <li className="pb-2 font-bold">Know Your Needs</li>
+
+              <p className="pb-2">
+                Before deciding on an external source of aid like a tutoring
+                service, identify your weak areas when it comes to the topic
+                under scrutiny. Make sure you know the exact parts where you
+                need the most backing to make the whole process easier for you.
+              </p>
+
+              <li className="pb-2 font-bold">
+                Select The Best Service Provider
+              </li>
+
+              <p className="pb-2">
+                Conduct an analysis and select a trustworthy business exam help
+                service that matches your learning style and objectives. You
+                should go for those with tutors who know exactly what your
+                examination requires.
+              </p>
+
+              <li className="pb-2 font-bold">Be Clear In Communication</li>
+
+              <p className="pb-2">
+                Communication has to be very clear to ensure effective
+                collaboration between yourself and your service provider about
+                exams. From the beginning of your study relationship with these
+                people, let them understand your objectives and requirements, if
+                any.
+              </p>
+
+              <li className="pb-2 font-bold">
+                Actively Participate in Sessions
+              </li>
+
+              <p className="pb-2">
+                You can maximize the value of your exam help sessions by
+                actively participating in conversations, asking questions at the
+                table, and getting clarifications for hard subjects. Therefore,
+                to achieve higher comprehension and retention rates, one should
+                take control of his/her learning journey.
+              </p>
+
+              <li className="pb-2 font-bold">Utilize Additional Resources</li>
+
+              <p className="pb-2">
+                In addition to exam help sessions, you may use supplementary
+                materials such as textbooks, online resources, or practice
+                exams. By integrating different study strategies, one can
+                improve one's performance during examination time.
+              </p>
+
+              <li className="pb-2 font-bold">Practice Time Management</li>
+
+              <p className="pb-2">
+                Develop sound time management tips that will enable you to
+                optimize your study schedule and include ample time for
+                reviewing the course content and finishing assignments. This is
+                key to managing all academic work adequately and avoiding
+                cramming at the last minute.
+              </p>
+
+              <li className="pb-2 font-bold">
+                Embrace Feedback and Adaptation
+              </li>
+
+              <p className="pb-2">
+                Making good use of feedback from an exam helps the tutor improve
+                the studying methods used and then focus more on areas that need
+                adjustments. We should be ready to change whenever necessary
+                based on what new information would bring about our approach.
+              </p>
+
+              <li className="pb-2 font-bold">
+                Stay Consistent and Persistent{" "}
+              </li>
+
+              <p className="pb-4">
+                An unswerving approach is equivalent to victory in business exam
+                help services. As a result, you should be able to live up to
+                your study plan without fail, always staying in touch with your
+                mentor and pressuring yourself through difficulties so that you
+                may succeed academically and professionally.
+              </p>
+            </ul>
+
+            <p className="pb-2">
+              If you follow these suggestions and develop a proactive attitude
+              to studying, you can get the most out of these services and
+              improve your general performance. Important considerations when
+              selecting a reliable provider are mentioned, as are tips for
+              communicating efficiently, actively participating during sessions,
+              making use of additional resources, and being flexible with study
+              habits. If you work hard, keep going even when it gets tough, and
+              are supported well enough for examination purposes, then success
+              is possible for you.
+            </p>
+
+            <h2 className="text-4xl pb-2">
+              <b>Quality Online Business Exam Help Anywhere In The World!</b>
+            </h2>
+            <div className="mt-1 pb-2">
+              <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            </div>
+            <p className="pb-2">
+              At our online business exam help service, we provide superior
+              assistance to all people globally, regardless of where they are.
+              Our committed team of professional tutors specializes in a wide
+              range of business-related subjects, thus meeting the different
+              needs of students and professionals from all over the world.
+            </p>
+
+            <p className="pb-2">
+              Whether you are preparing for a demanding test or just need
+              clarification on some complex topics or you wish to improve your
+              performance holistically, we will not let you down. Our flexible
+              online platform enables you to get expert guidance and support
+              whenever you want it, wherever you might be in the world.
+            </p>
+
+            <p className="pb-4">
+              We always strive to ensure that we provide the highest-quality
+              assistance tailored to your specific requirements by employing
+              personal study plans, interactive sessions, and extensive
+              resources designed specifically for your needs. Whatever part of
+              the globe you may be in, believe in us when it comes to realizing
+              your academic and career aims.
+            </p>
+          </section>
         </div>
-        <div className="flex justify-center">
-          <Carousel />
-        </div>
-      </div>
-      <div className="bg-white py-10">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-            Trusted by the world’s most innovative teams
-          </h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1 "
-              src="/images/uni1.webp"
-              alt="logo1"
-              width={158}
-              height={48}
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un2.webp"
-              alt="logo2"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain lg:col-span-1"
-              src="/images/logo-un3.webp"
-              alt="logo3"
-              width="158"
-              height="48"
-            />
-            <Image
-              className="col-span-2  w-auto object-contain sm:col-start-2 lg:col-span-1"
-              src="/images/logo-un4.webp"
-              alt="logo4"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-            <Image
-              className="col-span-2 col-start-2 w-auto object-contain sm:col-start-auto lg:col-span-1"
-              src="/images/logo-un5.webp"
-              alt="logo5"
-              width="158"
-              height="48"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
-        <div className="py-10">
+      </Layout>
+
+      <div className="py-10">
         <div className="flex flex-col items-center">
           <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
           <p className="text-neutral-500 text-xl mt-3">
@@ -2514,17 +560,19 @@ In today’s competitive business terrain, examination assistance can be a move 
           <div className="py-5 w-full">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> Can business exam help services guarantee improved grades?
-</span>
+                <span>
+                  {" "}
+                  Can business exam help services guarantee improved grades?
+                </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              While business exam help services can provide valuable support and assistance, ultimately, grades depend on individual effort and dedication.
-
+                While business exam help services can provide valuable support
+                and assistance, ultimately, grades depend on individual effort
+                and dedication.
               </p>
-              
             </details>
           </div>
           <div className="py-5">
@@ -2533,14 +581,15 @@ In today’s competitive business terrain, examination assistance can be a move 
                 <span>
                   {" "}
                   Is online tutoring effective for business exam preparation?
-
                 </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              Yes, online tutoring can be highly effective for business exam preparation. It provides personalized instruction and support tailored to the student's needs.
+                Yes, online tutoring can be highly effective for business exam
+                preparation. It provides personalized instruction and support
+                tailored to the student's needs.
               </p>
             </details>
           </div>
@@ -2556,11 +605,12 @@ In today’s competitive business terrain, examination assistance can be a move 
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              Yes, many online platforms including us offer free study guides, practice exams, and educational resources for business exam preparation.
+                Yes, many online platforms including us offer free study guides,
+                practice exams, and educational resources for business exam
+                preparation.
               </p>
             </details>
           </div>
-         
         </div>
       </div>
       <Footer />
