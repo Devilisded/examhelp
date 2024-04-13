@@ -19,7 +19,7 @@ const Page = () => {
       <Navbar />
 
       <ServiceHero
-        title="Get Expert IT Assistence - Information Technology Exam Help!"
+        title="Get Expert IT Assistance - Information Technology Exam Help!"
         desc="Get personalized support for your information technology exams. Our experienced tutors provide tailored strategies to help you succeed. Boost your IT knowledge and confidence today."
       />
       <Layout>

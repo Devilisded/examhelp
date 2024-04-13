@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import Layout from "@/components/layout/Layout";
 export const metadata = {
-  title: "#1 Nursing Exam Help (Expert Tutoring for Nursing Students",
+  title: "#1 Nursing Exam Help (Expert Tutoring for Nursing Students)",
   description:
     "Get professional help from experienced nursing tutors to prepare for your nursing exams. Our tailored guidance covers all nursing subjects and exam formats. Boost your confidence and ace your tests.",
   openGraph: {
