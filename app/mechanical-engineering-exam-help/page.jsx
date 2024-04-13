@@ -11,30 +11,32 @@ import {
   IconWorld,
   IconReportAnalytics,
   IconPigMoney,
-  IconChevronDown
+  IconChevronDown,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { IconSchool } from "@tabler/icons-react";
 export const metadata = {
   title: "Mechanical Engineering Exam Help: Pass your exam with Pride",
-  description: "Conquer your Mechanical Engineering Exams! Get assured Mechanical Engineering Exam Help from certified experts. Acing your exams is just a click away. Act Now!",
+  description:
+    "Conquer your Mechanical Engineering Exams! Get assured Mechanical Engineering Exam Help from certified experts. Acing your exams is just a click away. Act Now!",
   openGraph: {
-      title: "Mechanical Engineering Exam Help: Pass your exam with Pride"
-
-  }
-}
+    title: "Mechanical Engineering Exam Help: Pass your exam with Pride",
+  },
+};
 const Page = () => {
   return (
     <>
-     <link rel="canonical" href="https://examhelp.online/mechanical-engineering-exam-help" />
+      <link
+        rel="canonical"
+        href="https://examhelp.online/mechanical-engineering-exam-help"
+      />
       <Navbar />
 
-    <ServiceHero
-    
-      title="Mechanical Engineering Exam Help Is Just A Click Away"
-      desc="Conquer your Mechanical Engineering Exams! Get assured Mechanical Engineering Exam Help from certified experts. Acing your exams is just a click away. Act Now!"
-    />
-          <div
+      <ServiceHero
+        title="Mechanical Engineering Exam Help Is Just A Click Away"
+        desc="Conquer your Mechanical Engineering Exams! Get assured Mechanical Engineering Exam Help from certified experts. Acing your exams is just a click away. Act Now!"
+      />
+      <div
         className="flex flex-col gap-5 items-center pt-10"
         id="pricing_section"
       >
@@ -2120,32 +2122,32 @@ const Page = () => {
           </div>
         </div>
       </div>
-    <div className="py-10 flex flex-col gap-14">
-      <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
-        Top 6 Benefits Of Choosing Our Online Exam Help
-      </h2>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-3 w-[80%] gap-10">
-          <div className="space-y-3">
-            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-              <IconClock2 />
-            </span>
-            <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Save Time
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300 text-balance">
-              Taking exams on your own can be hugely time-consuming. Between
-              studying content, practicing questions, and taking the exam,
-              exams can take up much precious time. Our service takes the exam
-              burden off your shoulders so you can allocate that time to other
-              priorities. From start to finish, we streamline everything to
-              save you the maximum time.
-            </p>
-          </div>
-          <div className="space-y-3">
-            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
-              <IconSchool />
-            </span>
+      <div className="py-10 flex flex-col gap-14">
+        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-center ">
+          Top 6 Benefits Of Choosing Our Online Exam Help
+        </h2>
+        <div className="flex justify-center">
+          <div className="grid md:grid-cols-3 w-[80%] gap-10">
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconClock2 />
+              </span>
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                Save Time
+              </h1>
+              <p className="text-gray-500 dark:text-gray-300 text-balance">
+                Taking exams on your own can be hugely time-consuming. Between
+                studying content, practicing questions, and taking the exam,
+                exams can take up much precious time. Our service takes the exam
+                burden off your shoulders so you can allocate that time to other
+                priorities. From start to finish, we streamline everything to
+                save you the maximum time.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl">
+                <IconSchool />
+              </span>
 
               <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
                 Domain Expertise
@@ -2264,17 +2266,36 @@ const Page = () => {
           </div>
 
           <div className="mb-5 mt-3 text-slate-900">
-          <p className= "pb-2">A mechanical engineering exam tests your knowledge of critical concepts like thermodynamics, mechanics, fluids, materials, and design. It is an assessment that seeks to evaluate your understanding of these concepts theoretically and how well you can apply them to complex real-world problems.</p>
+            <p className="pb-2">
+              A mechanical engineering exam tests your knowledge of critical
+              concepts like thermodynamics, mechanics, fluids, materials, and
+              design. It is an assessment that seeks to evaluate your
+              understanding of these concepts theoretically and how well you can
+              apply them to complex real-world problems.
+            </p>
 
-<p className= "pb-2">Don't worry; our experts are who understand what you need. We know these exams are tough, requiring complex math and mastery of challenging concepts. That is why we have tutors who have high experience in this field.</p>
+            <p className="pb-2">
+              Don't worry; our experts are who understand what you need. We know
+              these exams are tough, requiring complex math and mastery of
+              challenging concepts. That is why we have tutors who have high
+              experience in this field.
+            </p>
 
-<p className= "pb-2">Our professionals know their work very well. They are fantastic problem solvers who explain every subject of mechanical engineering in terms that will assist you in scoring well. </p>
+            <p className="pb-2">
+              Our professionals know their work very well. They are fantastic
+              problem solvers who explain every subject of mechanical
+              engineering in terms that will assist you in scoring well.{" "}
+            </p>
 
-<p className= "pb-2">We also have the best prices for various plans that fit your needs. Why be stressed by exams when we have the best mechanical engineering exam help online? Get our <Link href="/" className="text-blue-600">
-          
-          Exam Help Online 
-        </Link> services now!</p>
-
+            <p className="pb-2">
+              We also have the best prices for various plans that fit your
+              needs. Why be stressed by exams when we have the best mechanical
+              engineering exam help online? Get our{" "}
+              <Link href="/" className="text-blue-600">
+                Exam Help Online
+              </Link>{" "}
+              services now!
+            </p>
           </div>
 
           <h2 className="text-4xl pb-2">
@@ -2285,43 +2306,68 @@ const Page = () => {
             <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
-          
+
           <div className="mb-5 mt-3 text-slate-900">
-          <p className="pb-2">As we all know, becoming an expert in mechanical engineering requires a deep understanding of various subjects. Our exam helps cover the most crucial topics in detail. Here's what we offer: </p>
+            <p className="pb-2">
+              As we all know, becoming an expert in mechanical engineering
+              requires a deep understanding of various subjects. Our exam helps
+              cover the most crucial topics in detail. Here's what we offer:{" "}
+            </p>
 
-          <ul className="list-decimal"><li className="pb-2 font-bold">Thermodynamics </li>
+            <ul className="list-decimal">
+              <li className="pb-2 font-bold">Thermodynamics </li>
 
-<p className="pb-2">This is about studying heat, effort, and hotness/coldness and how they relate to energy moving and changing. We will assist you in learning laws related to these cycles and their uses.
-</p>
+              <p className="pb-2">
+                This is about studying heat, effort, and hotness/coldness and
+                how they relate to energy moving and changing. We will assist
+                you in learning laws related to these cycles and their uses.
+              </p>
 
-<li className="pb-2 font-bold">Statics</li>
+              <li className="pb-2 font-bold">Statics</li>
 
-<p className="pb-2">This involves analyzing pushes, pulls, and turns on rigid, unmoving objects. We will guide you through conditions of balance, structures, frames, machines, and rubbing force problems.
-</p>
+              <p className="pb-2">
+                This involves analyzing pushes, pulls, and turns on rigid,
+                unmoving objects. We will guide you through conditions of
+                balance, structures, frames, machines, and rubbing force
+                problems.
+              </p>
 
-<li className="pb-2 font-bold">Dynamics</li>
+              <li className="pb-2 font-bold">Dynamics</li>
 
-<p className="pb-2">This covers the motion of things and the forces causing that motion. You will learn about movement study, force study, energy, momentum methods, and vibrations.</p>
+              <p className="pb-2">
+                This covers the motion of things and the forces causing that
+                motion. You will learn about movement study, force study,
+                energy, momentum methods, and vibrations.
+              </p>
 
-<li className="pb-2 font-bold">Mechanics of Materials</li>
+              <li className="pb-2 font-bold">Mechanics of Materials</li>
 
-<p className="pb-2">This focuses on learning how solid objects act under different types of loads. We will cover stretching, squashing, twisting, bending, and failure theories.
-</p>
+              <p className="pb-2">
+                This focuses on learning how solid objects act under different
+                types of loads. We will cover stretching, squashing, twisting,
+                bending, and failure theories.
+              </p>
 
-<li className="pb-2 font-bold">Fluid Mechanics</li>
+              <li className="pb-2 font-bold">Fluid Mechanics</li>
 
-<p className="pb-2">This involves the study of fluids, both liquids and gases, at rest and in motion. Topics include fluid statics, dynamics, dimensional analysis, and flow measurements.
-</p>
+              <p className="pb-2">
+                This involves the study of fluids, both liquids and gases, at
+                rest and in motion. Topics include fluid statics, dynamics,
+                dimensional analysis, and flow measurements.
+              </p>
+            </ul>
 
-</ul>
-
-<p className="pb-2">Our tutors explain challenging ideas in simple lessons. We also offer practice problems and real-world examples to improve learning. So, get ready to become a pro in your mechanical engineering exams.</p>
-
+            <p className="pb-2">
+              Our tutors explain challenging ideas in simple lessons. We also
+              offer practice problems and real-world examples to improve
+              learning. So, get ready to become a pro in your mechanical
+              engineering exams.
+            </p>
           </div>
           <h2 className="text-4xl pb-2">
-            <b>Pass Your Mechanical Engineering Exam with Our Foolproof Services!
-
-</b>
+            <b>
+              Pass Your Mechanical Engineering Exam with Our Foolproof Services!
+            </b>
           </h2>
           <div className="mt-1 pb-2">
             <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
@@ -2329,23 +2375,44 @@ const Page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
 
-          <p className="pb-4">Do you have difficulties passing your mechanical engineering exams? As experts, we know many students have faced similar challenges, and now is the perfect moment for you to discover the key to our collective success.</p>
-          <li className="pb-2">Our team has people who have worked in mechanical engineering for many years. They know all the stuff that will assist you in the exam.</li>
+          <p className="pb-4">
+            Do you have difficulties passing your mechanical engineering exams?
+            As experts, we know many students have faced similar challenges, and
+            now is the perfect moment for you to discover the key to our
+            collective success.
+          </p>
+          <li className="pb-2">
+            Our team has people who have worked in mechanical engineering for
+            many years. They know all the stuff that will assist you in the
+            exam.
+          </li>
 
-<li className="pb-2">We simplify and make things that seem difficult so that you can learn everything properly.
-</li>
-<li className="pb-2">We give you lots of materials to study, questions to practice, and mock exams to get you fully prepared.</li>
+          <li className="pb-2">
+            We simplify and make things that seem difficult so that you can
+            learn everything properly.
+          </li>
+          <li className="pb-2">
+            We give you lots of materials to study, questions to practice, and
+            mock exams to get you fully prepared.
+          </li>
 
-<li className="pb-2">Our friendly experts are always there to answer any doubts you have and guide you personally.</li>
+          <li className="pb-2">
+            Our friendly experts are always there to answer any doubts you have
+            and guide you personally.
+          </li>
 
-
-
-<p className="pb-4">Don't miss this chance! Join us now and see how good you can be. Trust us, and our <Link href="/engineering-exam-help" className="text-blue-600">Engineering Exam Helpers</Link> will be with you every step of the way to help you become a star in mechanical engineering.</p>
-
+          <p className="pb-4">
+            Don't miss this chance! Join us now and see how good you can be.
+            Trust us, and our{" "}
+            <Link href="/engineering-exam-help" className="text-blue-600">
+              Engineering Exam Helpers
+            </Link>{" "}
+            will be with you every step of the way to help you become a star in
+            mechanical engineering.
+          </p>
 
           <h2 className="text-4xl pb-2">
-            <b>Why Should You Get Mechanical Engineering Exam Help?
-</b>
+            <b>Why Should You Get Mechanical Engineering Exam Help?</b>
           </h2>
           <div className="mt-1">
             <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
@@ -2354,31 +2421,49 @@ const Page = () => {
           </div>
 
           <p className="pb-4 mt-3">
-          Getting help for your mechanical engineering exams is a good idea. It lets you understand concepts better and obtain high scores. With an expert's guidance, challenging topics become easy to learn.</p>
-          <ul className="list-decimal"><li className="pb-2 font-bold">Simple Explanations </li>
+            Getting help for your mechanical engineering exams is a good idea.
+            It lets you understand concepts better and obtain high scores. With
+            an expert's guidance, challenging topics become easy to learn.
+          </p>
+          <ul className="list-decimal">
+            <li className="pb-2 font-bold">Simple Explanations </li>
 
-<p className="pb-2">Experts explain complex ideas using simple words and real-life examples. By getting all your questions answered quickly, you save time and avoid stress. Their clear explanations make learning easy.
+            <p className="pb-2">
+              Experts explain complex ideas using simple words and real-life
+              examples. By getting all your questions answered quickly, you save
+              time and avoid stress. Their clear explanations make learning
+              easy.
+            </p>
 
-</p>
+            <li className="pb-2 font-bold">One-on-One Attention</li>
 
-<li className="pb-2 font-bold">One-on-One Attention</li>
+            <p className="pb-2">
+              With personalized one-on-one attention, no concept is left behind.
+              Your unique learning requirements are taken care of, ensuring you
+              master every topic.
+            </p>
 
-<p className="pb-2">With personalized one-on-one attention, no concept is left behind. Your unique learning requirements are taken care of, ensuring you master every topic.
-</p>
+            <li className="pb-2 font-bold">Time-Saving Help</li>
 
-<li className="pb-2 font-bold">Time-Saving Help
-</li>
+            <p className="pb-2">
+              By getting professional help, you save precious time that would
+              otherwise be spent struggling with complicated ideas alone. Their
+              expertise allows for faster problem-solving.
+            </p>
 
-<p className="pb-2">By getting professional help, you save precious time that would otherwise be spent struggling with complicated ideas alone. Their expertise allows for faster problem-solving.</p>
+            <li className="pb-2 font-bold">Boost Confidence</li>
 
-<li className="pb-2 font-bold">Boost Confidence</li>
+            <p className="pb-2">
+              With a strong understanding of concepts and proven exam
+              strategies, you gain the confidence to face any mechanical
+              engineering exam without fear.
+            </p>
+          </ul>
+          <p className="pb-2">
+            Don't miss out on the opportunity to get expert help and improve
+            your grades in mechanical engineering exams!
+          </p>
 
-<p className="pb-2">With a strong understanding of concepts and proven exam strategies, you gain the confidence to face any mechanical engineering exam without fear.
-</p>
-
-</ul>
-<p className= "pb-2">Don't miss out on the opportunity to get expert help and improve your grades in mechanical engineering exams!</p>
-          
           <br />
 
           <h2 className="text-4xl pb-2">
@@ -2390,21 +2475,30 @@ const Page = () => {
             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
           </div>
           <p className="pb-4">
-          We all know you will be stressed about mechanical engineering exams. You are not alone. It is simple to get completely lost when there is so much complex stuff to learn and remember. That’s where our exam help comes in.</p>         
-          
+            We all know you will be stressed about mechanical engineering exams.
+            You are not alone. It is simple to get completely lost when there is
+            so much complex stuff to learn and remember. That’s where our exam
+            help comes in.
+          </p>
 
+          <p className="pb-2">
+            Our team of friendly advisors really knows their mechanical
+            engineering topics inside out. They’ll explain those complex
+            concepts to you in simple words.{" "}
+          </p>
 
-<p className="pb-2">Our team of friendly advisors really knows their mechanical engineering topics inside out. They’ll explain those complex concepts to you in simple words. </p>
+          <p className="pb-2">
+            Trying to battle through your coursework alone only leads to low
+            grades and frustration. But, our expertise assists you in your exam
+            and provides all the resources that you need to pass it.{" "}
+          </p>
 
-
-
-<p className="pb-2">Trying to battle through your coursework alone only leads to low grades and frustration. But, our expertise assists you in your exam and provides all the resources that you need to pass it. </p>
-
-
-
-<p className="pb-2">Therefore, do not struggle with it alone, but let us take care of your mechanical engineering examination problems for you. We shall be there on every step guiding you patiently by answers and offering assistance with handy study materials.
-</p>
-
+          <p className="pb-2">
+            Therefore, do not struggle with it alone, but let us take care of
+            your mechanical engineering examination problems for you. We shall
+            be there on every step guiding you patiently by answers and offering
+            assistance with handy study materials.
+          </p>
         </section>
       </div>
 
@@ -2468,7 +2562,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-        <div className="py-10">
+      <div className="py-10">
         <div className="flex flex-col items-center">
           <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
           <p className="text-neutral-500 text-xl mt-3">
@@ -2476,55 +2570,69 @@ const Page = () => {
           </p>
         </div>
         <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
-          <div className="py-5 w-full" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div
+            className="py-5 w-full"
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
+          >
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> When can I get mechanical engineering exam help? 
-</span>
+                <span> When can I get mechanical engineering exam help?</span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              You can get mechanical engineering exam help whenever you need it - nights, weekends, anytime! Our experts are available 24/7, so you never have to wait when you're feeling stuck or confused.
-
+                You can get mechanical engineering exam help whenever you need
+                it - nights, weekends, anytime! Our experts are available 24/7,
+                so you never have to wait when you're feeling stuck or confused.
               </p>
-              
             </details>
           </div>
-          <div className="py-5" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div
+            className="py-5"
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
+          >
+            <details className="group">
+              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
+                <span> Will it really help my grades?</span>
+                <span className="transition group-open:rotate-180">
+                  <IconChevronDown />
+                </span>
+              </summary>
+              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                With personalized guidance and support from a tutor, you'll
+                solidify your understanding of critical principles. This mastery
+                helps boost confidence and exam performance.
+              </p>
+            </details>
+          </div>
+          <div
+            className="py-5"
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
+          >
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
                 <span>
                   {" "}
-                  Will it really help my grades? 
+                  How do I get started for mechanical engineering exam help?
                 </span>
                 <span className="transition group-open:rotate-180">
                   <IconChevronDown />
                 </span>
               </summary>
               <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              With personalized guidance and support from a tutor, you'll solidify your understanding of critical principles. This mastery helps boost confidence and exam performance.
+                Please tell us when and what you need help with. We'll quickly
+                set you up with an expert mechanical engineering tutor ready to
+                support your success!
               </p>
             </details>
           </div>
-          <div className="py-5" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span>
-                  {" "}
-                  How do I get started for mechanical engineering exam help? 
-                </span>
-                <span className="transition group-open:rotate-180">
-                  <IconChevronDown />
-                </span>
-              </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              Please tell us when and what you need help with. We'll quickly set you up with an expert mechanical engineering tutor ready to support your success!
-              </p>
-            </details>
-          </div>
-         
         </div>
       </div>
       <Footer />
