@@ -98,8 +98,8 @@ const Page = () => {
       title: "Civil Engineering Exam Help",
     },
     {
-      to: "/mechnaical-engineering-exam-help",
-      title: "Mechnaical Engineering Exam Help",
+      to: "/mechanical-engineering-exam-help",
+      title: "Mechanical Engineering Exam Help",
     },
   ];
   return (
