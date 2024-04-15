@@ -5,11 +5,11 @@ import { IconChevronDown } from "@tabler/icons-react";
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 export const metadata = {
-  title: "Marketing Exam Help: Your Path To Top Grades)",
+  title: "Marketing Exam Help (Your Path To Top Grades)",
   description:
     "Conquer your Marketing Exam! Get expert Marketing Exam Help online. Sharpen your skills & ace the test. Increase your chances of success today!",
   openGraph: {
-    title: "Marketing Exam Help: Your Path To Top Grades)",
+    title: "Marketing Exam Help (Your Path To Top Grades)",
   },
 };
 const Page = () => {

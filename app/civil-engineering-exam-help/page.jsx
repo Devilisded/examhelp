@@ -352,10 +352,16 @@ const Page = () => {
                   <IconChevronDown />
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+              <div
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
+              >
+                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
                 Yes! We offer focused study guides and customizable practice
                 sessions to maximize your learning in a limited timeframe.
-              </p>
+              </p></div>
+              
             </details>
           </div>
           <div
@@ -378,7 +384,13 @@ const Page = () => {
                   <IconChevronDown />
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+              <div
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
+              >
+                
+                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
                 No problem! Our website has a “
                 <Link
                   href="/https://examhelp.online/contact"
@@ -388,7 +400,8 @@ const Page = () => {
                 </Link>
                 ” page where you can reach out to our support team, which is
                 composed of professionals in the field.
-              </p>
+              </p></div>
+            
             </details>
           </div>
         </div>

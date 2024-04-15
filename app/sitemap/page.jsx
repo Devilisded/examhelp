@@ -101,6 +101,10 @@ const Page = () => {
       to: "/mechanical-engineering-exam-help",
       title: "Mechanical Engineering Exam Help",
     },
+    {
+      to: "/algebra-exam-help",
+      title: "Algebra Exam Help",
+    },
   ];
   return (
     <div>
