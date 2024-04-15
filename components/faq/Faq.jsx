@@ -37,9 +37,8 @@ const Faq = (props) => {
                 <p
                   className="text-neutral-600 mt-3 group-open:animate-fadeIn"
                   itemProp="text"
-                >
-                  {item.answer}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: item.answer }}
+                />
               </div>
             </details>
           </div>
