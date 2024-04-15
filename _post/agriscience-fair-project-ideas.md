@@ -7,7 +7,7 @@ date: "2024-06-05T05:35:07.322Z"
 author: Amar 
 faq:
   [
-    { question: "What are some excellent plant project ideas?", answer: "You can test the effects of different soil, fertilizers, lights, or water on plant growth. You can also try hydroponics, grafting, or breeding new plant types..
+    { question: "What are some excellent plant project ideas?", answer: "You can test the effects of different soil, fertilizers, lights, or water on plant growth. You can also try hydroponics, grafting, or breeding new plant types.
  " },
     { question: "What are some interesting animal project ideas?", answer: "You can examine how different foods or housing affect farm animal growth and health, as well as study animal behaviors, genetics, or reproduction." },
 
