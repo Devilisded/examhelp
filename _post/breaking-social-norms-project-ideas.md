@@ -243,7 +243,7 @@ Moreover, this enables people to play key roles in their own personal growth and
 ## Tips for Breaking Social Norms Positively
 Challenging social norms can be compelling in promoting positive change and correcting individuals' wrong beliefs. By stepping out of the way and upholding unconventional ideas or practices, people may encourage others, promote meaningful interactions, and form a more comprehensive and fair society.
 
-- There are many ways to break social norms in a positive manner, such as challenging conventional beliefs and behaviors that might lead to inequality or injustice.
+- There are many ways to break social norms in a positive manner, such as challenging conventional beliefs and behaviors that might lead to inequality or inj+ustice.
 
 - Many individuals can serve as inspirations to others who dare not think outside the box by simply not following the crowd so that curiosity and open-mindedness become part of the culture.
 
