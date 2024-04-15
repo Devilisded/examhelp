@@ -304,7 +304,10 @@ const Page = () => {
             itemType="https://schema.org/Question"
           >
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
+              <summary
+                className="flex justify-between items-center font-medium cursor-pointer list-none text-xl"
+                itemProp="name"
+              >
                 <span>
                   {" "}
                   What are the ways in which your service can be of help to me
@@ -314,11 +317,20 @@ const Page = () => {
                   <IconChevronDown />
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                Our study pack is made up of past exams, textbooks, online
-                courses, and other resources that will help you understand
-                better and test your exam preparedness.
-              </p>
+              <div
+                itemScope
+                itemProp="acceptedAnswer"
+                itemType="https://schema.org/Answer"
+              >
+                <p
+                  className="text-neutral-600 mt-3 group-open:animate-fadeIn"
+                  itemProp="text"
+                >
+                  Our study pack is made up of past exams, textbooks, online
+                  courses, and other resources that will help you understand
+                  better and test your exam preparedness.
+                </p>
+              </div>
             </details>
           </div>
           <div
@@ -328,7 +340,10 @@ const Page = () => {
             itemType="https://schema.org/Question"
           >
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
+              <summary
+                className="flex justify-between items-center font-medium cursor-pointer list-none text-xl"
+                itemProp="name"
+              >
                 <span>
                   {" "}
                   I don’t have much time to study. Can this service work for me?
@@ -350,7 +365,10 @@ const Page = () => {
             itemType="https://schema.org/Question"
           >
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
+              <summary
+                className="flex justify-between items-center font-medium cursor-pointer list-none text-xl"
+                itemProp="name"
+              >
                 <span>
                   {" "}
                   Supposing I am stranded on a particular topic, how can I get
