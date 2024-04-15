@@ -23,12 +23,39 @@ import Link from "next/link";
 import Hero from "@/components/hero/Hero";
 import { IconSchool } from "@tabler/icons-react";
 import ExpertCarousel from "@/components/expertCarousel/ExpertCarousel";
+import Faq from "@/components/faq/Faq";
 
 const OPTIONS = { align: "start" };
 const SLIDE_COUNT = 6;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function Home() {
+  const faq = [
+    {
+      question:
+        "How will Exam Help Online benefit me?",
+      answer:
+        "Exam Help Online offers personalized help tailored to your unique needs. Our skilled instructors offer a step-by-step tip that helps you understand course materials, improve your study skills, and boost your exam confidence."
+    },
+    {
+      question:
+        "Who can benefit from Exam Help Online? ",
+      answer:
+        "Exam Help Online suits students of all levels, including high school and college. Whether you struggle with a subject or aim for high grades, our services cater to your educational goals and help you achieve them.",
+    },
+    {
+      question:
+        "Can I contact Exam Help Online anytime?",
+      answer:
+        "Yes, Exam Help Online offers flexible scheduling to fit your busy plan. We ensure availability for daytime, evening, or weekend sessions while providing our service.",
+    },
+    {
+      question:
+        "Is Exam Help Online secure and private?",
+      answer:
+        "Indeed, your privacy is crucial to us. We maintain confidentiality during all dealings on a secure platform, protecting your data. For a safe and supportive learning environment, choose Exam Help Online.",
+    },
+  ];
   return (
     <div className="m-0">
       <Navbar />
@@ -2701,81 +2728,7 @@ export default function Home() {
           <Carousel />
         </div>
       </div>
-      <div className="py-10 px-5 ">
-        <div className="flex flex-col items-center">
-          <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQs</h2>
-          <p className="text-neutral-500 text-xl mt-3">
-            Frequenty Asked Questions
-          </p>
-        </div>
-        <div className="grid divide-y divide-neutral-200 max-w-4xl mx-auto mt-8">
-          <div className="py-5 w-full">
-            <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span> Do exams online provide help for online exams?</span>
-                <span className="transition group-open:rotate-180">
-                  <IconChevronDown />
-                </span>
-              </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                Yes, we do provide expert assistance for online examinations.
-              </p>
-            </details>
-          </div>
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span>
-                  {" "}
-                  Is your service available in the United States Of America?
-                </span>
-                <span className="transition group-open:rotate-180">
-                  <IconChevronDown />
-                </span>
-              </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                Yes, we do provide our online exam help service in the United
-                States of America
-              </p>
-            </details>
-          </div>
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span>
-                  {" "}
-                  Can you help me with the exam with 1 day remaining?
-                </span>
-                <span className="transition group-open:rotate-180">
-                  <IconChevronDown />
-                </span>
-              </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                Yes, we can help you with your exam despite the tightest
-                deadlines.
-              </p>
-            </details>
-          </div>
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-xl">
-                <span>
-                  Does online examination assist in working things out?
-                </span>
-                <span className="transition group-open:rotate-180">
-                  <IconChevronDown />
-                </span>
-              </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                Yes, online exam help does work. Although it may seem
-                unbelievable, you stand a better chance of obtaining excellent
-                grades when professionals offer you full support during the
-                examination.
-              </p>
-            </details>
-          </div>
-        </div>
-      </div>
+      <Faq qs={faq} />
       <Footer />
     </div>
   );
