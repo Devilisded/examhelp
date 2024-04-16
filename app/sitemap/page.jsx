@@ -113,6 +113,10 @@ const Page = () => {
       to: "/maths-exam-help",
       title: "Maths Exam Help",
     },
+    {
+      to: "/linear-algebra-exam-help",
+      title: "Linear Algebra Exam Help",
+    },
   ];
   return (
     <div>
