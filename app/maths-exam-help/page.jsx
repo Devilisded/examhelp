@@ -80,14 +80,7 @@ const Page = () => {
               <p className="pb-2">
               Each student receives personalized support through individualized advice from our specialized tutors. Our aim in providing the best maths exam help services is to facilitate a love for the subject among learners and equip them with the knowledge necessary for their success. {" "}
               </p>
-
-              <p className="pb-2">
-                When preparing for the civil engineering test, highly expert
-                professionals are at your disposal to help you achieve your aim
-                of becoming a civil engineer. In the area of civil engineering,
-                we enable aspiring candidates to emerge as certified
-                professionals.
-              </p>
+              
               <p className="pb-2">
               If you want to get rid of your fear and uncertainty about mathematics, trust us: we’ll make you great at it!
               </p>
@@ -139,7 +132,7 @@ const Page = () => {
             </p>
             <li className="pb-2">Our tutors explain ideas clearly.</li>
 
-            <li>We teach in a way that matches how you learn best.</li>
+            <li className="pb-2">We teach in a way that matches how you learn best.</li>
             <li className="pb-2">We have lots of practice materials for every topic.</li>
             <li className="pb-2">Our interactive sessions encourage you to take an active part.</li>
             <li className="pb-2">We make a schedule that fits your timetable.</li>

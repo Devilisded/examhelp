@@ -117,6 +117,11 @@ const Page = () => {
       to: "/linear-algebra-exam-help",
       title: "Linear Algebra Exam Help",
     },
+    {
+      to: "/political-science-exam-help",
+      title: "Political Science Exam Help",
+    },
+    
   ];
   return (
     <div>
