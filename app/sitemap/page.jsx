@@ -121,6 +121,10 @@ const Page = () => {
       to: "/political-science-exam-help",
       title: "Political Science Exam Help",
     },
+    {
+      to: "/financial-engineering-exam-help",
+      title: "Financial Engineering Exam Help",
+    },
     
   ];
   return (
