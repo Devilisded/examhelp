@@ -125,6 +125,10 @@ const Page = () => {
       to: "/financial-engineering-exam-help",
       title: "Financial Engineering Exam Help",
     },
+    {
+      to: "/cscs-exam-help",
+      title: "CSCS Exam Help",
+    },
     
   ];
   return (
