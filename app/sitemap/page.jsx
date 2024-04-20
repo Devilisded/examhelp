@@ -133,6 +133,18 @@ const Page = () => {
       to: "/literature-help",
       title: "Literature Exam Help",
     },
+    {
+      to: "/econometrics-help",
+      title: "Econometrics Exam Help",
+    },
+    {
+      to: "/geography-exam-help",
+      title: "Geography Exam Help",
+    },
+    {
+      to: "/inforamation-technology-exam-help",
+      title: "Inforamation Technology Exam Help",
+    },
   ];
   return (
     <div>
