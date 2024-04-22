@@ -16,6 +16,8 @@ import { IconSchool } from "@tabler/icons-react";
 const Service = () => {
   return (
     <div>
+      <meta name="robots" content="noindex,nofollow" />
+
       <Navbar />
       <Hero />
       <div className="flex flex-col gap-5 items-center py-10">

@@ -38,6 +38,7 @@ const Page = async ({ params }) => {
   return (
     <div>
       {/* {showLoader && <Loader />} */}
+      <meta name="robots" content="noindex,nofollow" />
 
       <Navbar />
       <div className="flex justify-center pt-10">
