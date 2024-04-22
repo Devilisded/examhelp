@@ -145,6 +145,10 @@ const Page = () => {
       to: "/inforamation-technology-exam-help",
       title: "Inforamation Technology Exam Help",
     },
+    {
+      to: "/philosophy-exam-help",
+      title: "Philosophy Exam Help",
+    },
   ];
   return (
     <div>
