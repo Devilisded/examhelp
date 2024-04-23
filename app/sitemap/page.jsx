@@ -130,7 +130,7 @@ const Page = () => {
       title: "CSCS Exam Help",
     },
     {
-      to: "/literature-help",
+      to: "/literature-exam-help",
       title: "Literature Exam Help",
     },
     {
