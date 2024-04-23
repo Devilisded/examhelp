@@ -155,8 +155,8 @@ const Page = () => {
       title: "Social Work Exam Help",
     },
     {
-      to: "/nursing-simulation-exam-help",
-      title: "Nursing Simulation Exam Help",
+      to: "/zoology-exam-help",
+      title: "Zoology Exam Help",
     },
   ];
   return (
