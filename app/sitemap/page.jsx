@@ -134,20 +134,17 @@ const Page = () => {
       title: "Literature Exam Help",
     },
     {
-      to: "/econometrics-help",
+      to: "/econometrics-exam-help",
       title: "Econometrics Exam Help",
     },
     {
       to: "/geography-exam-help",
       title: "Geography Exam Help",
     },
+
     {
-      to: "/inforamation-technology-exam-help",
-      title: "Inforamation Technology Exam Help",
-    },
-    {
-      to: "/inforamation-technology-exam-help",
-      title: "Inforamation Technology Exam Help",
+      to: "/information-technology-exam-help",
+      title: "Information Technology Exam Help",
     },
     {
       to: "/philosophy-exam-help",
@@ -156,6 +153,10 @@ const Page = () => {
     {
       to: "/social-work-exam-help",
       title: "Social Work Exam Help",
+    },
+    {
+      to: "/nursing-simulation-exam-help",
+      title: "Nursing Simulation Exam Help",
     },
   ];
   return (
