@@ -157,6 +157,10 @@ const Page = () => {
       to: "/social-work-exam-help",
       title: "Social Work Exam Help",
     },
+    {
+      to: "/zoology-exam-help",
+      title: "Zoology Exam Help",
+    },
   ];
   return (
     <div>
