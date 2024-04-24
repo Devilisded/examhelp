@@ -32,26 +32,22 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 export default function Home() {
   const faq = [
     {
-      question:
-        "How will Exam Help Online benefit me?",
+      question: "How will Exam Help Online benefit me?",
       answer:
-        "Exam Help Online offers personalized help tailored to your unique needs. Our skilled instructors offer a step-by-step tip that helps you understand course materials, improve your study skills, and boost your exam confidence."
+        "Exam Help Online offers personalized help tailored to your unique needs. Our skilled instructors offer a step-by-step tip that helps you understand course materials, improve your study skills, and boost your exam confidence.",
     },
     {
-      question:
-        "Who can benefit from Exam Help Online? ",
+      question: "Who can benefit from Exam Help Online? ",
       answer:
         "Exam Help Online suits students of all levels, including high school and college. Whether you struggle with a subject or aim for high grades, our services cater to your educational goals and help you achieve them.",
     },
     {
-      question:
-        "Can I contact Exam Help Online anytime?",
+      question: "Can I contact Exam Help Online anytime?",
       answer:
         "Yes, Exam Help Online offers flexible scheduling to fit your busy plan. We ensure availability for daytime, evening, or weekend sessions while providing our service.",
     },
     {
-      question:
-        "Is Exam Help Online secure and private?",
+      question: "Is Exam Help Online secure and private?",
       answer:
         "Indeed, your privacy is crucial to us. We maintain confidentiality during all dealings on a secure platform, protecting your data. For a safe and supportive learning environment, choose Exam Help Online.",
     },
@@ -78,12 +74,12 @@ export default function Home() {
               you find difficult and easy to provide useful study tools,
               practice questions, and tips on taking tests.
             </p>
-            <a
-              href="#"
+            <Link
+              href="/about"
               className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-blue-600 hover:border-transparent"
             >
               Explore Now
-            </a>
+            </Link>
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center hidden lg:block">
             <div className="flex gap-10 h-[400px] justify-center">
@@ -2318,14 +2314,16 @@ export default function Home() {
       </div>
       <Number />
       <div className="flex flex-col gap-10 py-10 items-center">
-        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-slate-700 block lg:hidden w-[95%] lg:w-[75%]">
-          Expert Assistance On Exam Help Online - Chat Now!
+        <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-blue-900 block lg:hidden w-[95%] lg:w-[75%]">
+          Expert Assistance On Exam Help Online -{" "}
+          <span className="text-orange-400">Chat Now!</span>
         </h2>
         <div className="flex justify-center">
           <div className="flex lg:flex-row flex-col-reverse gap-5 w-[95%] lg:w-[75%]">
             <div className="flex flex-col gap-2">
-              <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-slate-700 hidden lg:block">
-                Expert Assistance On Exam Help Online - Chat Now!
+              <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-blue-900 hidden lg:block">
+                Expert Assistance On Exam Help Online -{" "}
+                <span className="text-orange-400"> Chat Now!</span>
               </h2>
               <div className="flex justify-center">
                 <div className="text-slate-700">
@@ -2617,6 +2615,13 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div className="flex justify-center">
+                  <Link href="/sitemap">
+                    <button className="border border-solid border-blue-700 text-blue-700 px-6 py-2 rounded hover:bg-blue-700 hover:text-white">
+                      View More
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -2625,7 +2630,7 @@ export default function Home() {
 
       <div className="flex justify-center py-10">
         <div className="flex flex-wrap gap-8 w-[80%] lg:gap-0">
-          <div className=" w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
+          <div className="w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
             <div className="flex lg:py-12 ">
               <img
                 src="/images/content4.webp"
@@ -2634,14 +2639,13 @@ export default function Home() {
               />
             </div>
           </div>
-
           <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
             <div className="flex h-full items-center rounded-lg bg-blue-600 p-6 text-center text-white lg:pl-12 lg:text-left">
               <div className="lg:pl-12">
                 <h2 className="mb-8 text-3xl font-bold">
                   Expert Assistance On Exam Help Online - Chat Now!
                 </h2>
-                <p className="text-balance">
+                <p className="mb-8 text-balance">
                   Exams are a stressful and challenging experience for many
                   students, especially when students cannot prepare well for
                   their exams for any reason. However, getting the right
@@ -2663,6 +2667,13 @@ export default function Home() {
                   one-on-one with an expert tutor today - just chat with us now
                   to get started.
                 </p>
+                <div className="flex justify-center items-center">
+                  <Link href="/submit-work">
+                    <button className="border border-solid border-orange-400 text-orange-400 px-8 rounded-md py-2 font-semibold hover:bg-orange-400 hover:text-white">
+                      Chat Now
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

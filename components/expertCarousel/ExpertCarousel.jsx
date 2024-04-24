@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
 import "./embla.css";
+import Link from "next/link";
 
 const ExpertCarousel = () => {
   const options = "";
@@ -64,50 +65,52 @@ const ExpertCarousel = () => {
         <div className="embla__container">
           {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
-              <div className="relative flex  flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
-                <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-400 shadow-none">
-                  <img
-                    src={item.img}
-                    alt={item.name}
-                    className="relative inline-block h-[58px] w-[58px] rounded-full object-cover object-center"
-                  />
-                  <div className="flex w-full flex-col gap-0.5">
-                    <div className="flex items-center justify-between">
-                      <p className="block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">
-                        {item.name}
-                      </p>
-                      <div className="5 flex items-center gap-0">
-                        {Array.from(Array(item.stars).keys()).map(
-                          (item, index) => (
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              fill="currentColor"
-                              aria-hidden="true"
-                              className="h-5 w-5 text-yellow-400"
-                              key={index}
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                clipRule="evenodd"
-                              ></path>
-                            </svg>
-                          )
-                        )}
+              <Link href="/experts">
+                <div className="relative flex  flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+                  <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-400 shadow-none">
+                    <img
+                      src={item.img}
+                      alt={item.name}
+                      className="relative inline-block h-[58px] w-[58px] rounded-full object-cover object-center"
+                    />
+                    <div className="flex w-full flex-col gap-0.5">
+                      <div className="flex items-center justify-between">
+                        <p className="block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">
+                          {item.name}
+                        </p>
+                        <div className="5 flex items-center gap-0">
+                          {Array.from(Array(item.stars).keys()).map(
+                            (item, index) => (
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                className="h-5 w-5 text-yellow-400"
+                                key={index}
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                  clipRule="evenodd"
+                                ></path>
+                              </svg>
+                            )
+                          )}
+                        </div>
                       </div>
+                      <p className="block font-sans text-base font-light leading-relaxed text-gray-900 antialiased">
+                        {item.subject}
+                      </p>
                     </div>
-                    <p className="block font-sans text-base font-light leading-relaxed text-gray-900 antialiased">
-                      {item.subject}
+                  </div>
+                  <div className="mb-6 p-0">
+                    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                      {item.description}
                     </p>
                   </div>
                 </div>
-                <div className="mb-6 p-0">
-                  <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
