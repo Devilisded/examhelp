@@ -70,27 +70,27 @@ const Page = () => {
 
                         <div className="mb-5 mt-3 text-slate-900">
                             <p className="pb-2">
-                            As we all know, getting ready for a zoology exam can feel like a big job. You have to learn about many other types of creatures, the parts that make up their bodies, how they behave, and the places they live in.
+                                As we all know, getting ready for a zoology exam can feel like a big job. You have to learn about many other types of creatures, the parts that make up their bodies, how they behave, and the places they live in.
                             </p>
 
                             <p className="pb-2">
-                            It can seem like there's a lot to study, so we offer help with your zoology exam to make things easier for you.
+                                It can seem like there's a lot to study, so we offer help with your zoology exam to make things easier for you.
                             </p>
                             <p className="pb-2">Our team includes experts who have been teaching about animals for many years. They are skilled at quickly explaining complex ideas. </p>
-<p className="pb-2">Our teachers are available to guide you in grouping animals into categories, understanding how they grow and change, and learning about their natural homes.</p>
-<p className="pb-2">Our experts are available all day and all night to answer any questions you have and help you with any parts that seem confusing.</p>
+                            <p className="pb-2">Our teachers are available to guide you in grouping animals into categories, understanding how they grow and change, and learning about their natural homes.</p>
+                            <p className="pb-2">Our experts are available all day and all night to answer any questions you have and help you with any parts that seem confusing.</p>
 
                             <p className="pb-2">
-                            Don't let the zoology exam make you worried. With our help, you can feel sure of yourself and do well on the exam! Many students just like you have used our zoology exam help services and have done great. So, why wait more? Contact us now to get the best zoology exam help from  <Link href="/biology" className="text-blue-600">
-                biology
-              </Link> experts.
+                                Don't let the zoology exam make you worried. With our help, you can feel sure of yourself and do well on the exam! Many students just like you have used our zoology exam help services and have done great. So, why wait more? Contact us now to get the best zoology exam help from  <Link href="/biology" className="text-blue-600">
+                                    biology
+                                </Link> experts.
                             </p>
-                           
+
                         </div>
 
                         <h2 className="text-4xl pb-2">
                             <b>
-                            Master Your Zoology Exam with Our Expert Help
+                                Master Your Zoology Exam with Our Expert Help
                             </b>
                         </h2>
                         <div className="mt-1">
@@ -101,7 +101,7 @@ const Page = () => {
 
                         <div className="mb-5 mt-3 text-slate-900">
                             <p className="pb-2">
-                            Our zoology exam helps cover crucial topics to improve your understanding. Expert tutors guide you through each topic simply. We cover the following topics:
+                                Our zoology exam helps cover crucial topics to improve your understanding. Expert tutors guide you through each topic simply. We cover the following topics:
                             </p>
 
                             <li className="pb-2">Animal Classification</li>
@@ -113,7 +113,7 @@ const Page = () => {
                             <li className="pb-2">Animal Physiology</li>
 
                             <p className="pb-2">
-                            Our experts provide clear explanations and examples. You will gain a better understanding and confidence for your zoology exam with our assistance. We guide your study journey to success so that you pass the exam in one go.
+                                Our experts provide clear explanations and examples. You will gain a better understanding and confidence for your zoology exam with our assistance. We guide your study journey to success so that you pass the exam in one go.
 
                             </p>
                         </div>
@@ -127,37 +127,37 @@ const Page = () => {
                         </div>
 
                         <p className="pb-4">
-                        No doubt, studying for a zoology exam can be hard, especially if you have other things to do. Hiring our <Link href="/" className="text-blue-600">
-                                    Exam Helpers
-                                </Link>{" "} can make things easier. Here's how:
+                            No doubt, studying for a zoology exam can be hard, especially if you have other things to do. Hiring our <Link href="/" className="text-blue-600">
+                                Exam Helpers
+                            </Link>{" "} can make things easier. Here's how:
 
                         </p>
                         <ul className="list-decimal" >
                             <li className="pb-2 font-bold">They Save Time</li>
                             <p className="pb-2">You might be busy, so having someone help you with your exam can free up time.
-</p>
+                            </p>
 
                             <li className="pb-2 font-bold">They Know a Lot</li>
                             <p className="pb-2">Exam helpers know zoology well. They can explain tricky ideas and provide insights.
-</p>
+                            </p>
 
                             <li className="pb-2 font-bold">They Reduce Stress</li>
                             <p className="pb-2">Preparing for exams can be overwhelming. Getting help can take off some pressure and boost your confidence.
-</p>
+                            </p>
 
                             <li className="pb-2  font-bold">They Can Help Your Grades</li>
                             <p className="pb-2">With their expertise, you could do better on your exam. They will know what topics are most crucial.</p>
                             <li className="pb-2  font-bold">They Provide Custom Support</li>
                             <p className="pb-2">Exam helpers can adapt their assistance to your needs, whether it's explaining, practicing questions, or studying materials.
-</p>
+                            </p>
                         </ul>
                         <p className="pb-4">
-                        Therefore, it is wise to use our exam help online service now to grab a high score with high accuracy.
+                            Therefore, it is wise to use our exam help online service now to grab a high score with high accuracy.
                         </p>
 
                         <h2 className="text-4xl pb-2">
                             <b>What Are the Challenges Students Face with Zoology Exam?
-</b>
+                            </b>
                         </h2>
                         <div className="mt-1">
                             <span className="inline-block w-96 h-1 bg-blue-500 rounded-full"></span>
@@ -166,47 +166,47 @@ const Page = () => {
                         </div>
 
                         <p className="pb-4 mt-3">
-                        When getting ready for a zoology exam, students often face some everyday struggles. Here's what they are:
+                            When getting ready for a zoology exam, students often face some everyday struggles. Here's what they are:
 
                         </p>
                         <ul className="list-decimal">
                             <li className="pb-2 font-bold">Hard Words</li>
 
                             <p className="pb-2">
-                            Zoology uses many science words that can be difficult to learn or remember. This can make studying and answering test questions a bit tricky.
+                                Zoology uses many science words that can be difficult to learn or remember. This can make studying and answering test questions a bit tricky.
 
                             </p>
 
                             <li className="pb-2 font-bold">Lots of Topics</li>
 
                             <p className="pb-2">
-                            Zoology covers many areas, such as animal body parts, behaviors, and how they've changed over time. Thus, keeping up with all these topics can feel overwhelming.
+                                Zoology covers many areas, such as animal body parts, behaviors, and how they've changed over time. Thus, keeping up with all these topics can feel overwhelming.
                             </p>
 
                             <li className="pb-2 font-bold">Understanding Connections</li>
 
                             <p className="pb-2">
-                            Zoology isn't just about learning facts; it's also about how different animals relate to each other and their surroundings. Thus, grasping these connections can be difficult.
+                                Zoology isn't just about learning facts; it's also about how different animals relate to each other and their surroundings. Thus, grasping these connections can be difficult.
 
                             </p>
 
                             <li className="pb-2 font-bold">Much to Remember</li>
 
                             <p className="pb-2">
-                            There's a lot of information to commit to memory, like animal names, groupings, and specific traits. It can feel like too much to learn.
+                                There's a lot of information to commit to memory, like animal names, groupings, and specific traits. It can feel like too much to learn.
 
                             </p>
 
                         </ul>
                         <p className="pb-2">
-                        These struggles can make preparing for a zoology exam feel really daunting. However, with the right approach, such as using visuals and studying with classmates, students can improve their understanding and do well on their exams.
+                            These struggles can make preparing for a zoology exam feel really daunting. However, with the right approach, such as using visuals and studying with classmates, students can improve their understanding and do well on their exams.
                         </p>
 
                         <br />
 
                         <h2 className="text-4xl pb-2">
                             <b>
-                            Why Does Our Zoology Exam Help Best for You?
+                                Why Does Our Zoology Exam Help Best for You?
 
 
                             </b>
@@ -217,7 +217,7 @@ const Page = () => {
                             <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                         </div>
                         <p className="pb-4">
-                        The benefits of using our zoology exam help services are listed below.
+                            The benefits of using our zoology exam help services are listed below.
 
 
                         </p>
@@ -240,11 +240,11 @@ const Page = () => {
 
 
                         <p className="pb-2">
-                        Get in touch with us anytime for the best work on your zoology exam!
+                            Get in touch with us anytime for the best work on your zoology exam!
                         </p>
                         <h2 className="text-4xl pb-2">
                             <b>
-                            Zoology Exam Help Online Worldwide
+                                Zoology Exam Help Online Worldwide
 
 
                             </b>
@@ -256,9 +256,9 @@ const Page = () => {
                         </div>
                         <p className="pb-2">With Exam Help Online, students from all over the world can easily handle their zoology exam. Our platform brings you experienced tutors who specialize in zoology and are ready to help you with all your needs. </p>
 
-<p className="pb-2">Whether you’re tackling tricky animal behavior, grasping ecological ideas, or learning about different types of animals, our tutors are here to help you through each step.</p>
+                        <p className="pb-2">Whether you’re tackling tricky animal behavior, grasping ecological ideas, or learning about different types of animals, our tutors are here to help you through each step.</p>
 
-<p className="pb-2">Exam Help Online is available globally, so you can access reliable zoology exam help whenever you need it. Connect with Exam Help Online today and take your zoology task to the next level!</p>
+                        <p className="pb-2">Exam Help Online is available globally, so you can access reliable zoology exam help whenever you need it. Connect with Exam Help Online today and take your zoology task to the next level!</p>
 
 
                     </section>
