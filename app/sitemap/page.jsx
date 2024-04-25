@@ -166,6 +166,10 @@ const Page = () => {
       to: "/microeconomics-exam-help",
       title: "Microeconomics Exam Help",
     },
+    {
+      to: "/humanities-exam-help",
+      title: "Humanities Exam Help",
+    },
   ];
   return (
     <div>
