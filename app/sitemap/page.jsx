@@ -174,6 +174,10 @@ const Page = () => {
       to: "/probability-exam-help",
       title: "Probability Exam Help",
     },
+    {
+      to: "/trigonometry-exam-help",
+      title: "Trigonometry Exam Help",
+    },
   ];
   return (
     <div>
