@@ -182,6 +182,10 @@ const Page = () => {
       to: "/robotics-engineering-exam-help",
       title: "Robotics Engineering Exam Help",
     },
+    {
+      to: "/physical-education-exam-help",
+      title: "Physical Education Exam Help",
+    },
 
     
   ];
