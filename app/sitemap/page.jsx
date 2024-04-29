@@ -191,7 +191,10 @@ const Page = () => {
       title: "Botany Exam Help",
     },
 
-
+    {
+      to: "/financial-literacy-exam-help",
+      title: "Financial Literacy Help",
+    },
     
   ];
   return (
