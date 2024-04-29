@@ -186,6 +186,11 @@ const Page = () => {
       to: "/physical-education-exam-help",
       title: "Physical Education Exam Help",
     },
+    {
+      to: "/botany-exam-help",
+      title: "Botany Exam Help",
+    },
+
 
     
   ];
