@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    webURL: "https://matlabassignmenthelp.com",
+    webURL: "http://localhost:3000",
   },
 };
 

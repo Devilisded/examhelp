@@ -6,20 +6,23 @@ import { regEx } from "../regEx";
 import { Snackbar } from "@mui/material";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-
+import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import dayjs from "dayjs";
 const Form = ({ toggleLoader }) => {
   const [data, setData] = useState({
     name: "",
     email: "",
     phone: "",
-    datetime: "",
+    datetime:new Date(),
     subject: "",
     message: "",
   });
 
   const [check, setCheck] = useState(false);
   const [submitDisabled, setSubmitDisbaled] = useState(false);
-  let currentDate = new Date().toJSON().slice(0, 10);
+  let currentDate = new Date()
   const [snackQ, setSnackQ] = useState(false);
 
   const [phoneError, setPhoneError] = useState(false);
@@ -87,7 +90,7 @@ const Form = ({ toggleLoader }) => {
       setPhoneError(phoneErrorFun());
       setNameError(data.name.length < 1);
       setDateError(
-        data.datetime !== "" && data.datetime > currentDate ? false : true
+        data.datetime !== "" && new Date(data.datetime) > currentDate ? false : true
       );
       setSubjectError(data.subject === "" ? true : false);
 
@@ -198,7 +201,7 @@ const Form = ({ toggleLoader }) => {
         </div>
 
         <div>
-          <input
+          {/* <input
             type="datetime-local"
             name="datetime"
             min={currentDate + "T00:00"}
@@ -207,7 +210,11 @@ const Form = ({ toggleLoader }) => {
             className={dateError === true ? inputErrorCss : inputCss}
             placeholder="When you need it Choose date and time "
             required
-          />
+          /> */}
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DateTimePicker label="Deadline" className="w-full" minDate={dayjs(new Date())}   value={dayjs(data.datetime)} onChange={(value)=>setData({...data,datetime : value.$d})}
+           />
+          </LocalizationProvider>
         </div>
 
         <div>
