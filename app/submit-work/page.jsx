@@ -15,22 +15,25 @@ import { Snackbar } from "@mui/material";
 import Loader from "@/components/loader/Loader";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import Number from "@/components/number/Number";
-
+import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import dayjs from "dayjs";
+import "./submit.css"
 const Page = () => {
   const [loader, setLoader] = useState(false);
   const [data, setData] = useState({
     name: "",
     email: "",
     phone: "",
-    datetime: "",
+    datetime: new Date(),
     subject: "",
     message: "",
   });
 
   const [check, setCheck] = useState(false);
   const [submitDisabled, setSubmitDisbaled] = useState(false);
-  let currentDate = new Date().toJSON().slice(0, 10);
+  let currentDate = new Date();
   const [snackQ, setSnackQ] = useState(false);
 
   const [phoneError, setPhoneError] = useState(false);
@@ -98,7 +101,7 @@ const Page = () => {
       setPhoneError(phoneErrorFun());
       setNameError(data.name.length < 1);
       setDateError(
-        data.datetime !== "" && data.datetime > currentDate ? false : true
+        data.datetime !== "" && new Date(data.datetime) > currentDate ? false : true
       );
       setSubjectError(data.subject === "" ? true : false);
 
@@ -244,7 +247,7 @@ const Page = () => {
               >
                 Date & Time
               </label>
-              <input
+              {/* <input
                 type="datetime-local"
                 name="datetime"
                 min={currentDate + "T00:00"}
@@ -253,7 +256,11 @@ const Page = () => {
                 className={dateError === true ? inputErrorCss : inputCss}
                 placeholder="When you need it Choose date and time "
                 required
-              />
+              /> */}
+                        <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DateTimePicker  className="w-full" minDate={dayjs(new Date())}   value={dayjs(data.datetime)} onChange={(value)=>setData({...data,datetime : value.$d})}
+           />
+          </LocalizationProvider>
             </div>
             <div className="w-full ">
               <label
