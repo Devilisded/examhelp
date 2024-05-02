@@ -18,13 +18,13 @@ const Form = ({ toggleLoader }) => {
     datetime:new Date(),
     subject: "",
     message: "",
+    file:""
   });
 
   const [check, setCheck] = useState(false);
   const [submitDisabled, setSubmitDisbaled] = useState(false);
   let currentDate = new Date()
   const [snackQ, setSnackQ] = useState(false);
-
   const [phoneError, setPhoneError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [nameError, setNameError] = useState(false);
@@ -41,7 +41,17 @@ const Form = ({ toggleLoader }) => {
     if (submitDisabled === false) {
       try {
         toggleLoader(true);
-        await axios.post(`${process.env.webURL}/api/login`, data);
+        const formData = new FormData();
+        for(let i = 0;i<data.file.length;i++){
+          formData.append(`file${i}`,data.file[i]);
+        }
+        formData.append("name",data.name);
+        formData.append("email",data.email);
+        formData.append("phone",data.phone);
+        formData.append("datetime",data.datetime);
+        formData.append("subject",data.subject);
+        formData.append("message",data.message)
+        await axios.post(`${process.env.webURL}/api/login`, formData);
 
         setSnackQ(true);
         setData({
@@ -311,7 +321,16 @@ const Form = ({ toggleLoader }) => {
             placeholder="Write your thoughts here..."
           ></textarea>
         </div>
-
+        <input type="file" onChange={({target})=>setData({...data,file:target.files})}  multiple className="block w-full text-sm text-gray-500
+        file:me-4 file:py-2 file:px-4
+        file:rounded-lg file:border-0
+        file:text-sm file:font-semibold
+        file:bg-blue-600 file:text-white
+        hover:file:bg-blue-700
+        file:disabled:opacity-50 file:disabled:pointer-events-none
+        dark:text-neutral-500
+        dark:file:bg-blue-500
+        dark:hover:file:bg-blue-400"  />
         <button
           //type="submit"
           //   onClick={() => {

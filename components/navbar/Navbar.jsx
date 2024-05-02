@@ -130,12 +130,12 @@ const Header = () => {
           <div>
             <Link href="/">
               <Image
-                src="/images/logo.webp"
+                src="/images/logo.png"
                 loading="eager"
                 alt="Logo"
-                width={300}
-                height={300}
-                className="lg:w-full w-[80%]"
+                width={200}
+                height={200}
+                className=" w-[55%]"
               />
             </Link>
           </div>

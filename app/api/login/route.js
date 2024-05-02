@@ -2,25 +2,44 @@ import { NextResponse } from "next/server";
 import { transporter } from "../nodemailer";
 import { regEx } from "@/components/regEx";
 import pool from "@/app/libs/mysql";
+import { writeFile } from "fs";
 
 export async function POST(req) {
    const db = await pool;
-   const q = "INSERT INTO submit_work (name,email,date,subject,message,phone) VALUES (?,?,?,?,?,?)";
+   const data = await req.formData();
+   const fileArr = []
+   var i = 0;
+   const q = "INSERT INTO submit_work (name,email,date,subject,message,phone,attachment) VALUES (?,?,?,?,?,?,?)";
+   while(data.get(`file${i}`)!=null){
+       fileArr.push(data.get(`file${i}`))
+       i++;
+   }
+
   try {
-    const data = await req.json();
+   const saveArr = []; 
+  fileArr.forEach(async(item)=>{
+      const byteData = await item.arrayBuffer();
+      const buffer = Buffer.from(byteData);
+      var fname = new Date().getTime()+item.name;
+      const path = `./public/attach/${fname}`;
+      saveArr.push(fname)
+      await writeFile(path,buffer,()=>{
+          console.log("Done")
+      });
+  })
     if (
-      data.name.length > 0 &&
-      data.phone.length > 9 &&
-      data.subject.length > 0 &&
-      data.datetime.length > 0 &&
-      regEx[0].emailRegex.test(data.email) === true
+      data.get("name").length > 0 &&
+      data.get("phone").length > 9 &&
+      data.get("subject").length > 0 &&
+      data.get("datetime").length > 0 &&
+      regEx[0].emailRegex.test(data.get("email")) === true
     ) {
-      const res = await db.query(q,[data.name,data.email,data.datetime,data.subject,data.message,data.phone])
+      const res = await db.query(q,[data.get("name"),data.get("email"),data.get("datetime"),data.get("subject"),data.get("message"),data.get("phone"),saveArr.toString()])
       const info = {
         from: '"Examhelp" <noreply@examhelp.online>',
-          to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
-      //   to: "akshit.calinfo07@gmail.com",
-        subject: `Request from ${data.name} with Order Id : MAT-${res[0].insertId}`,
+         //  to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
+        to: "akshit.calinfo07@gmail.com",
+        subject: `Request from ${data.get("name")} with Order Id : MAT-${res[0].insertId}`,
         html: `<table cellpadding="0" style="width:100%;">
         <tbody>
            <tr style="width:100%;clear:both">
@@ -51,29 +70,34 @@ export async function POST(req) {
                      
                              <tr>
                              <td style="color:#101010;font-size:16px;"><strong>Name:</strong> </td>
-                             <td style="color:#101010;font-size:16px;">${data.name}</td>
+                             <td style="color:#101010;font-size:16px;">${data.get("name")}</td>
                           </tr>
                           <tr>
                           <td style="color:#101010;font-size:16px;"><strong>Deadline:</strong> </td>
-                          <td style="color:#101010;font-size:16px;">${data.datetime}</td>
+                          <td style="color:#101010;font-size:16px;">${data.get("datetime")}</td>
                        </tr>
                           <tr>
                           <td style="color:#101010;font-size:16px;"><strong>E-mail:</strong> </td>
-                          <td style="color:#101010;font-size:16px;">${data.email}</td>
+                          <td style="color:#101010;font-size:16px;">${data.get("email")}</td>
                        </tr>
                        <tr>
                        <td style="color:#101010;font-size:16px;"><strong>Phone:</strong> </td>
-                       <td style="color:#101010;font-size:16px;">${data.phone}</td>
+                       <td style="color:#101010;font-size:16px;">${data.get("phone")}</td>
                     </tr>   
                     <tr>
                     <td style="color:#101010;font-size:16px;"><strong>Subject:</strong> </td>
-                    <td style="color:#101010;font-size:16px;">${data.subject}</td>
+                    <td style="color:#101010;font-size:16px;">${data.get("subject")}</td>
                  </tr>                             
                     <tr>   
                           <td style="color:#101010;font-size:16px;"><strong>Message:</strong> </td>
-                          <td style="color:#101010;font-size:16px;">${data.message}</td>
+                          <td style="color:#101010;font-size:16px;">${data.get("message")}</td>
                        </tr>  
-                                        
+                       <tr>   
+                       <td style="color:#101010;font-size:16px;"><strong>Attachments:</strong> </td>
+                       <td style="color:#101010;font-size:16px;">${saveArr.map((item)=>(
+                        `<a href="https://matlabassignmenthelp.com/attach/${item}">${item}</a>`
+                       ))}</td>
+                    </tr>                
                     </tbody>
                  </table>
                  <br>
