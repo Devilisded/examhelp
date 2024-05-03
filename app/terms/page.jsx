@@ -13,9 +13,9 @@ const Terms = () => {
                 <div>
                     
                     <div className="px-10 md:px-0 text-center md:text-left text-slate-600 font-sans font-normal m-5 text-xl mx-auto max-w-7xl pb-10">
-                    <p>Please read Exam Help Online's terms and conditions before you decide to hire them. After familiarizing yourself with all the terms highlighted on this page, please go ahead and make your order.</p>
+                    <p>Please read Matlab Assignment Help's terms and conditions before you decide to hire them. After familiarizing yourself with all the terms highlighted on this page, please go ahead and make your order.</p>
                     <br/>
-                    <p>Our customers must consent to our principles in order to use our services. The following terms and conditions apply to all potential clients or people who opt for our help. Violation of said provisions may result in immediate discontinuation of Exam Help Online’s offerings.</p>
+                    <p>Our customers must consent to our principles in order to use our services. The following terms and conditions apply to all potential clients or people who opt for our help. Violation of said provisions may result in immediate discontinuation of Matlab Assignment’s offerings.</p>
                     <br/>
                     <h2 className="text-3xl pb-2"><b>Order Placement</b></h2>
                     
@@ -66,7 +66,8 @@ const Terms = () => {
 <br/>
 
 <h2 className="text-xl pb-2"><b>Copyrights & Claim</b></h2>
-<p>Exam Help Online is a ghostwriting agency. We give the copyright of the project work to our clients but retain it if a refund is made.</p>
+<p>Matlab Assignment Help is a ghostwriting agency. We give the copyright of the project work to our clients but retain it if a refund is made.
+</p>
 <br/>
 <h2 className="text-xl pb-2"><b>Complaints & Queries</b></h2>
 <ol className="list-decimal pb-2 ml-5">
@@ -80,7 +81,7 @@ const Terms = () => {
 <li>Client violates stated Terms & Conditions.</li>
 <li>The customer was caught cheating the company.</li>
 <br/>
-<p>For queries, reach customer support by emailing us at <b>info@examhelp.online.</b></p>
+<p>For queries, reach customer support by emailing us at <b>matlabassignmenthelp3@gmail.com.</b></p>
 
 
                     

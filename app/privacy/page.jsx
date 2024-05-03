@@ -9,9 +9,9 @@ const Page = () => {
             <div className="flex  justify-center pb-7 pt-5">
                 <div className="w-[80%] text-slate-600">
                     <h1 className="text-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl text-blue-700">Privacy Policy</h1>
-                    <p className="text-center">Last updated: March 01, 2024</p><br />
+                    <p className="text-center">Last updated: May 3, 2024</p><br />
                     <h2><b><center>Keeping Your Details Safe Is Our Top Focus</center></b></h2>
-                    <p>At Exam Help Online, saving your details is our main focus. This privacy policy explains how we manage your details openly and transparently. Our goal is to guard your data and keep it secure, no issue what.</p>
+                    <p>At Matlab Assignment Help, saving your details is our main focus. This privacy policy explains how we manage your details openly and transparently. Our goal is to guard your data and keep it secure, no issue what.</p>
                     <br />
                     <h2 className="text-3xl pb-2"><b>Cookies</b></h2>
                     <p>Our website uses cookies to gather data for on-site use. You can disable cookies in your browser settings.</p>
@@ -26,7 +26,7 @@ const Page = () => {
                     <p>We value your privacy above everything. However, suppose you use our services illegally or for business goals. In that case, we may need to share your information with legal authorities. This is rare, but we take it seriously.</p>
                     <br />
                     <h2 className="text-3xl pb-2"><b>Your Information is With Us Only</b></h2>
-                    <p>At Exam Help Online, we realize that you are concerned about the confidentiality of your data. Thus, we take the best steps to keep it safe. We must ensure that your information is secure, and we consider this extremely crucial.
+                    <p>At Matlab Assignment Help, we realize that you are concerned about the confidentiality of your data. Thus, we take the best steps to keep it safe. We must ensure that your information is secure, and we consider this extremely crucial.
                     </p>
                     <br />
                     <p>You can be assured that your private details will remain unknown to others on this website.</p>
@@ -34,12 +34,10 @@ const Page = () => {
 
                     <h2 className="text-3xl pb-2"><b>Stay Updated With Our Policy Regularly</b></h2>
 
-                    <p>Our team at Exam Help Online knows the importance of data confidentiality, which is why we go above and beyond to ensure complete protection and security for you. It's our ethical duty to protect all the information you provide, and our privacy policy addresses all your concerns in this regard.</p>
+                    <p>Our team at Matlab Assignment Help knows the importance of data confidentiality, which is why we go above and beyond to ensure complete protection and security for you. It's our ethical duty to protect all the information you provide, and our privacy policy addresses all your concerns in this regard.</p>
                     <br />
                     <h2 className="text-3xl pb-2"><b>Robust Data Protection Measures</b></h2>
-                    <p>You can rest assured that your data is secured by all means and will be kept hidden from third parties.
-
-                        Although Exam Help Online reserves the right to update this privacy policy at any time, we highly encourage you to review it thoroughly.</p>
+                    <p>You can rest assured that your data is secured by all means and will be kept hidden from third parties. Although Matlab Assignment Help reserves the right to update this privacy policy at any time, we highly encourage you to review it thoroughly.</p>
                     <br />
 
                     <h2 className="text-3xl pb-2"><b>Uninterrupted Communication</b></h2>
@@ -71,7 +69,7 @@ const Page = () => {
                     <br />
 
                     <h2 className="text-3xl pb-2"><b>Policy Updates & Contact Information</b></h2>
-                    <p>Exam Help Online retains the right to make changes to this privacy policy as and when required. If you have any queries or problems, please contact our friendly support team or Email us at info@examhelp.online.</p>
+                    <p>Matlab Assignment Help retains the right to make changes to this privacy policy as and when required. If you have any queries or problems, please contact our friendly support team or Email us at matlabassignmenthelp3@gmail.com.</p>
                     <br />
                     <h2 className="text-3xl pb-2"><b>Your Rights</b></h2>
                     <div className="flex justify-center py-8">
@@ -96,7 +94,7 @@ const Page = () => {
                                         You have the right to understand how we handle your personal information.
                                     </td>
                                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        This Privacy Policy explains everything! We're always happy to answer your questions at info@examhelp.online.
+                                    This Privacy Policy explains everything! We're always happy to answer your questions at matlabassignmenthelp3@gmail.com.
 
                                     </td>
                                 </tr>
@@ -109,7 +107,7 @@ const Page = () => {
                                         You can see what information we have about you.
                                     </td>
                                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        Just ask our Data Protection Officer (DPO) at info@examhelp.online.
+                                    Just ask our Data Protection Officer (DPO) at matlabassignmenthelp3@gmail.com.
                                     </td>
                                 </tr>
                                 <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
@@ -120,7 +118,7 @@ const Page = () => {
                                         If something's wrong, you can get it corrected.
                                     </td>
                                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        We'll fix it ourselves and let anyone else who has that information know, too. Contact our support at info@examhelp.online.
+                                    We'll fix it ourselves and let anyone else who has that information know, too. Contact our support at matlabassignmenthelp3@gmail.com.
                                     </td>
                                 </tr>
                                 <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
@@ -131,7 +129,7 @@ const Page = () => {
                                         You can ask us to delete your information entirely (with some exceptions).
                                     </td>
                                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        Contact our support at info@examhelp.online if you want this "right to be forgotten.
+                                    Contact our support at matlabassignmenthelp3@gmail.com if you want this "right to be forgotten.
                                     </td>
                                 </tr>
                                 <tr className="bg-white border transition duration-300 ease-in-out hover:bg-gray-100">
@@ -142,7 +140,7 @@ const Page = () => {
                                         You can control how we use your information.
                                     </td>
                                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        We'll only store it to remember your request. Contact our support  at info@examhelp.online.
+                                    We'll only store it to remember your request. Contact our support at matlabassignmenthelp3@gmail.com.
                                     </td>
                                 </tr>
                             </tbody>
@@ -155,12 +153,10 @@ const Page = () => {
                     <ul>
 
                         <li>
-                            <p>By email: info@examhelp.online</p>
+                            <p>By email: matlabassignmenthelp3@gmail.com</p>
                         </li>
 
-                        <li>
-                            <p>By visiting this page on our website: <a href="https://examhelp-ashy.vercel.app/" rel="external nofollow noopener" target="_blank">https://examhelp.online</a></p>
-                        </li>
+
 
                         <li>
                             <p>By mail: 2685 California Street, Mountain View CA 94040</p>
