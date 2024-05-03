@@ -50,8 +50,7 @@ export async function POST(req) {
               <td height="3" bgcolor="#d91212"></td>
            </tr>
            <tr style="height:100px">
-           <td align="center"  bgcolor="#fff" Top-border-color="#0e1d66" height="30"><img src ="' . $img . '
-           ">
+           <td align="center"  bgcolor="#fff" Top-border-color="#0e1d66" height="30"><img src ="https://matlabassignmenthelp.com/images/logo.png"  height="70">
            </td>
            </tr>
            <tr>

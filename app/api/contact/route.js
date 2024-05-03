@@ -19,7 +19,7 @@ export async function POST(req) {
                     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style=" margin-top:30px;background-clip:padding-box;border-collapse:collapse;border-radius:5px;">
   
                        <tr style="height:80px; text-align:center;">
-                          <td style="padding-left:22px; padding-bottom: 10px"><img src="https://examhelp.online/images/logo.webp">
+                          <td style="padding-left:22px; padding-bottom: 10px"><img src="https://matlabassignmenthelp.online/images/logo.webp">
                           </td>
                        </tr>
                  </td>
