@@ -12,7 +12,7 @@ const page = () => {
         <div>
           <div className="px-10 md:px-0 text-center md:text-left text-slate-600 font-sans font-normal m-5 text-xl mx-auto max-w-7xl pb-10">
             <p>
-              All the information on this website (Matlab Assignment Help) is published in good faith and for general information purposes only. Matlab Assignment Help does not make any warranties about the completeness, reliability, and accuracy of this information. Any action you take based on the information you find on this website (Matlab Assignment Help) is strictly at your own risk. Matlab Assignment Help will not be liable for any losses or damages caused by using our website.
+            All the information on this website (Matlab Assignment Help) is published in good faith and for general information purposes only. Matlab Assignment Help does not make any warranties about the completeness, reliability, and accuracy of this information. Any action you take based on the information you find on this website (Matlab Assignment Help) is strictly at your own risk. Matlab Assignment Help will not be liable for any losses or damages caused by using our website.
 
             </p>
             <br></br>
