@@ -37,8 +37,8 @@ export async function POST(req) {
       const res = await db.query(q,[data.get("name"),data.get("email"),data.get("datetime"),data.get("subject"),data.get("message"),data.get("phone"),saveArr.toString()])
       const info = {
         from: '"Examhelp" <noreply@examhelp.online>',
-          to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
-      //   to: "akshit.calinfo07@gmail.com",
+         //  to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
+        to: "akshit.calinfo07@gmail.com",
         subject: `Request from ${data.get("name")} with Order Id : MAT-${res[0].insertId}`,
         html: `<table cellpadding="0" style="width:100%;">
         <tbody>
