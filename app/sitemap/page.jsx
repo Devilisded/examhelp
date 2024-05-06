@@ -199,6 +199,10 @@ const Page = () => {
       to: "/architecture-exam-help",
       title: "Architecture Literacy Help",
     },
+    {
+      to: "/thermodynamics-exam-help",
+      title: "Thermodynamics Exam Help",
+    },
     
   ];
   return (
