@@ -199,6 +199,10 @@ const Page = () => {
       to: "/architecture-exam-help",
       title: "Architecture Literacy Help",
     },
+    {
+      to: "/medicine-exam-help",
+      title: "Medicine Literacy Help",
+    },
     
   ];
   return (
