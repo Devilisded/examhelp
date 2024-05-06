@@ -200,8 +200,8 @@ const Page = () => {
       title: "Architecture Literacy Help",
     },
     {
-      to: "/medicine-exam-help",
-      title: "Medicine Literacy Help",
+      to: "/thermodynamics-exam-help",
+      title: "Thermodynamics Exam Help",
     },
     
   ];
