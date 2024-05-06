@@ -60,19 +60,20 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
             <h1 className="text-xl text-blue-600 tracking-loose">
-              Exam Help Online
+              Matlab Assignment Help
             </h1>
             <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
               About Us
             </h2>
             <p className="text-sm md:text-base text-gray-600 mb-4">
-              Passing exams with high grades starts with having the right
-              support. That's why we started this online exam help website to
-              give students like you customized help so you can pass your exams
-              with confidence. Our experienced tutors offer step-by-step exam
-              prep tailored to your needs. We take the time to understand what
-              you find difficult and easy to provide useful study tools,
-              practice questions, and tips on taking tests.
+              Getting high grades on exams requires the right help. We created
+              this online exam assistance website to give you customized support
+              so you can pass exams confidently. Our experienced tutors provide
+              step-by-step exam preparation tailored specifically for you. We
+              take the time to understand your strengths and weaknesses to give
+              you useful study materials, practice questions, and test-taking
+              advice. We also offer online assignment help to support you with
+              your coursework, providing comprehensive academic assistance.
             </p>
             <Link
               href="/about"
@@ -2205,12 +2206,13 @@ export default function Home() {
                 Save Time
               </h1>
               <p className="text-gray-500 dark:text-gray-300 text-balance">
-                Taking exams on your own can be hugely time-consuming. Between
-                studying content, practicing questions, and taking the exam,
-                exams can take up much precious time. Our service takes the exam
-                burden off your shoulders so you can allocate that time to other
-                priorities. From start to finish, we streamline everything to
-                save you the maximum time.
+                Taking exams and completing assignments on your own can be
+                hugely time-consuming. Between studying content, practicing
+                questions, and taking the exam, exams can take up much precious
+                time. Our service takes the exam burden off your shoulders as
+                well as preparing assignments for you so that you can allocate
+                that time to other priorities. From start to finish, we
+                streamline everything to save you the maximum time.
               </p>
             </div>
             <div className="space-y-3">
@@ -2228,7 +2230,8 @@ export default function Home() {
                 real-world experience in their specific exam domain. This means
                 they have the greatest depth of knowledge to tackle any topic or
                 question within their field, lending you their insight and
-                guidance throughout your exam.
+                guidance throughout your exam and also for your assignment
+                preparation.
               </p>
             </div>
             <div className="space-y-3">
@@ -2241,13 +2244,14 @@ export default function Home() {
               </h1>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We provide a fully personalized 1-on-1 exam assistance service
-                tailored to your needs. Before your exam session, your tutor
-                will consult with you to understand your strengths and
-                weaknesses. This allows them to custom-craft potential
-                questions, practice problems, explanations, and learning
-                strategies just for you. It's like having a private tutor
-                designing a fully customized study plan to help you succeed.
+                We provide a fully personalized 1-on-1 exam and assignment
+                assistance service tailored to your needs. Before your exam
+                session, your tutor will consult with you to understand your
+                strengths and weaknesses. This allows them to custom-craft
+                potential questions, practice problems, explanations, and
+                learning strategies just for you. It's like having a private
+                tutor designing a fully customized study plan to help you
+                succeed.
               </p>
             </div>
             <div className="space-y-3">
@@ -2261,11 +2265,11 @@ export default function Home() {
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
                 As an online platform, we allow you to connect with expert
-                tutors remotely. That means you can get expert exam help from
-                the comfort of your home, from a library, while traveling -
-                anywhere with internet access! No need to commute or travel to
-                appointments. Just log in online at your convenience to start
-                your tutoring.
+                tutors remotely. That means you can get expert exam help and
+                assignment help from the comfort of your home, from a library,
+                while traveling—anywhere with internet access! There is no need
+                to commute or travel to appointments. Just log in online at your
+                convenience to start your tutoring.
               </p>
             </div>
             <div className="space-y-3">
@@ -2278,11 +2282,11 @@ export default function Home() {
               </h1>
 
               <p className="text-gray-500 dark:text-gray-300 text-balance">
-                We invest heavily in security measures like end-to-end
-                encryption, stringent privacy policies, and authentication
-                protocols to protect your data. <br /> Exam integrity is vital,
-                so our top priority is safeguarding your information during
-                online exam assistance.
+                To protect your data, we invest heavily in security measures
+                such as end-to-end encryption, stringent privacy policies, and
+                authentication protocols. Exam integrity is vital, so our top
+                priority is safeguarding your information during online exam
+                assistance.
               </p>
             </div>
             <div className="space-y-3">
@@ -2315,36 +2319,38 @@ export default function Home() {
       <Number />
       <div className="flex flex-col gap-10 py-10 items-center">
         <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-blue-900 block lg:hidden w-[95%] lg:w-[75%]">
-          Expert Assistance On Exam Help Online -{" "}
+          Expert Assistance On Assignment Help And Exam Help Online -
           <span className="text-orange-400">Chat Now!</span>
         </h2>
         <div className="flex justify-center">
           <div className="flex lg:flex-row flex-col-reverse gap-5 w-[95%] lg:w-[75%]">
             <div className="flex flex-col gap-2">
               <h2 className="font-bold md:text-4xl text-3xl tracking-tight text-blue-900 hidden lg:block">
-                Expert Assistance On Exam Help Online -{" "}
+                Expert Assistance On Assignment Help And Exam Help Online -
                 <span className="text-orange-400"> Chat Now!</span>
               </h2>
               <div className="flex justify-center">
                 <div className="text-slate-700">
-                  Exams are a stressful and challenging experience for many
-                  students, especially when students cannot prepare well for
-                  their exams for any reason. However, getting the right
-                  guidance and support can make all the difference. <br />{" "}
-                  <br /> Our online exam help service provides expert assistance
-                  so you feel confident and prepared when test day arrives. They
-                  can provide real-time answers through live chat and messaging
-                  as you study or review practice questions. Our team holds
-                  advanced degrees that they leverage to simplify difficult
-                  material using proven teaching methods. <br /> <br /> We
-                  connect students with tutors with years of experience helping
-                  pupils succeed on exams. Whether you're struggling with
-                  complex concepts or just want someone to help you create an
-                  effective study plan, our tutors offer personalized support
-                  customized to your needs. With our help in understanding key
-                  subject matter, practicing responses, and developing time
-                  management abilities, you will walk into your exam equipped
-                  with the knowledge and skills needed to do your best.
+                  Many students find exams and preparing assignments stressful
+                  and challenging, especially when they do not prepare well for
+                  them. However, getting the right guidance and support can make
+                  all the difference.
+                  <br /> <br /> Our online exam help and assignment help service
+                  provides expert assistance so you feel confident and prepared
+                  when test day arrives. Our team can provide real-time answers
+                  through live chat and messaging as you study or review
+                  practice questions. They hold advanced degrees that they
+                  leverage to simplify difficult material using proven teaching
+                  methods.
+                  <br /> <br /> We connect students with experts with years of
+                  experience helping pupils succeed on exams and their
+                  academics. Whether you're struggling with complex concepts or
+                  just want someone to help you create an effective study plan,
+                  our tutors offer personalized support customized to your
+                  needs. With our help in understanding key subject matter,
+                  practicing responses, and developing time management
+                  abilities, you will walk into your exam equipped with the
+                  knowledge and skills needed to do your best.
                 </div>
               </div>
             </div>
@@ -2357,7 +2363,7 @@ export default function Home() {
         </div>
         <div className="flex items-center flex-col gap-5">
           <h2 className="font-bold md:text-4xl text-3xl tracking-tight  text-blue-900 block lg:hidden w-[95%] lg:w-[75%]">
-            Wondering About How Exam Help Online Works?
+            Wondering About How Exam Help And Assignment Help Online Works?
           </h2>
           <div className="flex lg:flex-row flex-col w-[95%] lg:w-[75%] gap-5">
             <img
@@ -2367,28 +2373,32 @@ export default function Home() {
             />
             <div className="flex flex-col gap-2">
               <h2 className="font-bold md:text-4xl text-3xl tracking-tight  text-blue-900 hidden lg:block">
-                Wondering About How Exam Help Online Works?
+                Wondering About How Exam Help And Assignment Help Online Works?
               </h2>
               <div className="flex justify-center ">
                 <div className=" text-slate-700">
-                  If you are wondering how our online exam help works? Our
-                  service uses new technology and a group of expert tutors to
-                  give you custom help for any exam you're taking. <br />
+                  Are you wondering how our online exam help works? Our service
+                  uses new technology and a team of expert tutors to provide
+                  custom help for any exam or assignment you're taking. <br />
                   <br />
                   When you sign up, we'll match you with a tutor who knows about
-                  your exam subject. You can then work one-on-one with them on
-                  our online platform. <br /> <br />
+                  your exam subject or course material. You can then work
+                  one-on-one with them on our online platform. <br /> <br />
                   They'll help you understand hard concepts, walk through
                   practice questions, pinpoint areas you need to work on and
-                  make a plan to ace the real test. <br />
-                  Your tutor will be there to guide you through prepping for
-                  your exam. This way, you'll feel ready and confident when test
-                  day comes. <br /> <br /> And the best part is all the tutoring
-                  happens online through our website. So you can get the exam
-                  support you need from anywhere with the internet. <br />
+                  make a plan to ace the real test or complete assignments
+                  successfully. <br />
+                  Your tutor will guide you through prepping for your exam and
+                  assist with assignments. This will ensure that you feel ready
+                  and confident when test day comes and assignments are due.{" "}
+                  <br /> <br /> AThe best part is that all the tutoring and
+                  assignment help happens online through our website. So you can
+                  get the exam and coursework support you need from anywhere
+                  with an internet connection.
+                  <br />
                   Whether you struggle with tough material or want someone to
-                  help you learn your best, our online exam help has covered
-                  you.
+                  help you learn your best, our online exam help and assignment
+                  help service is here to support you.
                 </div>
               </div>
             </div>
@@ -2396,31 +2406,34 @@ export default function Home() {
         </div>
         <div className="flex items-center flex-col gap-5">
           <h2 className="font-bold md:text-4xl text-3xl tracking-tight  text-blue-900 block lg:hidden w-[95%] lg:w-[75%]">
-            Get Premium Exam Help Online Anywhere - Anytime From Our Platform!
+            Get Premium Quality Help Online Anywhere - Anytime From Our
+            Platform!{" "}
           </h2>
           <div className="flex lg:flex-row flex-col-reverse w-[95%] lg:w-[75%] gap-5">
             <div className="flex flex-col gap-4">
               <h2 className="font-bold md:text-4xl text-3xl tracking-tight  text-blue-900 hidden lg:block">
-                Get Premium Exam Help Online Anywhere - Anytime From Our
+                Get Premium Quality Help Online Anywhere - Anytime From Our
                 Platform!
               </h2>
               <div className="flex justify-center ">
                 <div className=" text-slate-700">
-                  Our online platform allows students to get expert test help
-                  anytime, anywhere. <br /> Whether you need help studying for
-                  an upcoming test, understanding hard topics, or want feedback
-                  on your essays, our platform connects you with qualified
-                  tutors in real-time through chat and video calls. <br />{" "}
-                  <br />
+                  Our online platform allows students to get expert test and
+                  assignment help anytime, anywhere. Whether you need help
+                  studying for an upcoming test, understanding difficult topics,
+                  or getting feedback on your essays, our platform connects you
+                  with qualified tutors in real-time through chat and video
+                  calls.
+                  <br /> <br />
                   We understand how busy students are. Our goal is to offer
                   affordable support that goes beyond just giving answers. With
                   tutors available 24/7, quick connections, and flexible
                   packages, students can get specialized test help that suits
-                  their schedule. <br /> This user-friendly platform is designed
-                  to set up students for success. <br /> <br />
-                  Fill out the form above to connect with top-rated tutors and
-                  quality study materials to confidently prepare for your next
-                  test.
+                  their schedule. This user-friendly platform is designed to set
+                  up students for success.
+                  <br /> Fill out the form above to connect with top-rated
+                  tutors and quality study materials, and prepare confidently
+                  for your next test.
+                  <br /> <br />
                 </div>
               </div>
             </div>
@@ -2643,29 +2656,33 @@ export default function Home() {
             <div className="flex h-full items-center rounded-lg bg-blue-600 p-6 text-center text-white lg:pl-12 lg:text-left">
               <div className="lg:pl-12">
                 <h2 className="mb-8 text-3xl font-bold">
-                  Expert Assistance On Exam Help Online - Chat Now!
+                  Expert Assistance On Assignment Help And Exam Help Online -
+                  Chat Now!
                 </h2>
                 <p className="mb-8 text-balance">
                   Exams are a stressful and challenging experience for many
                   students, especially when students cannot prepare well for
-                  their exams for any reason. However, getting the right
-                  guidance and support can make all the difference. Our online
-                  exam help service provides expert assistance so you feel
-                  confident and prepared when test day arrives. We connect
+                  their exams or complete assignments for any reason. However,
+                  getting the right guidance and support can make all the
+                  difference. Our online exam help and assignment help service
+                  provides expert assistance so you feel confident and prepared
+                  when test day arrives and assignments are due. We connect
                   students with tutors with years of experience helping pupils
-                  succeed on exams. Whether you're struggling with complex
-                  concepts or just want someone to help you create an effective
-                  study plan, our tutors offer personalized support customized
-                  to your needs. They can provide real-time answers through live
-                  chat and messaging as you study or review practice questions.
+                  succeed on exams and coursework. Whether you're struggling
+                  with complex concepts or just want someone to help you create
+                  an effective study plan and complete assignments, our tutors
+                  offer personalized support customized to your needs. They can
+                  provide real-time answers through live chat and messaging as
+                  you study, review practice questions, or work on assignments.
                   Our team holds advanced degrees that they leverage to simplify
                   difficult material using proven teaching methods. With our
                   help in understanding key subject matter, practicing
-                  responses, and developing time management abilities, you will
-                  walk into your exam equipped with the knowledge and skills
-                  needed to do your best. So, reduce your stress and work
-                  one-on-one with an expert tutor today - just chat with us now
-                  to get started.
+                  responses, completing assignments successfully, and developing
+                  time management abilities, you will walk into your exam
+                  equipped with the knowledge and skills needed to do your best.
+                  So, reduce your stress and work one-on-one with an expert
+                  tutor today - just chat with us now to get started on exam
+                  prep or assignment help.
                 </p>
                 <div className="flex justify-center items-center">
                   <Link href="/submit-work">

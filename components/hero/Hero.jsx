@@ -19,15 +19,10 @@ const Hero = () => {
       <div className="grid md:w-[75%] py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-5  md:px-0 px-4">
         <div className="mr-auto place-self-center  order-last lg:order-1 lg:col-span-3 z-10">
           <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none  text-white hidden md:block">
-            Affordable And Prompt{" "}
-            <span className="text-orange-400">Exam Help Online</span> That Helps
-            You to Score High (24/7)
+          Affordable <span className="text-orange-400">Assignment Help And Exam Help Online</span> That Helps You to Score High (24/7)
           </h1>
           <p className="mb-4 font-light  md:text-lg lg:text-xl text-white">
-            Now, getting stressed due to exams is a matter of the past. Make the
-            right decision like thousands of students worldwide by choosing our
-            online exam help, and score high grades with the assistance of our
-            highly experienced experts.
+          Now, stress due to exams and tight deadlines for submitting assignments is a thing of the past. Like thousands of students worldwide, make the right decision by choosing our online exam and assignment help and score high grades with the assistance of our highly experienced experts.
           </p>
           <ul className="list-none mb-5 font-light text-white md:text-lg lg:text-xl">
             <li className="flex mb-1">
@@ -47,6 +42,11 @@ const Hero = () => {
               <IconChecks className="me-2" /> Affordable Online Exams Help
               Service
             </li>
+            <li className="flex mb-1">
+              <IconChecks className="me-2" /> Best & budget-friendly online Assignment help service 
+              Service
+            </li>
+            
           </ul>
           <div className="flex gap-3 sm:flex-row flex-col">
             <Link
@@ -59,10 +59,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:order-last order-1 justify-self-end  flex md:flex-row flex-col gap-5 justify-center lg:justify-end w-full lg:col-span-2 z-10">
-          <h1 className="block md:hidden text-3xl font-extrabold tracking-tight leading-none  text-white mb-2">
-            Affordable And Prompt{" "}
-            <span className="text-orange-400">Exam Help Online</span> That Helps
-            You to Score High (24/7)
+        <h1 className=" mb-4 text-4xl font-extrabold tracking-tight leading-none  text-white block md:hidden">
+          Affordable <span className="text-orange-400">Assignment Help And Exam Help Online</span> That Helps You to Score High (24/7)
           </h1>
           <Form toggleLoader={toggleLoader} />
         </div>
