@@ -62,6 +62,7 @@ const Form = ({ toggleLoader }) => {
           datetime: "",
           subject: "",
           message: "",
+          file:""
         });
         toggleLoader(false);
         setDateError(false);
@@ -69,6 +70,7 @@ const Form = ({ toggleLoader }) => {
         setEmailError(false);
         setPhoneError(false);
         setSubjectError(false);
+        setCheck(false)
       } catch (err) {
         console.log(err);
       }
@@ -118,7 +120,7 @@ const Form = ({ toggleLoader }) => {
         setSubmitDisbaled(true);
       }
     }
-  }, [check, handleSubmit, data]);
+  }, [handleSubmit,check,data]);
 
   const inputCss =
     "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ";

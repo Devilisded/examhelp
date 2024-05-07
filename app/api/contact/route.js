@@ -7,7 +7,7 @@ export async function POST(req) {
 
   const info = {
     from: '"Matlab Assignment Help" <noreply@examhelp.online>',
-    to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
+    to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com,akshit.calinfo07@gmail.com",
    //  to: "akshit.calinfo07@gmail.com",
     subject: `Request from ${data.name}`,
     html: `    <div style="margin:0px;padding:0px;">

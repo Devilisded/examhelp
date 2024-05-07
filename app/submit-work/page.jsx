@@ -73,6 +73,7 @@ const Page = () => {
           datetime: "",
           subject: "",
           message: "",
+          file:""
         });
         setLoader(false);
         setDateError(false);
