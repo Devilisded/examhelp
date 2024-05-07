@@ -203,7 +203,10 @@ const Page = () => {
       to: "/thermodynamics-exam-help",
       title: "Thermodynamics Exam Help",
     },
-    
+    {
+      to: "/social-science-exam-help",
+      title: "Social Science Exam Help",
+    },
   ];
   return (
     <div>
