@@ -11,6 +11,8 @@ import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import dayjs from "dayjs";
 const Form = ({ toggleLoader }) => {
+  let currentDate = new Date();
+
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -23,7 +25,6 @@ const Form = ({ toggleLoader }) => {
 
   const [check, setCheck] = useState(false);
   const [submitDisabled, setSubmitDisbaled] = useState(false);
-  let currentDate = new Date()
   const [snackQ, setSnackQ] = useState(false);
   const [phoneError, setPhoneError] = useState(false);
   const [emailError, setEmailError] = useState(false);
@@ -152,6 +153,7 @@ const Form = ({ toggleLoader }) => {
             placeholder="Enter full name"
             required
           />
+          <div className="text-red-600 text-xs">{nameError?"Please enter your name...":""}</div>
         </div>
         <div>
           <input
@@ -170,6 +172,7 @@ const Form = ({ toggleLoader }) => {
             placeholder="name@company.com"
             required
           />
+          <div className="text-red-600 text-xs">{emailError?"Please Enter Your Email...":""}</div>
         </div>
 
         <div>
@@ -208,6 +211,7 @@ const Form = ({ toggleLoader }) => {
               });
             }}
           />
+          <div className="text-red-600 text-xs">{phoneError?"Please Enter Phone Number...":""}</div>
         </div>
 
         <div>
@@ -225,6 +229,7 @@ const Form = ({ toggleLoader }) => {
             <DateTimePicker label="Deadline" className="w-full" minDate={dayjs(new Date())}   value={dayjs(data.datetime)} onChange={(value)=>setData({...data,datetime : value.$d})}
            />
           </LocalizationProvider>
+          <div className="text-red-600 text-xs">{dateError?"Please Choose a different date":""}</div>
         </div>
 
         <div>
@@ -300,6 +305,7 @@ const Form = ({ toggleLoader }) => {
             <option value="Java"> Java</option>
             <option value="Other"> Other</option>
           </select>
+          <div className="text-red-600 text-xs">{subjectError?"Please Choose Your Subject...":""}</div>
         </div>
         <div>
           <textarea
@@ -312,7 +318,7 @@ const Form = ({ toggleLoader }) => {
               setData({
                 ...data,
                 message: e.target.value.replace(
-                  regEx[3].emailTextValidation,
+                  regEx[4].textValidation,
                   ""
                 ),
               });
