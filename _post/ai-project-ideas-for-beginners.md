@@ -2,7 +2,7 @@
 title: "50+ AI Project Ideas for Beginners: Kickstart Your AI Journey
   "
 description: " Explore 50+ exciting AI project ideas for beginners, covering computer vision, natural language processing, reinforcement learning, and more. Start your AI journey today!"
-coverImage: "/blog/AI Project Ideas for Beginners.webp"
+coverImage: "/blog/AI Project Ideas  for Beginners.webp"
 date: "2024-04-19"
 author: Amar
 faq:
