@@ -29,6 +29,7 @@ const Page = () => {
     datetime: new Date(),
     subject: "",
     message: "",
+    file:""
   });
 
   const [check, setCheck] = useState(false);
@@ -52,7 +53,17 @@ const Page = () => {
     if (submitDisabled === false) {
       try {
         setLoader(true);
-        await axios.post(`${process.env.webURL}/api/login`, data);
+        const formData = new FormData();
+        for(let i = 0;i<data.file.length;i++){
+          formData.append(`file${i}`,data.file[i]);
+        }
+        formData.append("name",data.name);
+        formData.append("email",data.email);
+        formData.append("phone",data.phone);
+        formData.append("datetime",data.datetime);
+        formData.append("subject",data.subject);
+        formData.append("message",data.message)
+        await axios.post(`${process.env.webURL}/api/login`, formData);
 
         setSnackQ(true);
         setData({
@@ -164,7 +175,7 @@ const Page = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-3 md:gap-10">
-            <div className="w-full ">
+            <div className="w-full">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="Password"
@@ -187,8 +198,10 @@ const Page = () => {
                 placeholder="Enter full name"
                 required
               />
+          <div className="text-red-600 text-xs">{nameError?"Please enter your name...":""}</div>
+
             </div>
-            <div className="w-full ">
+            <div className="w-full">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="Password"
@@ -214,8 +227,10 @@ const Page = () => {
                 placeholder="name@company.com"
                 required
               />
+          <div className="text-red-600 text-xs">{emailError?"Please Enter Your Email...":""}</div>
+
             </div>
-            <div className="w-full ">
+            <div className="w-full">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="Password"
@@ -237,6 +252,8 @@ const Page = () => {
                   });
                 }}
               />
+          <div className="text-red-600 text-xs">{phoneError?"Please Enter Phone Number...":""}</div>
+
             </div>
           </div>
           <div className="grid md:grid-cols-2 md:gap-10">
@@ -261,6 +278,8 @@ const Page = () => {
             <DateTimePicker  className="w-full" minDate={dayjs(new Date())}   value={dayjs(data.datetime)} onChange={(value)=>setData({...data,datetime : value.$d})}
            />
           </LocalizationProvider>
+          <div className="text-red-600 text-xs">{dateError?"Please Choose a different date":""}</div>
+
             </div>
             <div className="w-full ">
               <label
@@ -345,6 +364,8 @@ const Page = () => {
                 <option value="Java"> Java</option>
                 <option value="Other"> Other</option>
               </select>
+          <div className="text-red-600 text-xs">{subjectError?"Please Choose Your Subject...":""}</div>
+
             </div>
           </div>
           <div className="w-full ">
@@ -364,7 +385,7 @@ const Page = () => {
                 setData({
                   ...data,
                   message: e.target.value.replace(
-                    regEx[3].emailTextValidation,
+                    regEx[4].textValidation,
                     ""
                   ),
                 });
@@ -373,9 +394,18 @@ const Page = () => {
               placeholder="Write your thoughts here..."
             ></textarea>
           </div>
-
+          <input type="file" onChange={({target})=>setData({...data,file:target.files})}  multiple className="block w-full text-sm text-gray-500
+        file:me-4 file:py-2 file:px-4
+        file:rounded-lg file:border-0
+        file:text-sm file:font-semibold
+        file:bg-blue-600 file:text-white
+        hover:file:bg-blue-700
+        file:disabled:opacity-50 file:disabled:pointer-events-none
+        dark:text-neutral-500
+        dark:file:bg-blue-500
+        dark:hover:file:bg-blue-400"  />
           <div className="w-full ">
-            <button className="appearance-none block w-full bg-blue-600 text-gray-100 font-bold border border-gray-200 rounded-lg py-3 px-3 leading-tight hover:bg-blue-500 focus:outline-none focus:bg-white focus:border-gray-500">
+            <button className="appearance-none block w-full bg-blue-600 text-gray-100 font-bold border border-gray-200 rounded-lg py-3 px-3 leading-tight hover:bg-blue-500">
               Get a free quote
             </button>
           </div>

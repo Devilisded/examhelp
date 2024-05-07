@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Exam Help Online",
+  title: "Matlab Assignment Help",
   description:
     "Get world-class and experienced expert assistance for your online exams and instant solutions at affordable prices - Contact us for more details!",
 };

@@ -36,8 +36,8 @@ export async function POST(req) {
     ) {
       const res = await db.query(q,[data.get("name"),data.get("email"),data.get("datetime"),data.get("subject"),data.get("message"),data.get("phone"),saveArr.toString()])
       const info = {
-        from: '"Examhelp" <noreply@examhelp.online>',
-          to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com",
+        from: '"Matlab Assignment Help" <noreply@examhelp.online>',
+          to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com,akshit.calinfo07@gmail.com",
       //   to: "akshit.calinfo07@gmail.com",
         subject: `Request from ${data.get("name")} with Order Id : MAT-${res[0].insertId}`,
         html: `<table cellpadding="0" style="width:100%;">
@@ -81,7 +81,7 @@ export async function POST(req) {
                        </tr>
                        <tr>
                        <td style="color:#101010;font-size:16px;"><strong>Phone:</strong> </td>
-                       <td style="color:#101010;font-size:16px;">${data.get("phone")}</td>
+                       <td style="color:#101010;font-size:16px;"><a href='https://api.whatsapp.com/send?phone=${data.get("phone")}'>+${data.get("phone")}</a></td>
                     </tr>   
                     <tr>
                     <td style="color:#101010;font-size:16px;"><strong>Subject:</strong> </td>
