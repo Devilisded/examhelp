@@ -32,24 +32,24 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 export default function Home() {
   const faq = [
     {
-      question: "How will Exam Help Online benefit me?",
+      question: "How will Matlab Assignment Help benefit me?",
       answer:
-        "Exam Help Online offers personalized help tailored to your unique needs. Our skilled instructors offer a step-by-step tip that helps you understand course materials, improve your study skills, and boost your exam confidence.",
+        "Matlab Assignment Help offers personalized help tailored to your unique needs. Our skilled instructors offer a step-by-step tip that helps you understand course materials, improve your study skills, and boost your exam confidence.",
     },
     {
-      question: "Who can benefit from Exam Help Online? ",
+      question: "Who can benefit from Matlab Assignment Help? ",
       answer:
-        "Exam Help Online suits students of all levels, including high school and college. Whether you struggle with a subject or aim for high grades, our services cater to your educational goals and help you achieve them.",
+        "Matlab Assignment Help suits students of all levels, including high school and college. Whether you struggle with a subject or aim for high grades, our services cater to your educational goals and help you achieve them.",
     },
     {
-      question: "Can I contact Exam Help Online anytime?",
+      question: "Can I contact Matlab Assignment Help anytime?",
       answer:
-        "Yes, Exam Help Online offers flexible scheduling to fit your busy plan. We ensure availability for daytime, evening, or weekend sessions while providing our service.",
+        "Yes, Matlab Assignment Help offers flexible scheduling to fit your busy plan. We ensure availability for daytime, evening, or weekend sessions while providing our service.",
     },
     {
-      question: "Is Exam Help Online secure and private?",
+      question: "Is Matlab Assignment Help secure and private?",
       answer:
-        "Indeed, your privacy is crucial to us. We maintain confidentiality during all dealings on a secure platform, protecting your data. For a safe and supportive learning environment, choose Exam Help Online.",
+        "Indeed, your privacy is crucial to us. We maintain confidentiality during all dealings on a secure platform, protecting your data. For a safe and supportive learning environment, choose Matlab Assignment Help.",
     },
   ];
   return (

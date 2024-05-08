@@ -195,7 +195,7 @@ const Footer = () => {
         <div className="bg-slate-800 ">
           <div className="container px-5 py-4 mx-auto">
             <p className="text-sm text-white capitalize xl:text-center flex justify-center">
-              © 2024 ExamHelp.Online - All Rights Reserved
+              © {new Date().getFullYear()} Matlab Assignment Help - All Rights Reserved
             </p>
           </div>
         </div>

@@ -10,7 +10,9 @@ import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import dayjs from "dayjs";
+// import SweetAlert2 from 'react-sweetalert2';
 const Form = ({ toggleLoader }) => {
+  const [swalProps, setSwalProps] = useState({});
   let currentDate = new Date();
 
   const [data, setData] = useState({
@@ -59,7 +61,7 @@ const Form = ({ toggleLoader }) => {
           name: "",
           email: "",
           phone: "",
-          datetime: "",
+          datetime: new Date(),
           subject: "",
           message: "",
           file:""
@@ -70,6 +72,12 @@ const Form = ({ toggleLoader }) => {
         setEmailError(false);
         setPhoneError(false);
         setSubjectError(false);
+        setSwalProps({
+          show: true,
+          title: 'Thank You',
+          text: 'We will get back to you soon.',
+          icon: 'success',
+      });
         setCheck(false)
       } catch (err) {
         console.log(err);
@@ -129,6 +137,7 @@ const Form = ({ toggleLoader }) => {
 
   return (
     <>
+    {/* <SweetAlert2 {...swalProps}/>    */}
       <form
         className="space-y-6 shadow-xl p-8 border border-slate-300 rounded-lg  bg-white"
         onSubmit={handleSubmit}
@@ -367,6 +376,7 @@ const Form = ({ toggleLoader }) => {
             }
           />
         )}
+
       </form>
     </>
   );

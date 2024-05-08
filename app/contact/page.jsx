@@ -121,7 +121,7 @@ const Contact = () => {
                         Mobile: +91 9053000124
                       </p>
                       <p className="text-gray-600 dark:text-slate-400">
-                        Mail: info@examhelp.online
+                        Mail: info@matlabassignmenthelp.com
                       </p>
                     </div>
                   </li>

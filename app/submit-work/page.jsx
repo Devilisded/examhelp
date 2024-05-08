@@ -19,8 +19,12 @@ import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import dayjs from "dayjs";
+// import SweetAlert2 from 'react-sweetalert2';
+
 import "./submit.css"
 const Page = () => {
+  const [swalProps, setSwalProps] = useState({});
+
   const [loader, setLoader] = useState(false);
   const [data, setData] = useState({
     name: "",
@@ -76,10 +80,17 @@ const Page = () => {
           file:""
         });
         setLoader(false);
+        setSwalProps({
+          show: true,
+          title: 'Thank You',
+          text: 'We will get back to you soon.',
+          icon: 'success',
+      });                  
         setDateError(false);
         setNameError(false);
         setEmailError(false);
         setPhoneError(false);
+        setCheck(false);
         setSubjectError(false);
       } catch (err) {
         console.log(err);
@@ -138,6 +149,8 @@ const Page = () => {
     "bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ";
   return (
     <>
+    {/* <SweetAlert2 {...swalProps}/> */}
+
       {snackQ && (
         <Snackbar
           ContentProps={{
