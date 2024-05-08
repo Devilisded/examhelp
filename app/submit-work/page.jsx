@@ -19,7 +19,7 @@ import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import dayjs from "dayjs";
-import SweetAlert2 from 'react-sweetalert2';
+// import SweetAlert2 from 'react-sweetalert2';
 
 import "./submit.css"
 const Page = () => {
@@ -149,9 +149,9 @@ const Page = () => {
     "bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ";
   return (
     <>
-    <SweetAlert2 {...swalProps}/>
+    {/* <SweetAlert2 {...swalProps}/> */}
 
-      {/* {snackQ && (
+      {snackQ && (
         <Snackbar
           ContentProps={{
             sx: {
@@ -168,7 +168,7 @@ const Page = () => {
             "Thank You for showing interest, we will get back to you soon."
           }
         />
-      )} */}
+      )}
       {loader ? <Loader /> : ""}
 
       <Header />
