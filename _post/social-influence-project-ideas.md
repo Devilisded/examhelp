@@ -1,7 +1,7 @@
 ---
 title: "121+ Engaging  Social Influence Project Ideas In 2024"
 description: " Do you need social influence project ideas? Get started with our easy and fun project ideas, which explore how people influence each other in society."
-coverImage: "/blog/Social Influence Project Ideas.webp"
+coverImage: "/blog/Social Influence Project Ideas .webp"
 author: Amar
 date: "2024-06-05"
 

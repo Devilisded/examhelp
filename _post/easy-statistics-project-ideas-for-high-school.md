@@ -2,7 +2,7 @@
 title: "150+ Easy Statistics Project Ideas for High School Students
   "
 description: " Explore this comprehensive list of 150+ easy statistics project ideas perfect for high school students. Find inspiration for engaging, educational, and fun projects."
-coverImage: "/blog/Easy Statistics Project Ideas For High School .webp"
+coverImage: "/blog/Easy Statistics Project Ideas For High School.webp"
 date: "2024-04-27"
 author: Amar
 faq:
