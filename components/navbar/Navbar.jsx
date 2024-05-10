@@ -44,6 +44,9 @@ const Header = () => {
     {
       name: "Reviews",
       linkto: "/reviews",
+    },{
+      name:"Assignment Help",
+      linkto:"/assignment-help"
     },
     {
       name: "Exam Help",
