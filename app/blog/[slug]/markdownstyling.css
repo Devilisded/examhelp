@@ -13,7 +13,7 @@
 }
 
 .markdown h3 {
-  @apply text-2xl  leading-snug;
+  @apply text-2xl  leading-snug my-4;
 }
 .markdown ul {
   @apply list-disc;
