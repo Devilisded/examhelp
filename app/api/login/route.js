@@ -37,8 +37,8 @@ export async function POST(req) {
       const res = await db.query(q,[data.get("name"),data.get("email"),data.get("datetime"),data.get("subject"),data.get("message"),data.get("phone"),saveArr.toString()])
       const info = {
         from: '"Matlab Assignment Help" <noreply@examhelp.online>',
-         //  to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com,akshit.calinfo07@gmail.com",
-        to: "akshit.calinfo07@gmail.com",
+          to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com,akshit.calinfo07@gmail.com",
+      //   to: "akshit.calinfo07@gmail.com",
         subject: `Request from ${data.get("name")} with Order Id : MAT-${res[0].insertId}`,
         html: `<table cellpadding="0" style="width:100%;">
         <tbody>
@@ -109,6 +109,75 @@ export async function POST(req) {
      </table>`,
       };
       await transporter.sendMail(info);
+      const info2 = {
+         from: '"Matlab Assignment Help" <noreply@examhelp.online>',
+          //  to: "dhamija.piyush7@gmail.com, calinfo70@gmail.com,akshit.calinfo07@gmail.com",
+         to: data.get("email"),
+         subject: `Thank You ${data.get("name")} with Order Id : MAT-${res[0].insertId} for placing Order.`,
+         html: `<div style="margin:0px;padding:0px;background:#f9f9f9;">
+         <table cellpadding="0" style="width:700px;margin:auto;display:block; font-family: 'Lato', sans-serif;">
+             <tbody>
+                 <tr>
+                     <td style="width:700px;display:block;clear:both">
+                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"style=" box-shadow: 0px 0px 10px #cccccc54;margin-top:30px;margin-bottom:30px;background-clip:padding-box;border-collapse:collapse;border-radius:5px;">
+                             <tbody>
+                                 <tr style="height:80px;">
+                                     <td style="width:100%; padding-left:22px;"><img src="https://matlabassignmenthelp.com/images/logo.png" height="30" ></td>
+                                     
+                                 </tr>
+                                 <tr >
+                                     <td style="background-color: #b6e7ff42;"> <span style="display: block;text-align:center;"><img src="https://www.calltutors.com/resources/drawable/png/order.png" height="245px"> </span>
+                                       
+                                     <p style="color: #f86a4c; text-align:center; font-size:20px; font-weight: 600;  margin-bottom: 14px;"> <span style="margin-top:-2px">Thank you for submitting your order!</span> </p>
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td bgcolor="#fff">
+                                         <table style="width:640px;clear:both" border="0" align="center" cellpadding="0"cellspacing="0">
+                                             <tbody>
+                                                 <tr>
+                                                     <td>
+                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                                             style="padding: 25px 5px 45px 5px;">
+                                                             <tr>
+                                                                 <td>
+                                                                     <p style="padding-bottom:10px;">
+                                                                         <span style="font-size:18px; font-weight: 600;">Dear ${data.get("name")}, <br></span></p>
+                                                                 </td>
+                                                             </tr>
+                                                             <tr>
+                                                                 <td height="10px" style="font-size:16px; line-height:26px;">
+                                                                     <p style="margin:0px; color:#474747; font-family: 'Lato', sans-serif;">Thanks for sharing your requirements with us.</p>
+                                                                     <p style="color:#474747;">We value your trust in us, and we will do our best to meet your service expectations. Our experts are evaluating your requirements and will get back to you soon.</p>
+                                                                     <p style="color:#474747;"> Thanks again, for your enquiry. If you have any questions, please don't hesitate to call us or live chat with us on the website.</p>
+                                                                     <p style="color:#474747;"> <b>Query </b>: MAT-${res[0].insertId} </p>
+                                                                     <p style="color:807f7f; font-size:14px; margin-top: 30px;  font-weight: 600;">  Click here to <span style="cursor:pointer;"> <a href="https://tawk.to/chat/57a3391709042bb15bb9495c/default/?$_tawk_popout=true" style="text-decoration: none; color: #f86a4c"> chat now </a> </span>  with our moderator.</p>
+                                                                 </td>
+                                                             </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="line-height:26px;margin-top:25px;margin-bottom:0px; font-size:18px; font-weight: 600;"> Sincerely,</p>
+                                                                    <p style="line-height:26px;margin-top:0px;font-size: 16px;">Service Team</p>
+                                                                    <p style="line-height:22px;margin-top:22px;margin-bottom:0px; color:#474747;font-size: 12px;">
+                                                                     &copy; Copyright 2022. All Rights Reserved.</p>
+                                                                </td>
+                                                            </tr>
+                                                         </table>
+                                                     </td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </td>
+                 </tr>
+             </tbody>
+         </table>
+     </div>`,
+       }
+       await transporter.sendMail(info2);
       return NextResponse.json({ message: "Mail sent Successfully" });
     } else {
       throw err;
