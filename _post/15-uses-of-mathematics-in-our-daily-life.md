@@ -1,5 +1,5 @@
 ---
-title: "Know the amazing 15 uses of mathematics in our daily life."
+title: "Know the amazing 15 uses of mathematics in our daily life"
 description: " Read why mathematics is important for us and how it is part of our daily life with the help of these amazing 15 uses of mathematics in our daily life."
 coverImage: "/blog/15 Uses Of Mathematics In Our Daily Life.webp"
 date: "2024-05-09"
