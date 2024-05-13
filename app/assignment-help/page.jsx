@@ -6,11 +6,6 @@ import React from 'react'
 
 const page = () => {
   const slides = [
-    
-      {
-        to: "/economics-exam-help",
-        title: "Economics Exam Help",
-      },
       {
         to: "/engineering-assignment-help",
         title: "Engineering Assignment Help",
