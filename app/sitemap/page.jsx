@@ -3,6 +3,14 @@ import Header from "@/components/navbar/Navbar";
 import { IconLink } from "@tabler/icons-react";
 import React from "react";
 import Link from "next/link";
+export const metadata = {
+  title: "Sitemap",
+  description:
+    "Top quality exam help service by the experts, click on the chat now button and get your grades boosted!   ",
+  openGraph: {
+    title: "Sitemap",
+  },
+};
 const Page = () => {
   const slides = [
     {
