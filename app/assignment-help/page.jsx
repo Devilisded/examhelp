@@ -10,7 +10,14 @@ const page = () => {
         to: "/engineering-assignment-help",
         title: "Engineering Assignment Help",
       },
-    
+      {
+        to: "/maths-assignment-help",
+        title: "Maths Assignment Help",
+      },
+      {
+        to: "/english-assignment-help",
+        title: "English Assignment Help",
+      },
   ]
   return (
     <div>
