@@ -18,6 +18,10 @@ const page = () => {
         to: "/english-assignment-help",
         title: "English Assignment Help",
       },
+      {
+        to: "/computer-science-assignment-help",
+        title: "Computer Science Assignment Help",
+      },
   ]
   return (
     <div>
