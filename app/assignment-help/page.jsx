@@ -22,6 +22,10 @@ const page = () => {
         to: "/computer-science-assignment-help",
         title: "Computer Science Assignment Help",
       },
+      {
+        to: "/economics-assignment-help",
+        title: "Economics Assignment Help",
+      },
   ]
   return (
     <div>
